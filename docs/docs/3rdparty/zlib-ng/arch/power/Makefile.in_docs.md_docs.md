@@ -1,0 +1,139 @@
+# Documentation for `docs/3rdparty/zlib-ng/arch/power/Makefile.in_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/zlib-ng/arch/power/Makefile.in_docs.md`
+- **File Name**: `Makefile.in_docs.md`
+- **File Size**: 3,199 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/zlib-ng/arch/power/Makefile.in_docs.md](../../../../../docs/3rdparty/zlib-ng/arch/power/Makefile.in_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/zlib-ng/arch/power` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `3rdparty/zlib-ng/arch/power/Makefile.in`
+
+## File Metadata
+
+- **Full Path**: `3rdparty/zlib-ng/arch/power/Makefile.in`
+- **File Name**: `Makefile.in`
+- **File Size**: 2,602 bytes
+- **File Type**: .in
+- **Link to Source**: [3rdparty/zlib-ng/arch/power/Makefile.in](../../../../3rdparty/zlib-ng/arch/power/Makefile.in)
+
+## Purpose and Role
+
+This file is located in the `3rdparty/zlib-ng/arch/power` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+# Makefile for POWER-specific files
+# Copyright (C) 2020 Matheus Castanho <msc@linux.ibm.com>, IBM
+# Copyright (C) 2021 Mika T. Lindqvist <postmaster@raasu.org>
+# For conditions of distribution and use, see copyright notice in zlib.h
+
+CC=
+CFLAGS=
+SFLAGS=
+INCLUDES=
+SUFFIX=
+
+P8FLAGS=-mcpu=power8
+P9FLAGS=-mcpu=power9
+PPCFLAGS=-maltivec
+NOLTOFLAG=
+
+SRCDIR=.
+SRCTOP=../..
+TOPDIR=$(SRCTOP)
+
+all: power_features.o \
+     power_features.lo \
+     adler32_power8.o \
+     adler32_power8.lo \
+     adler32_vmx.o \
+     adler32_vmx.lo \
+     chunkset_power8.o \
+     chunkset_power8.lo \
+     compare256_power9.o \
+     compare256_power9.lo \
+     crc32_power8.o \
+     crc32_power8.lo \
+     slide_hash_power8.o \
+     slide_hash_power8.lo \
+     slide_hash_vmx.o \
+     slide_hash_vmx.lo
+
+power_features.o:
+	$(CC) $(CFLAGS) $(INCLUDES) -c -o $@ $(SRCDIR)/power_features.c
+
+power_features.lo:
+	$(CC) $(SFLAGS) $(INCLUDES) -c -o $@ $(SRCDIR)/power_features.c
+
+adler32_power8.o:
+	$(CC) $(CFLAGS) $(P8FLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/adler32_power8.c
+
+adler32_power8.lo:
+	$(CC) $(SFLAGS) $(P8FLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/adler32_power8.c
+
+adler32_vmx.o:
+	$(CC) $(CFLAGS) $(PPCFLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/adler32_vmx.c
+
+adler32_vmx.lo:
+	$(CC) $(SFLAGS) $(PPCFLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/adler32_vmx.c
+
+chunkset_power8.o:
+	$(CC) $(CFLAGS) $(P8FLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/chunkset_power8.c
+
+chunkset_power8.lo:
+	$(CC) $(SFLAGS) $(P8FLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/chunkset_power8.c
+
+compare256_power9.o:
+	$(CC) $(CFLAGS) $(P9FLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/compare256_power9.c
+
+compare256_power9.lo:
+	$(CC) $(SFLAGS) $(P9FLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/compare256_power9.c
+
+crc32_power8.o:
+	$(CC) $(CFLAGS) $(P8FLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/crc32_power8.c
+
+crc32_power8.lo:
+	$(CC) $(SFLAGS) $(P8FLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/crc32_power8.c
+
+slide_hash_power8.o:
+	$(CC) $(CFLAGS) $(P8FLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/slide_hash_power8.c
+
+slide_hash_power8.lo:
+	$(CC) $(SFLAGS) $(P8FLAGS) $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/slide_hash_power8.c
+
+slide_hash_vmx.o:
+	$(CC) $(CFLAGS) ${PPCFLAGS} $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/slide_hash_vmx.c
+
+slide_hash_vmx.lo:
+	$(CC) $(SFLAGS) ${PPCFLAGS} $(NOLTOFLAG) $(INCLUDES) -c -o $@ $(SRCDIR)/slide_hash_vmx.c
+
+mostlyclean: clean
+clean:
+	rm -f *.o *.lo *~
+	rm -rf objs
+	rm -f *.gcda *.gcno *.gcov
+
+distclean: clean
+	rm -f Makefile
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

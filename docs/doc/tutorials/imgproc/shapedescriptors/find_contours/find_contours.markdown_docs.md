@@ -1,0 +1,78 @@
+# Documentation for `doc/tutorials/imgproc/shapedescriptors/find_contours/find_contours.markdown`
+
+## File Metadata
+
+- **Full Path**: `doc/tutorials/imgproc/shapedescriptors/find_contours/find_contours.markdown`
+- **File Name**: `find_contours.markdown`
+- **File Size**: 1,526 bytes
+- **File Type**: .markdown
+- **Link to Source**: [doc/tutorials/imgproc/shapedescriptors/find_contours/find_contours.markdown](../../../../../doc/tutorials/imgproc/shapedescriptors/find_contours/find_contours.markdown)
+
+## Purpose and Role
+
+This file is located in the `doc/tutorials/imgproc/shapedescriptors/find_contours` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+Finding contours in your image {#tutorial_find_contours}
+==============================
+
+@tableofcontents
+
+@prev_tutorial{tutorial_template_matching}
+@next_tutorial{tutorial_hull}
+
+|    |    |
+| -: | :- |
+| Original author | Ana Huamán |
+| Compatibility | OpenCV >= 3.0 |
+
+Goal
+----
+
+In this tutorial you will learn how to:
+
+-   Use the OpenCV function @ref cv::findContours
+-   Use the OpenCV function @ref cv::drawContours
+
+Theory
+------
+
+Code
+----
+
+@add_toggle_cpp
+This tutorial code's is shown lines below. You can also download it from
+[here](https://github.com/opencv/opencv/tree/4.x/samples/cpp/tutorial_code/ShapeDescriptors/findContours_demo.cpp)
+@include samples/cpp/tutorial_code/ShapeDescriptors/findContours_demo.cpp
+@end_toggle
+
+@add_toggle_java
+This tutorial code's is shown lines below. You can also download it from
+[here](https://github.com/opencv/opencv/tree/4.x/samples/java/tutorial_code/ShapeDescriptors/find_contours/FindContoursDemo.java)
+@include samples/java/tutorial_code/ShapeDescriptors/find_contours/FindContoursDemo.java
+@end_toggle
+
+@add_toggle_python
+This tutorial code's is shown lines below. You can also download it from
+[here](https://github.com/opencv/opencv/tree/4.x/samples/python/tutorial_code/ShapeDescriptors/find_contours/findContours_demo.py)
+@include samples/python/tutorial_code/ShapeDescriptors/find_contours/findContours_demo.py
+@end_toggle
+
+Explanation
+-----------
+
+Result
+------
+
+Here it is:
+![](images/Find_Contours_Original_Image.jpg)
+![](images/Find_Contours_Result.jpg)
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+

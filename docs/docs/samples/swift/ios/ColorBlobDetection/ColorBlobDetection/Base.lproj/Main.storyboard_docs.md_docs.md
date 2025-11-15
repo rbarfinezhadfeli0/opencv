@@ -1,0 +1,88 @@
+# Documentation for `docs/samples/swift/ios/ColorBlobDetection/ColorBlobDetection/Base.lproj/Main.storyboard_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/samples/swift/ios/ColorBlobDetection/ColorBlobDetection/Base.lproj/Main.storyboard_docs.md`
+- **File Name**: `Main.storyboard_docs.md`
+- **File Size**: 4,008 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/samples/swift/ios/ColorBlobDetection/ColorBlobDetection/Base.lproj/Main.storyboard_docs.md](../../../../../../../docs/samples/swift/ios/ColorBlobDetection/ColorBlobDetection/Base.lproj/Main.storyboard_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/samples/swift/ios/ColorBlobDetection/ColorBlobDetection/Base.lproj` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `samples/swift/ios/ColorBlobDetection/ColorBlobDetection/Base.lproj/Main.storyboard`
+
+## File Metadata
+
+- **Full Path**: `samples/swift/ios/ColorBlobDetection/ColorBlobDetection/Base.lproj/Main.storyboard`
+- **File Name**: `Main.storyboard`
+- **File Size**: 3,182 bytes
+- **File Type**: .storyboard
+- **Link to Source**: [samples/swift/ios/ColorBlobDetection/ColorBlobDetection/Base.lproj/Main.storyboard](../../../../../../samples/swift/ios/ColorBlobDetection/ColorBlobDetection/Base.lproj/Main.storyboard)
+
+## Purpose and Role
+
+This file is located in the `samples/swift/ios/ColorBlobDetection/ColorBlobDetection/Base.lproj` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OpenCVSwiftTestMobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7db-Xp-qM4" userLabel="CameraOutputHolder">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7db-Xp-qM4" secondAttribute="bottom" id="0hV-Uz-R3z"/>
+                            <constraint firstItem="7db-Xp-qM4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GbA-NU-Qxp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7db-Xp-qM4" secondAttribute="trailing" id="YS2-18-VLx"/>
+                            <constraint firstItem="7db-Xp-qM4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="amh-MA-s7b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cameraHolder" destination="7db-Xp-qM4" id="iWY-GM-D7N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+</document>
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

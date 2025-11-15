@@ -1,0 +1,146 @@
+# Documentation for `docs/doc/js_tutorials/js_assets/js_face_detection.html_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/doc/js_tutorials/js_assets/js_face_detection.html_docs.md`
+- **File Name**: `js_face_detection.html_docs.md`
+- **File Size**: 4,147 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/doc/js_tutorials/js_assets/js_face_detection.html_docs.md](../../../../docs/doc/js_tutorials/js_assets/js_face_detection.html_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/doc/js_tutorials/js_assets` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `doc/js_tutorials/js_assets/js_face_detection.html`
+
+## File Metadata
+
+- **Full Path**: `doc/js_tutorials/js_assets/js_face_detection.html`
+- **File Name**: `js_face_detection.html`
+- **File Size**: 3,501 bytes
+- **File Type**: .html
+- **Link to Source**: [doc/js_tutorials/js_assets/js_face_detection.html](../../../doc/js_tutorials/js_assets/js_face_detection.html)
+
+## Purpose and Role
+
+This file is located in the `doc/js_tutorials/js_assets` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Face Detection Example</title>
+<link href="js_example_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h2>Face Detection Example</h2>
+<p>
+    &lt;canvas&gt; elements named <b>canvasInput</b> and <b>canvasOutput</b> have been prepared.<br>
+    Click <b>Try it</b> button to see the result. You can choose another image.<br>
+    You can change the code in the &lt;textarea&gt; to investigate more.
+</p>
+<div>
+<div class="control"><button id="tryIt" disabled>Try it</button></div>
+<textarea class="code" rows="9" cols="100" id="codeEditor" spellcheck="false">
+</textarea>
+<p class="err" id="errorMessage"></p>
+</div>
+<div>
+    <table cellpadding="0" cellspacing="0" width="0" border="0">
+    <tr>
+        <td>
+            <canvas id="canvasInput"></canvas>
+        </td>
+        <td>
+            <canvas id="canvasOutput"></canvas>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="caption">canvasInput <input type="file" id="fileInput" name="file" accept="image/*" /></div>
+        </td>
+        <td>
+            <div class="caption">canvasOutput</div>
+        </td>
+    </tr>
+    </table>
+</div>
+<script src="utils.js" type="text/javascript"></script>
+<script id="codeSnippet" type="text/code-snippet">
+let src = cv.imread('canvasInput');
+let gray = new cv.Mat();
+cv.cvtColor(src, gray, cv.COLOR_RGBA2GRAY, 0);
+let faces = new cv.RectVector();
+let eyes = new cv.RectVector();
+let faceCascade = new cv.CascadeClassifier();
+let eyeCascade = new cv.CascadeClassifier();
+// load pre-trained classifiers
+faceCascade.load('haarcascade_frontalface_default.xml');
+eyeCascade.load('haarcascade_eye.xml');
+// detect faces
+let msize = new cv.Size(0, 0);
+faceCascade.detectMultiScale(gray, faces, 1.1, 3, 0, msize, msize);
+for (let i = 0; i < faces.size(); ++i) {
+    let roiGray = gray.roi(faces.get(i));
+    let roiSrc = src.roi(faces.get(i));
+    let point1 = new cv.Point(faces.get(i).x, faces.get(i).y);
+    let point2 = new cv.Point(faces.get(i).x + faces.get(i).width,
+                              faces.get(i).y + faces.get(i).height);
+    cv.rectangle(src, point1, point2, [255, 0, 0, 255]);
+    // detect eyes in face ROI
+    eyeCascade.detectMultiScale(roiGray, eyes);
+    for (let j = 0; j < eyes.size(); ++j) {
+        let point1 = new cv.Point(eyes.get(j).x, eyes.get(j).y);
+        let point2 = new cv.Point(eyes.get(j).x + eyes.get(j).width,
+                                  eyes.get(j).y + eyes.get(j).height);
+        cv.rectangle(roiSrc, point1, point2, [0, 0, 255, 255]);
+    }
+    roiGray.delete(); roiSrc.delete();
+}
+cv.imshow('canvasOutput', src);
+src.delete(); gray.delete(); faceCascade.delete();
+eyeCascade.delete(); faces.delete(); eyes.delete();
+</script>
+<script type="text/javascript">
+let utils = new Utils('errorMessage');
+
+utils.loadCode('codeSnippet', 'codeEditor');
+utils.loadImageToCanvas('lena.jpg', 'canvasInput');
+utils.addFileInputHandler('fileInput', 'canvasInput');
+
+let tryIt = document.getElementById('tryIt');
+tryIt.addEventListener('click', () => {
+    utils.executeCode('codeEditor');
+});
+
+utils.loadOpenCv(() => {
+    let eyeCascadeFile = 'haarcascade_eye.xml';
+    utils.createFileFromUrl(eyeCascadeFile, eyeCascadeFile, () => {
+        let faceCascadeFile = 'haarcascade_frontalface_default.xml';
+        utils.createFileFromUrl(faceCascadeFile, faceCascadeFile, () => {
+            tryIt.removeAttribute('disabled');
+        });
+    });
+});
+</script>
+</body>
+</html>
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

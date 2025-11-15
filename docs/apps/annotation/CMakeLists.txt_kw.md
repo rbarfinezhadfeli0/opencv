@@ -1,0 +1,64 @@
+# Keyword Map for `apps/annotation/CMakeLists.txt`
+
+## File Path and Links
+
+- **Source File**: [apps/annotation/CMakeLists.txt](../../apps/annotation/CMakeLists.txt)
+- **Documentation**: [apps/annotation/CMakeLists.txt_docs.md](CMakeLists.txt_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### C
+
+- **CMakeLists**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+
+### M
+
+- **MODULES**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+
+### S
+
+- **SRCS**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+
+### A
+
+- **annotation**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+- **apps**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+
+### C
+
+- **cpp**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+
+### O
+
+- **ocv_add_application**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+- **opencv_annotation**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+- **opencv_core**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+- **opencv_highgui**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+- **opencv_imgcodecs**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+- **opencv_imgproc**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+- **opencv_videoio**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+
+### T
+
+- **txt**: Technical term or identifier found in [CMakeLists.txt](CMakeLists.txt_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 14
+- **File**: CMakeLists.txt
+- **Size**: 156 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

@@ -1,0 +1,77 @@
+# Documentation for `docs/samples/winrt/JavaScript/default.html_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/samples/winrt/JavaScript/default.html_docs.md`
+- **File Name**: `default.html_docs.md`
+- **File Size**: 1,600 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/samples/winrt/JavaScript/default.html_docs.md](../../../../docs/samples/winrt/JavaScript/default.html_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/samples/winrt/JavaScript` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `samples/winrt/JavaScript/default.html`
+
+## File Metadata
+
+- **Full Path**: `samples/winrt/JavaScript/default.html`
+- **File Name**: `default.html`
+- **File Size**: 1,014 bytes
+- **File Type**: .html
+- **Link to Source**: [samples/winrt/JavaScript/default.html](../../../samples/winrt/JavaScript/default.html)
+
+## Purpose and Role
+
+This file is located in the `samples/winrt/JavaScript` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+﻿<!-- Copyright (c) Microsoft Corporation. All rights reserved. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>OpenCV for Windows RT</title>
+
+    <!-- WinJS references -->
+    <link rel="stylesheet" href="//Microsoft.WinJS.2.0/css/ui-light.css" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- SDK sample framework references -->
+    <link rel="stylesheet" href="/sample-utils/sample-utils.css" />
+    <link rel="stylesheet" href="/css/default.css" />
+    <script src="/sample-utils/sample-utils.js"></script>
+    <script src="/js/default.js"></script>
+</head>
+<body role="application">
+    <div id="rootGrid">
+        <div id="content">
+            <h4>
+                <img src="images/windows-sdk.png"  />
+                <span>OpenCV for Windows RT</span>
+            </h4>
+            <h1 id="featureLabel"></h1>
+            <div id="contentHost"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

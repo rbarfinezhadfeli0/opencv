@@ -1,0 +1,214 @@
+# Keyword Map for `docs/cmake/OpenCVDetectInferenceEngine.cmake_kw.md`
+
+## File Path and Links
+
+- **Source File**: [docs/cmake/OpenCVDetectInferenceEngine.cmake_kw.md](../../docs/cmake/OpenCVDetectInferenceEngine.cmake_kw.md)
+- **Documentation**: [docs/cmake/OpenCVDetectInferenceEngine.cmake_kw.md_docs.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **API**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### C
+
+- **Categories**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **Class**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **Configuration**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### D
+
+- **Documentation**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### E
+
+- **EXPR**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **Extracted**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### F
+
+- **FOUND**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **File**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **Function**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### H
+
+- **HAVE_DNN_NGRAPH**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **HAVE_INF_ENGINE**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **HAVE_NGRAPH**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **HAVE_OPENVINO**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### I
+
+- **INF_ENGINE_RELEASE**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **Intel**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### K
+
+- **Keyword**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **Keywords**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### L
+
+- **Links**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### M
+
+- **Map**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### O
+
+- **OpenCVDetectInferenceEngine**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **OpenVINO**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **OpenVINO_FOUND**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **OpenVINO_VERSION**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **OpenVINO_VERSION_MAJOR**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **OpenVINO_VERSION_MINOR**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **OpenVINO_VERSION_PATCH**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### P
+
+- **Path**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### Q
+
+- **QUIET**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### R
+
+- **Result**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### S
+
+- **STATUS**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **Size**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **Source**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **Statistics**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### T
+
+- **Technical**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **The**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **This**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **Total**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### V
+
+- **Variable**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### W
+
+- **WITH_OPENVINO**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### A
+
+- **and**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### B
+
+- **bytes**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### C
+
+- **cmake**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **cmake_docs**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **cmake_kw**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **constant**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **contains**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### D
+
+- **detects**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **docs**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### E
+
+- **endif**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### F
+
+- **file**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **find_package**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **following**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **for**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **found**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **from**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### I
+
+- **identifier**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **identifiers**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **include**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **installation**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### K
+
+- **keywords**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### M
+
+- **math**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **may**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **message**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **method**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### N
+
+- **names**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### O
+
+- **ocv**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **ocv_add_external_target**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **openvino**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### P
+
+- **parameters**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### R
+
+- **return**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **runtime**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### S
+
+- **script**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **set**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### T
+
+- **target**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **technical**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **term**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **terminology**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **terms**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **the**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **this**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+- **type**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+### V
+
+- **ver**: Technical term or identifier found in [OpenCVDetectInferenceEngine.cmake_kw.md](OpenCVDetectInferenceEngine.cmake_kw.md_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 83
+- **File**: OpenCVDetectInferenceEngine.cmake_kw.md
+- **Size**: 5,784 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

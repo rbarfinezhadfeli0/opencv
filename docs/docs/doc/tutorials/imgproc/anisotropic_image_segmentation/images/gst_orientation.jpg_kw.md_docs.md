@@ -1,0 +1,76 @@
+# Documentation for `docs/doc/tutorials/imgproc/anisotropic_image_segmentation/images/gst_orientation.jpg_kw.md`
+
+## File Metadata
+
+- **Full Path**: `docs/doc/tutorials/imgproc/anisotropic_image_segmentation/images/gst_orientation.jpg_kw.md`
+- **File Name**: `gst_orientation.jpg_kw.md`
+- **File Size**: 1,695 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/doc/tutorials/imgproc/anisotropic_image_segmentation/images/gst_orientation.jpg_kw.md](../../../../../../docs/doc/tutorials/imgproc/anisotropic_image_segmentation/images/gst_orientation.jpg_kw.md)
+
+## Purpose and Role
+
+This file is located in the `docs/doc/tutorials/imgproc/anisotropic_image_segmentation/images` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Keyword Map for `doc/tutorials/imgproc/anisotropic_image_segmentation/images/gst_orientation.jpg`
+
+## File Path and Links
+
+- **Source File**: [doc/tutorials/imgproc/anisotropic_image_segmentation/images/gst_orientation.jpg](../../../../../doc/tutorials/imgproc/anisotropic_image_segmentation/images/gst_orientation.jpg)
+- **Documentation**: [doc/tutorials/imgproc/anisotropic_image_segmentation/images/gst_orientation.jpg_docs.md](gst_orientation.jpg_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **anisotropic_image_segmentation**: Technical term or identifier found in [gst_orientation.jpg](gst_orientation.jpg_docs.md)
+
+### D
+
+- **doc**: Technical term or identifier found in [gst_orientation.jpg](gst_orientation.jpg_docs.md)
+
+### G
+
+- **gst_orientation**: Technical term or identifier found in [gst_orientation.jpg](gst_orientation.jpg_docs.md)
+
+### I
+
+- **images**: Technical term or identifier found in [gst_orientation.jpg](gst_orientation.jpg_docs.md)
+- **imgproc**: Technical term or identifier found in [gst_orientation.jpg](gst_orientation.jpg_docs.md)
+
+### J
+
+- **jpg**: Technical term or identifier found in [gst_orientation.jpg](gst_orientation.jpg_docs.md)
+
+### T
+
+- **tutorials**: Technical term or identifier found in [gst_orientation.jpg](gst_orientation.jpg_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 7
+- **File**: gst_orientation.jpg
+- **Size**: 19,463 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

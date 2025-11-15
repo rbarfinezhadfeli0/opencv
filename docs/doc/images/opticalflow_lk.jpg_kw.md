@@ -1,0 +1,45 @@
+# Keyword Map for `doc/images/opticalflow_lk.jpg`
+
+## File Path and Links
+
+- **Source File**: [doc/images/opticalflow_lk.jpg](../../doc/images/opticalflow_lk.jpg)
+- **Documentation**: [doc/images/opticalflow_lk.jpg_docs.md](opticalflow_lk.jpg_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### D
+
+- **doc**: Technical term or identifier found in [opticalflow_lk.jpg](opticalflow_lk.jpg_docs.md)
+
+### I
+
+- **images**: Technical term or identifier found in [opticalflow_lk.jpg](opticalflow_lk.jpg_docs.md)
+
+### J
+
+- **jpg**: Technical term or identifier found in [opticalflow_lk.jpg](opticalflow_lk.jpg_docs.md)
+
+### O
+
+- **opticalflow_lk**: Technical term or identifier found in [opticalflow_lk.jpg](opticalflow_lk.jpg_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 4
+- **File**: opticalflow_lk.jpg
+- **Size**: 22,792 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

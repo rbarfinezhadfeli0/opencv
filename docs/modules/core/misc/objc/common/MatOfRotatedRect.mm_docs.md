@@ -1,0 +1,187 @@
+# Documentation for `modules/core/misc/objc/common/MatOfRotatedRect.mm`
+
+## File Metadata
+
+- **Full Path**: `modules/core/misc/objc/common/MatOfRotatedRect.mm`
+- **File Name**: `MatOfRotatedRect.mm`
+- **File Size**: 3,043 bytes
+- **File Type**: .mm
+- **Link to Source**: [modules/core/misc/objc/common/MatOfRotatedRect.mm](../../../../../modules/core/misc/objc/common/MatOfRotatedRect.mm)
+
+## Purpose and Role
+
+This file is located in the `modules/core/misc/objc/common` directory and serves as part of the OpenCV library infrastructure.
+
+## Original Source Code
+
+The following is the complete source code of this file:
+
+```
+//
+//  MatOfRotatedRect.mm
+//
+//  Created by Giles Payne on 2019/12/27.
+//
+
+#import "MatOfRotatedRect.h"
+#import "Range.h"
+#import "RotatedRect.h"
+#import "Point2f.h"
+#import "Size2f.h"
+#import "CvType.h"
+#import "ArrayUtil.h"
+
+@implementation MatOfRotatedRect
+
+static const int _depth = CV_32F;
+static const int _channels = 5;
+
+#ifdef __cplusplus
+- (instancetype)initWithNativeMat:(cv::Mat*)nativeMat {
+    self = [super initWithNativeMat:nativeMat];
+    if (self && ![self empty] && [self checkVector:_channels depth:_depth] < 0) {
+        @throw [NSException exceptionWithName:NSInvalidArgumentException reason:@"Incompatible Mat" userInfo:nil];
+    }
+    return self;
+}
+#endif
+
+- (instancetype)initWithMat:(Mat*)mat {
+    self = [super initWithMat:mat rowRange:[Range all]];
+    if (self && ![self empty] && [self checkVector:_channels depth:_depth] < 0) {
+        @throw [NSException exceptionWithName:NSInvalidArgumentException reason:@"Incompatible Mat" userInfo:nil];
+    }
+    return self;
+}
+
+- (instancetype)initWithArray:(NSArray<RotatedRect*>*)array {
+    self = [super init];
+    if (self) {
+        [self fromArray:array];
+    }
+    return self;
+}
+
+- (void)alloc:(int)elemNumber {
+    if (elemNumber>0) {
+        [super create:elemNumber cols:1 type:[CvType makeType:_depth channels:_channels]];
+    }
+}
+
+- (void)fromArray:(NSArray<RotatedRect*>*)array {
+    NSMutableArray<NSNumber*>* data = [[NSMutableArray alloc] initWithCapacity:array.count * _channels];
+    for (int index = 0; index < (int)array.count; index++) {
+        data[_channels * index] = [NSNumber numberWithFloat:array[index].center.x];
+        data[_channels * index + 1] = [NSNumber numberWithFloat:array[index].center.y];
+        data[_channels * index + 2] = [NSNumber numberWithFloat:array[index].size.width];
+        data[_channels * index + 3] = [NSNumber numberWithFloat:array[index].size.height];
+        data[_channels * index + 4] = [NSNumber numberWithFloat:array[index].angle];
+
+    }
+    [self alloc:(int)array.count];
+    [self put:0 col:0 data:data];
+}
+
+- (NSArray<RotatedRect*>*)toArray {
+    int length = [self length] / _channels;
+    NSMutableArray<RotatedRect*>* ret = createArrayWithSize(length, [RotatedRect new]);
+    if (length > 0) {
+        NSMutableArray<NSNumber*>* data = createArrayWithSize([self length], @0.0);
+        [self get:0 col:0 data:data];
+        for (int index = 0; index < length; index++) {
+            ret[index] = [[RotatedRect alloc] initWithCenter:[[Point2f alloc] initWithX:data[index * _channels].floatValue y:data[index * _channels + 1].floatValue] size:[[Size2f alloc] initWithWidth:data[index * _channels + 2].floatValue height:data[index * _channels + 3].floatValue] angle:data[index * _channels + 4].floatValue];
+        }
+    }
+    return ret;
+}
+
+- (int)length {
+    int num = [self checkVector:_channels depth:_depth];
+    if (num < 0) {
+        @throw  [NSException exceptionWithName:NSInternalInconsistencyException reason:@"Incompatible Mat" userInfo:nil];
+    }
+    return num * _channels;
+}
+
+@end
+```
+
+## High-Level Overview
+
+This is a .mm source code file.
+
+
+## Detailed Walkthrough
+
+This section provides an in-depth examination of the code structure, logic, and implementation details.
+
+### Functions and Methods
+
+- **__cplusplus()**: A function/method defined in this file
+
+
+## Design and Architecture
+
+This file is part of the larger OpenCV architecture. It contributes to the overall functionality by providing specific implementations and interfaces.
+
+### Dependencies
+
+
+### Architectural Role
+
+This file operates within the OpenCV module system, interfacing with other components through well-defined APIs and data structures.
+
+## Performance and Complexity
+
+### Computational Complexity
+
+The algorithms and data structures in this file have various complexity characteristics depending on the operations performed.
+
+### Memory Considerations
+
+Memory usage patterns depend on the specific functionality implemented, including stack allocations, heap allocations, and resource management strategies.
+
+### Performance Optimization
+
+OpenCV employs various optimization techniques including:
+- SIMD vectorization where applicable
+- Multi-threading support
+- Hardware acceleration (CUDA, OpenCL, etc.)
+- Efficient memory access patterns
+
+## Security and Safety Considerations
+
+### Potential Vulnerabilities
+
+Code that processes external data should be carefully reviewed for:
+- Buffer overflow vulnerabilities
+- Integer overflow/underflow
+- Input validation issues
+- Resource exhaustion attacks
+
+### Safety Measures
+
+OpenCV includes various safety mechanisms:
+- Bounds checking in debug builds
+- Exception handling
+- Resource management (RAII in C++)
+- Input sanitization
+
+## Testing and Usage
+
+### How to Use This File
+
+This file is typically used as part of the larger OpenCV library and is not intended to be used in isolation.
+
+### Testing Approach
+
+Testing should cover:
+- Unit tests for individual functions
+- Integration tests for component interactions
+- Performance benchmarks
+- Edge case validation
+
+## Related Files
+
+This file is related to other files in the same module and may interact with files in other modules.
+

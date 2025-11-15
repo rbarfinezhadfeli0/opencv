@@ -1,0 +1,226 @@
+# Keyword Map for `docs/samples/wp8/OpenCVXaml/OpenCVComponent/opencv.props_docs.md`
+
+## File Path and Links
+
+- **Source File**: [docs/samples/wp8/OpenCVXaml/OpenCVComponent/opencv.props_docs.md](../../../../../docs/samples/wp8/OpenCVXaml/OpenCVComponent/opencv.props_docs.md)
+- **Documentation**: [docs/samples/wp8/OpenCVXaml/OpenCVComponent/opencv.props_docs.md_docs.md](opencv.props_docs.md_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **Add**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **AdditionalDependencies**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **AdditionalIncludeDirectories**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **AdditionalLibraryDirectories**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### C
+
+- **ClCompile**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Condition**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Configuration**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Content**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### D
+
+- **Debug**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **DebugSuffix**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **DeploymentContent**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Documentation**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### F
+
+- **File**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Full**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### G
+
+- **General**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### I
+
+- **IgnoreImportLibrary**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **ImportGroup**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Include**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Information**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **ItemDefinitionGroup**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **ItemGroup**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### L
+
+- **Label**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Link**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### M
+
+- **Metadata**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### N
+
+- **Name**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **None**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### O
+
+- **OPENCV_WINRT_INSTALL_DIR**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **OpenCV**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **OpenCVComponent**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **OpenCVXaml**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **OpenCV_Bin**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **OpenCV_Include**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **OpenCV_Lib**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### P
+
+- **Path**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **PhoneAppModelHost**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **PlatformTarget**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Project**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **PropertyGroup**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **PropertySheets**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Purpose**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### R
+
+- **Role**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **RuntimeObject**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### S
+
+- **Size**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Source**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### T
+
+- **This**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **ToolsVersion**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **Type**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### U
+
+- **UserMacros**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### W
+
+- **WindowsPhoneCore**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### A
+
+- **and**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### B
+
+- **bin**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **bytes**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### C
+
+- **com**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### D
+
+- **debug**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **developer**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **directory**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **dll**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **dlls**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **docs**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### E
+
+- **encoding**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### F
+
+- **file**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **for**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### H
+
+- **here**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **http**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### I
+
+- **include**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **infrastructure**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### L
+
+- **lib**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **library**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **libs**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **located**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### M
+
+- **microsoft**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **msbuild**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### O
+
+- **opencv**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **opencv_core300**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **opencv_imgproc300**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### P
+
+- **part**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **props**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **props_docs**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### R
+
+- **repository**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **required**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### S
+
+- **samples**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **schemas**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **serves**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **suffix**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### T
+
+- **the**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **true**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### U
+
+- **utf**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### V
+
+- **vc11**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **version**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### W
+
+- **wp8**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+### X
+
+- **xml**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+- **xmlns**: Technical term or identifier found in [opencv.props_docs.md](opencv.props_docs.md_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 92
+- **File**: opencv.props_docs.md
+- **Size**: 2,423 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

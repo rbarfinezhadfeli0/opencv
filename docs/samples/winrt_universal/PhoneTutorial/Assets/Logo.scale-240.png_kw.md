@@ -1,0 +1,51 @@
+# Keyword Map for `samples/winrt_universal/PhoneTutorial/Assets/Logo.scale-240.png`
+
+## File Path and Links
+
+- **Source File**: [samples/winrt_universal/PhoneTutorial/Assets/Logo.scale-240.png](../../../../samples/winrt_universal/PhoneTutorial/Assets/Logo.scale-240.png)
+- **Documentation**: [samples/winrt_universal/PhoneTutorial/Assets/Logo.scale-240.png_docs.md](Logo.scale-240.png_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **Assets**: Technical term or identifier found in [Logo.scale-240.png](Logo.scale-240.png_docs.md)
+
+### L
+
+- **Logo**: Technical term or identifier found in [Logo.scale-240.png](Logo.scale-240.png_docs.md)
+
+### P
+
+- **PhoneTutorial**: Technical term or identifier found in [Logo.scale-240.png](Logo.scale-240.png_docs.md)
+- **png**: Technical term or identifier found in [Logo.scale-240.png](Logo.scale-240.png_docs.md)
+
+### S
+
+- **samples**: Technical term or identifier found in [Logo.scale-240.png](Logo.scale-240.png_docs.md)
+- **scale**: Technical term or identifier found in [Logo.scale-240.png](Logo.scale-240.png_docs.md)
+
+### W
+
+- **winrt_universal**: Technical term or identifier found in [Logo.scale-240.png](Logo.scale-240.png_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 7
+- **File**: Logo.scale-240.png
+- **Size**: 2,516 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

@@ -1,0 +1,91 @@
+# Documentation for `docs/doc/tutorials/introduction/table_of_content_introduction.markdown_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/doc/tutorials/introduction/table_of_content_introduction.markdown_docs.md`
+- **File Name**: `table_of_content_introduction.markdown_docs.md`
+- **File Size**: 2,417 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/doc/tutorials/introduction/table_of_content_introduction.markdown_docs.md](../../../../docs/doc/tutorials/introduction/table_of_content_introduction.markdown_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/doc/tutorials/introduction` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `doc/tutorials/introduction/table_of_content_introduction.markdown`
+
+## File Metadata
+
+- **Full Path**: `doc/tutorials/introduction/table_of_content_introduction.markdown`
+- **File Name**: `table_of_content_introduction.markdown`
+- **File Size**: 1,687 bytes
+- **File Type**: .markdown
+- **Link to Source**: [doc/tutorials/introduction/table_of_content_introduction.markdown](../../../doc/tutorials/introduction/table_of_content_introduction.markdown)
+
+## Purpose and Role
+
+This file is located in the `doc/tutorials/introduction` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+Introduction to OpenCV {#tutorial_table_of_content_introduction}
+======================
+
+@tableofcontents
+
+- @subpage tutorial_general_install
+- @subpage tutorial_config_reference
+- @subpage tutorial_env_reference
+
+##### Linux
+-   @subpage tutorial_linux_install
+-   @subpage tutorial_oneapi_install
+-   @subpage tutorial_linux_gdb_pretty_printer
+-   @subpage tutorial_linux_gcc_cmake
+-   @subpage tutorial_linux_eclipse
+
+##### Windows
+-   @subpage tutorial_windows_install
+-   @subpage tutorial_windows_visual_studio_opencv
+-   @subpage tutorial_windows_visual_studio_image_watch
+
+##### Java & Android
+-   @subpage tutorial_java_dev_intro
+-   @subpage tutorial_java_eclipse
+-   @subpage tutorial_clojure_dev_intro
+-   @subpage tutorial_android_dev_intro
+-   @subpage tutorial_dev_with_OCV_on_Android
+-   @subpage tutorial_android_dnn_intro
+-   @subpage tutorial_android_ocl_intro
+
+##### Other platforms
+-   @subpage tutorial_macos_install
+-   @subpage tutorial_arm_crosscompile_with_cmake
+-   @subpage tutorial_crosscompile_with_multiarch
+-   @subpage tutorial_building_tegra_cuda
+-   @subpage tutorial_building_fastcv
+-   @ref tutorial_ios_install
+
+##### Usage basics
+-   @subpage tutorial_display_image - We will learn how to load an image from file and display it using OpenCV
+
+##### Miscellaneous
+-   @subpage tutorial_documentation - This tutorial describes new documenting process and some useful Doxygen features.
+-   @subpage tutorial_transition_guide - This document describes some aspects of 2.4 -> 3.0 transition process.
+-   @subpage tutorial_cross_referencing - This document outlines how to create cross references to the OpenCV documentation from other Doxygen projects.
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

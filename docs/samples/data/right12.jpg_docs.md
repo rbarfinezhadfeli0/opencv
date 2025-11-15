@@ -1,0 +1,24 @@
+# Documentation for `samples/data/right12.jpg`
+
+## File Metadata
+
+- **Full Path**: `samples/data/right12.jpg`
+- **File Name**: `right12.jpg`
+- **File Size**: 24,796 bytes
+- **File Type**: .jpg
+- **Link to Source**: [samples/data/right12.jpg](../../samples/data/right12.jpg)
+
+## Purpose and Role
+
+This file is located in the `samples/data` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+[Binary or large file: 24796 bytes]
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+

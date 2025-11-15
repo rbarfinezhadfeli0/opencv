@@ -1,0 +1,92 @@
+# Documentation for `docs/cmake/OpenCVGenHeaders.cmake_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/cmake/OpenCVGenHeaders.cmake_docs.md`
+- **File Name**: `OpenCVGenHeaders.cmake_docs.md`
+- **File Size**: 2,755 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/cmake/OpenCVGenHeaders.cmake_docs.md](../../docs/cmake/OpenCVGenHeaders.cmake_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/cmake` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `cmake/OpenCVGenHeaders.cmake`
+
+## File Metadata
+
+- **Full Path**: `cmake/OpenCVGenHeaders.cmake`
+- **File Name**: `OpenCVGenHeaders.cmake`
+- **File Size**: 1,811 bytes
+- **File Type**: .cmake
+- **Link to Source**: [cmake/OpenCVGenHeaders.cmake](../cmake/OpenCVGenHeaders.cmake)
+
+## Purpose and Role
+
+This file is located in the `cmake` directory and serves as part of the OpenCV library infrastructure.
+
+## Configuration File Content
+
+```
+# platform-specific config file
+configure_file("${OpenCV_SOURCE_DIR}/cmake/templates/cvconfig.h.in" "${OPENCV_CONFIG_FILE_INCLUDE_DIR}/cvconfig.h")
+configure_file("${OpenCV_SOURCE_DIR}/cmake/templates/cvconfig.h.in" "${OPENCV_CONFIG_FILE_INCLUDE_DIR}/opencv2/cvconfig.h")
+install(FILES "${OPENCV_CONFIG_FILE_INCLUDE_DIR}/cvconfig.h" DESTINATION ${OPENCV_INCLUDE_INSTALL_PATH}/opencv2 COMPONENT dev)
+
+# platform-specific config file
+ocv_compiler_optimization_fill_cpu_config()
+configure_file("${OpenCV_SOURCE_DIR}/cmake/templates/cv_cpu_config.h.in" "${OPENCV_CONFIG_FILE_INCLUDE_DIR}/cv_cpu_config.h")
+
+# ----------------------------------------------------------------------------
+#  opencv_modules.hpp based on actual modules list
+# ----------------------------------------------------------------------------
+set(OPENCV_MODULE_DEFINITIONS_CONFIGMAKE "")
+
+set(OPENCV_MOD_LIST ${OPENCV_MODULES_PUBLIC})
+ocv_list_sort(OPENCV_MOD_LIST)
+foreach(m ${OPENCV_MOD_LIST})
+  string(TOUPPER "${m}" m)
+  set(OPENCV_MODULE_DEFINITIONS_CONFIGMAKE "${OPENCV_MODULE_DEFINITIONS_CONFIGMAKE}#define HAVE_${m}\n")
+endforeach()
+
+set(OPENCV_MODULE_DEFINITIONS_CONFIGMAKE "${OPENCV_MODULE_DEFINITIONS_CONFIGMAKE}\n")
+
+#set(OPENCV_MOD_LIST ${OPENCV_MODULES_DISABLED_USER} ${OPENCV_MODULES_DISABLED_AUTO} ${OPENCV_MODULES_DISABLED_FORCE})
+#ocv_list_sort(OPENCV_MOD_LIST)
+#foreach(m ${OPENCV_MOD_LIST})
+#  string(TOUPPER "${m}" m)
+#  set(OPENCV_MODULE_DEFINITIONS_CONFIGMAKE "${OPENCV_MODULE_DEFINITIONS_CONFIGMAKE}#undef HAVE_${m}\n")
+#endforeach()
+
+configure_file("${OpenCV_SOURCE_DIR}/cmake/templates/opencv_modules.hpp.in" "${OPENCV_CONFIG_FILE_INCLUDE_DIR}/opencv2/opencv_modules.hpp")
+install(FILES "${OPENCV_CONFIG_FILE_INCLUDE_DIR}/opencv2/opencv_modules.hpp" DESTINATION ${OPENCV_INCLUDE_INSTALL_PATH}/opencv2 COMPONENT dev)
+
+```
+
+## Purpose
+
+This configuration file is used to control build settings, dependencies, or runtime behavior of the OpenCV library.
+
+## Key Settings
+
+Configuration files in OpenCV typically control:
+- Build system configuration (CMake)
+- Compiler flags and options
+- Feature enablement/disablement
+- Path specifications
+- Version information
+- Dependency management
+
+## Usage
+
+This file is processed during the build configuration phase or at runtime to customize OpenCV behavior.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

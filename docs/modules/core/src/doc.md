@@ -1,0 +1,110 @@
+# Documentation for `modules/core/src/`
+
+## Role in the Project
+
+This folder contains source code implementations.
+
+
+**Path**: `modules/core/src/`
+**Direct Files**: 110
+**Subfolders**: 4
+
+## Key Concepts
+
+This folder encompasses the following concepts and functionality:
+
+### File Type Distribution
+
+- **CPP**: 79 files
+- **HPP**: 31 files
+
+
+## Important Files
+
+The following files are particularly significant in this folder:
+
+- **[mathfuncs_core.simd.hpp](mathfuncs_core.simd.hpp_docs.md)**: HPP file
+- **[stat.simd.hpp](stat.simd.hpp_docs.md)**: HPP file
+- **[persistence.cpp](persistence.cpp_docs.md)**: CPP file
+- **[gl_core_3_1.cpp](gl_core_3_1.cpp_docs.md)**: CPP file
+- **[persistence.hpp](persistence.hpp_docs.md)**: HPP file
+- **[cuda_info.cpp](cuda_info.cpp_docs.md)**: CPP file
+- **[has_non_zero.simd.hpp](has_non_zero.simd.hpp_docs.md)**: HPP file
+- **[has_non_zero.dispatch.cpp](has_non_zero.dispatch.cpp_docs.md)**: CPP file
+- **[cuda_gpu_mat_nd.cpp](cuda_gpu_mat_nd.cpp_docs.md)**: CPP file
+- **[persistence_base64_encoding.hpp](persistence_base64_encoding.hpp_docs.md)**: HPP file
+
+
+## Data Flows and Interactions
+
+This folder is organized into 4 subdirectories, each handling specific aspects of functionality:
+
+- **cuda/** - See [cuda/doc.md](cuda/doc.md)
+- **opencl/** - See [opencl/doc.md](opencl/doc.md)
+- **parallel/** - See [parallel/doc.md](parallel/doc.md)
+- **utils/** - See [utils/doc.md](utils/doc.md)
+
+
+### Module Interactions
+
+Files in this folder may interact with:
+- Other folders in the same parent directory
+- Core OpenCV modules
+- Third-party libraries
+- Platform-specific implementations
+
+
+## How to Work with This Folder
+
+### Understanding the Code
+
+1. Review the [index.md](index.md) for a complete file listing
+2. Check [sub.md](sub.md) for a keyword index of all content
+3. Examine individual file documentation for detailed information
+
+### Making Changes
+
+When modifying files in this folder:
+- Follow OpenCV coding standards and conventions
+- Update tests as needed
+- Ensure cross-platform compatibility
+- Document changes appropriately
+- Run relevant test suites
+
+### Testing
+
+Testing should cover:
+- Unit tests for individual components
+- Integration tests for module interactions
+- Performance benchmarks
+- Cross-platform validation
+
+
+## Cross References
+
+### Related Folders
+
+- **Parent Folder**: [modules/core/](../core/doc.md)
+
+**Sibling Folders**:
+- [3rdparty/](../3rdparty/doc.md)
+- [cmake/](../cmake/doc.md)
+- [doc/](../doc/doc.md)
+- [include/](../include/doc.md)
+- [misc/](../misc/doc.md)
+- [perf/](../perf/doc.md)
+- [test/](../test/doc.md)
+
+**Subfolders**:
+- [cuda/](cuda/doc.md)
+- [opencl/](opencl/doc.md)
+- [parallel/](parallel/doc.md)
+- [utils/](utils/doc.md)
+
+
+### See Also
+
+- [Global Repository Index](../../../index.md)
+- [Global Keywords](../../../keywords.md)
+- [Comprehensive Book](../../../comprehensive_book.md)
+

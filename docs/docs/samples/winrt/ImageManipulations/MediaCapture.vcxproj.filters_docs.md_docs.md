@@ -1,0 +1,101 @@
+# Documentation for `docs/samples/winrt/ImageManipulations/MediaCapture.vcxproj.filters_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/samples/winrt/ImageManipulations/MediaCapture.vcxproj.filters_docs.md`
+- **File Name**: `MediaCapture.vcxproj.filters_docs.md`
+- **File Size**: 2,614 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/samples/winrt/ImageManipulations/MediaCapture.vcxproj.filters_docs.md](../../../../docs/samples/winrt/ImageManipulations/MediaCapture.vcxproj.filters_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/samples/winrt/ImageManipulations` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `samples/winrt/ImageManipulations/MediaCapture.vcxproj.filters`
+
+## File Metadata
+
+- **Full Path**: `samples/winrt/ImageManipulations/MediaCapture.vcxproj.filters`
+- **File Name**: `MediaCapture.vcxproj.filters`
+- **File Size**: 1,905 bytes
+- **File Type**: .filters
+- **Link to Source**: [samples/winrt/ImageManipulations/MediaCapture.vcxproj.filters](../../../samples/winrt/ImageManipulations/MediaCapture.vcxproj.filters)
+
+## Purpose and Role
+
+This file is located in the `samples/winrt/ImageManipulations` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdvancedCapture.xaml.cpp" />
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="Common\LayoutAwarePage.cpp" />
+    <ClCompile Include="Constants.cpp" />
+    <ClCompile Include="Common\SuspensionManager.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdvancedCapture.xaml.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Common\LayoutAwarePage.h" />
+    <ClInclude Include="Common\SuspensionManager.h" />
+    <ClInclude Include="App.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\opencv-logo-30.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="assets\opencv-logo-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\splash-sdk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\windows-sdk.scale-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="AdvancedCapture.xaml" />
+    <Page Include="Common\StandardStyles.xaml" />
+    <Page Include="MainPage.xaml" />
+    <Page Include="Sample-Utils\SampleTemplateStyles.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{392352d8-f913-4741-82cf-d8075bb6f022}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MediaCapture_TemporaryKey.pfx" />
+  </ItemGroup>
+</Project>
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

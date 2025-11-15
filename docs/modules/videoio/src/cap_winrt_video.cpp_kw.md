@@ -1,0 +1,438 @@
+# Keyword Map for `modules/videoio/src/cap_winrt_video.cpp`
+
+## File Path and Links
+
+- **Source File**: [modules/videoio/src/cap_winrt_video.cpp](../../../modules/videoio/src/cap_winrt_video.cpp)
+- **Documentation**: [modules/videoio/src/cap_winrt_video.cpp_docs.md](cap_winrt_video.cpp_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **ADVISED**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **AND**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **ANY**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **ARE**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **ARISING**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **All**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### B
+
+- **BGRA8**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **BSD**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **BUSINESS**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **BUT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Back**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Bgra8**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### C
+
+- **CAUSED**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **CONSEQUENTIAL**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **CONTRACT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **CONTRIBUTORS**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **COPYRIGHT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Capture**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **CaptureFrameGrabber**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **ComPtr**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Copyright**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **CreateAsync**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### D
+
+- **DAMAGE**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **DAMAGES**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **DATA**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **DIRECT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **DISCLAIMED**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **DeviceClass**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **DeviceInformation**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **DeviceInformationCollection**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Devices**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### E
+
+- **EVEN**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **EVENT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **EXEMPLARY**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **EXPRESS**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **EnclosureLocation**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Enumeration**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### F
+
+- **FITNESS**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **FOR**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **FindAllAsync**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Foundation**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### G
+
+- **GOODS**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Get**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **GetAt**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **GetFrameAsync**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **GetMediaStreamProperties**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### H
+
+- **HOLDER**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **HOLDERS**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **HOWEVER**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Height**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### I
+
+- **IMF2DBuffer2**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **IMPLIED**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **INCIDENTAL**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **INCLUDING**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **INDIRECT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **INTERRUPTION**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Imaging**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Inc**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **InitializeAsync**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### L
+
+- **LIABILITY**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **LIABLE**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **LIMITED**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **LOSS**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **License**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### M
+
+- **MERCHANTABILITY**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Media**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **MediaCapture**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **MediaCaptureInitializationSettings**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **MediaEncodingSubtypes**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **MediaProperties**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **MediaStreamType**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Microsoft**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### N
+
+- **NEGLIGENCE**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **NOT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Neither**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### O
+
+- **OTHERWISE**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **OUT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Open**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **OutputDebugStringA**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### P
+
+- **PARTICULAR**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **POSSIBILITY**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **PROCUREMENT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **PROFITS**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **PROVIDED**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **PURPOSE**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Panel**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### R
+
+- **RGB**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Redistribution**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Redistributions**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Rgb24**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### S
+
+- **SERVICES**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **SHALL**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **SOFTWARE**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **SPECIAL**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **STRICT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **SUBSTITUTE**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **SUCH**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Shlwapi**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Size**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **StreamingCaptureMode**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Subtype**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### T
+
+- **THE**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **THEORY**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **THIS**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **TORT**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Technologies**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### U
+
+- **USE**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### V
+
+- **Video**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **VideoCapture**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **VideoDeviceController**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **VideoDeviceId**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **VideoEncodingProperties**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **VideoPreview**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### W
+
+- **WARRANTIES**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **WAY**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **WBM**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **WHETHER**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **WINAPI_FAMILY**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **WINAPI_FAMILY_PHONE_APP**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **WRL**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Width**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Windows**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### X
+
+- **XAML**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **Xaml**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### _
+
+- **_GrabFrameAsync**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **_M_ARM**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### A
+
+- **above**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **agile**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **already**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **and**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **are**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **assigning**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **async**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **atomic**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **auto**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### B
+
+- **bFlipImageX**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **bGrabberInitInProgress**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **bGrabberInited**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **binary**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **block**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **blocking**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **bool**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **bpp**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **buffer**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **bytesPerPixel**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### C
+
+- **cannot**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **cap_winrt**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **cap_winrt_bridge**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **cap_winrt_video**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **capture**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **causes**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **clause**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **closeGrabber**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **closes**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **code**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **comment**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **concrt**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **concurrency**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **conditions**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **const**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **contributors**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **copying**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **copyright**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **cpp**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **create_task**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### D
+
+- **defined**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **deref**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **derived**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **devInfo**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **device**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **disclaimer**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **distribution**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **documentation**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### E
+
+- **endif**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **endorse**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### F
+
+- **false**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **findTask**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **following**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **for**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **form**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **forms**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **found**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **frameGrabber**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **from**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **future**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### G
+
+- **get**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **getInstance**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **got**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **grabber**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### H
+
+- **height**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **here**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **holder**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **hpp**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### I
+
+- **include**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **initGrabber**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **int**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **isStarted**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **its**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### L
+
+- **layout**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **lib**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **libs**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **like**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **list**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **load**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **location**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **lock**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **look**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### M
+
+- **m_capture**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **m_deviceID**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **m_devices**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **m_frameGrabber**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **materials**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **may**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **met**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **mfplat**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **mfuuid**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **modification**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **modules**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **must**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### N
+
+- **name**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **names**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **namespace**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **new**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **non**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **nor**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **notice**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **nullptr**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### O
+
+- **only**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **other**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### P
+
+- **permission**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **permitted**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **ppl**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **ppltasks**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **pragma**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **prior**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **products**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **promote**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **props**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **provided**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **pull**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### R
+
+- **ready**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **ref**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **reproduce**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **reserved**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **retain**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **return**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **rgb24**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **rights**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### S
+
+- **safe_cast**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **selected**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **settings**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **software**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **source**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **specific**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **src**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **started**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **static**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **std**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **support**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **swizzle**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### T
+
+- **task**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **that**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **the**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **then**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **this**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **thread**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **thus**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **true**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### U
+
+- **unsigned**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **use**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **used**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **using**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### V
+
+- **vector**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **video**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **videoio**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **void**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+### W
+
+- **while**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **width**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **will**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **with**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **without**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **would**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+- **written**: Technical term or identifier found in [cap_winrt_video.cpp](cap_winrt_video.cpp_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 283
+- **File**: cap_winrt_video.cpp
+- **Size**: 10,468 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

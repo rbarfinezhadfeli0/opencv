@@ -1,0 +1,107 @@
+# Documentation for `doc/py_tutorials/py_gui/`
+
+## Role in the Project
+
+This folder is part of the OpenCV repository structure.
+
+
+**Path**: `doc/py_tutorials/py_gui/`
+**Direct Files**: 1
+**Subfolders**: 6
+
+## Key Concepts
+
+This folder encompasses the following concepts and functionality:
+
+### File Type Distribution
+
+- **MARKDOWN**: 1 file
+
+
+## Important Files
+
+The following files are particularly significant in this folder:
+
+- **[py_table_of_contents_gui.markdown](py_table_of_contents_gui.markdown_docs.md)**: MARKDOWN file
+
+
+## Data Flows and Interactions
+
+This folder is organized into 6 subdirectories, each handling specific aspects of functionality:
+
+- **images/** - See [images/doc.md](images/doc.md)
+- **py_drawing_functions/** - See [py_drawing_functions/doc.md](py_drawing_functions/doc.md)
+- **py_image_display/** - See [py_image_display/doc.md](py_image_display/doc.md)
+- **py_mouse_handling/** - See [py_mouse_handling/doc.md](py_mouse_handling/doc.md)
+- **py_trackbar/** - See [py_trackbar/doc.md](py_trackbar/doc.md)
+- **py_video_display/** - See [py_video_display/doc.md](py_video_display/doc.md)
+
+
+### Module Interactions
+
+Files in this folder may interact with:
+- Other folders in the same parent directory
+- Core OpenCV modules
+- Third-party libraries
+- Platform-specific implementations
+
+
+## How to Work with This Folder
+
+### Understanding the Code
+
+1. Review the [index.md](index.md) for a complete file listing
+2. Check [sub.md](sub.md) for a keyword index of all content
+3. Examine individual file documentation for detailed information
+
+### Making Changes
+
+When modifying files in this folder:
+- Follow OpenCV coding standards and conventions
+- Update tests as needed
+- Ensure cross-platform compatibility
+- Document changes appropriately
+- Run relevant test suites
+
+### Testing
+
+Testing should cover:
+- Unit tests for individual components
+- Integration tests for module interactions
+- Performance benchmarks
+- Cross-platform validation
+
+
+## Cross References
+
+### Related Folders
+
+- **Parent Folder**: [doc/py_tutorials/](../py_tutorials/doc.md)
+
+**Sibling Folders**:
+- [images/](../images/doc.md)
+- [py_bindings/](../py_bindings/doc.md)
+- [py_calib3d/](../py_calib3d/doc.md)
+- [py_core/](../py_core/doc.md)
+- [py_feature2d/](../py_feature2d/doc.md)
+- [py_imgproc/](../py_imgproc/doc.md)
+- [py_ml/](../py_ml/doc.md)
+- [py_objdetect/](../py_objdetect/doc.md)
+- [py_photo/](../py_photo/doc.md)
+- [py_setup/](../py_setup/doc.md)
+
+**Subfolders**:
+- [images/](images/doc.md)
+- [py_drawing_functions/](py_drawing_functions/doc.md)
+- [py_image_display/](py_image_display/doc.md)
+- [py_mouse_handling/](py_mouse_handling/doc.md)
+- [py_trackbar/](py_trackbar/doc.md)
+- [py_video_display/](py_video_display/doc.md)
+
+
+### See Also
+
+- [Global Repository Index](../../../index.md)
+- [Global Keywords](../../../keywords.md)
+- [Comprehensive Book](../../../comprehensive_book.md)
+

@@ -1,0 +1,84 @@
+# Documentation for `docs/doc/tutorials/introduction/linux_gdb_pretty_printer/linux_gdb_pretty_printer.markdown_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/doc/tutorials/introduction/linux_gdb_pretty_printer/linux_gdb_pretty_printer.markdown_docs.md`
+- **File Name**: `linux_gdb_pretty_printer.markdown_docs.md`
+- **File Size**: 2,425 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/doc/tutorials/introduction/linux_gdb_pretty_printer/linux_gdb_pretty_printer.markdown_docs.md](../../../../../docs/doc/tutorials/introduction/linux_gdb_pretty_printer/linux_gdb_pretty_printer.markdown_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/doc/tutorials/introduction/linux_gdb_pretty_printer` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `doc/tutorials/introduction/linux_gdb_pretty_printer/linux_gdb_pretty_printer.markdown`
+
+## File Metadata
+
+- **Full Path**: `doc/tutorials/introduction/linux_gdb_pretty_printer/linux_gdb_pretty_printer.markdown`
+- **File Name**: `linux_gdb_pretty_printer.markdown`
+- **File Size**: 1,592 bytes
+- **File Type**: .markdown
+- **Link to Source**: [doc/tutorials/introduction/linux_gdb_pretty_printer/linux_gdb_pretty_printer.markdown](../../../../doc/tutorials/introduction/linux_gdb_pretty_printer/linux_gdb_pretty_printer.markdown)
+
+## Purpose and Role
+
+This file is located in the `doc/tutorials/introduction/linux_gdb_pretty_printer` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+Using OpenCV with gdb-powered IDEs {#tutorial_linux_gdb_pretty_printer}
+=====================
+
+@prev_tutorial{tutorial_oneapi_install}
+@next_tutorial{tutorial_linux_gcc_cmake}
+
+|    |    |
+| -: | :- |
+| Original author | Egor Smirnov |
+| Compatibility | OpenCV >= 4.0 |
+
+@tableofcontents
+
+# Capabilities {#tutorial_linux_gdb_pretty_printer_capabilities}
+
+This pretty-printer can show element type, `is_continuous`, `is_submatrix` flags and (possibly truncated) matrix. It is known to work in Clion, VS Code and gdb.
+
+![Clion example](images/example.png)
+
+
+# Installation {#tutorial_linux_gdb_pretty_printer_installation}
+
+Move into `opencv/samples/gdb/`. Place `mat_pretty_printer.py` in a convenient place, rename `gdbinit` to `.gdbinit`  and move it into your home folder. Change 'source' line of `.gdbinit` to point to your `mat_pretty_printer.py` path.
+
+In order to check version of python bundled with your gdb, use the following commands from the gdb shell:
+
+    python
+    import sys
+    print(sys.version_info)
+    end
+
+If the version of python 3 installed in your system doesn't match the version in gdb, create a new virtual environment with the exact same version, install `numpy` and change the path to python3 in `.gdbinit` accordingly.
+
+
+# Usage {#tutorial_linux_gdb_pretty_printer_usage}
+
+The fields in a debugger prefixed with `view_` are pseudo-fields added for convenience, the rest are left as is.
+If you feel that the number of elements in truncated view is too low, you can edit `mat_pretty_printer.py` - `np.set_printoptions` controls everything matrix display-related.
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

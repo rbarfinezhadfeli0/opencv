@@ -1,0 +1,349 @@
+# Subtree Keyword Index for `samples/python/tutorial_code/dnn/dnn_conversion/common/test/`
+
+## Scope
+
+This keyword index covers **all files** under `samples/python/tutorial_code/dnn/dnn_conversion/common/test/` recursively, including all subdirectories.
+
+**Statistics:**
+- **Total Files in Subtree**: 1
+- **Total Unique Keywords**: 66
+- **Direct Files**: 1
+- **Subfolders**: 0
+
+## Keywords A-Z
+
+The following keywords, identifiers, and technical terms appear in files within this subtree:
+
+
+### A
+
+**Accuracy** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**accuracy** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**accuracy_array** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**accuracy_eval** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**accuracy_evaluator** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**array** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### B
+
+**batch** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**batch_size** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**bgr_to_rgb** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### C
+
+**classification** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**common** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### D
+
+**DNN** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**data** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**data_fetcher** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**def** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**dnn** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**dnn_conversion** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### E
+
+**End** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**eval_params** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**evaluation** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**experiment_name** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### F
+
+**file** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**following** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**for** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**format** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**frame** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**frame_size** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**from** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### G
+
+**general_fw_accuracy** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### I
+
+**img_cls_file** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**imgs_segm_dir** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**import** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**is_plot_acc** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**is_print_eval_params** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### L
+
+**labels** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**location** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**log** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### M
+
+**max** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**model** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**models** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**models_list** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### N
+
+**numpy** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### O
+
+**original** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### P
+
+**params** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**plot_acc** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**print** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**process** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**processing** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**python** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### R
+
+**RGB** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**Running** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**results** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### S
+
+**SemSegmEvaluation** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**samples** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**size** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### T
+
+**True** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**test** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**test_segm_models** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**the** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**top** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**transform** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**tutorial_code** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### U
+
+**utils** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### V
+
+**val** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+**voc_segm_test** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+### W
+
+**with** - Found in 1 file:
+  - [samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py](voc_segm_test.py_docs.md) ([keywords](voc_segm_test.py_kw.md))
+
+
+
+## Folder-Level Navigation
+
+### Keyword Distribution by Subfolder
+
+
+
+### Most Common Keywords
+
+The most frequently appearing keywords in this subtree:
+
+- **frame**: 1 occurrences
+- **utils**: 1 occurrences
+- **accuracy_eval**: 1 occurrences
+- **max**: 1 occurrences
+- **classification**: 1 occurrences
+- **python**: 1 occurrences
+- **with**: 1 occurrences
+- **params**: 1 occurrences
+- **common**: 1 occurrences
+- **file**: 1 occurrences
+- **imgs_segm_dir**: 1 occurrences
+- **dnn**: 1 occurrences
+- **from**: 1 occurrences
+- **model**: 1 occurrences
+- **def**: 1 occurrences
+- **size**: 1 occurrences
+- **is_plot_acc**: 1 occurrences
+- **transform**: 1 occurrences
+- **top**: 1 occurrences
+- **is_print_eval_params**: 1 occurrences
+- **location**: 1 occurrences
+- **bgr_to_rgb**: 1 occurrences
+- **models_list**: 1 occurrences
+- **evaluation**: 1 occurrences
+- **img_cls_file**: 1 occurrences
+- **accuracy_evaluator**: 1 occurrences
+- **True**: 1 occurrences
+- **process**: 1 occurrences
+- **array**: 1 occurrences
+- **log**: 1 occurrences
+- **experiment_name**: 1 occurrences
+- **RGB**: 1 occurrences
+- **processing**: 1 occurrences
+- **import**: 1 occurrences
+- **voc_segm_test**: 1 occurrences
+- **the**: 1 occurrences
+- **labels**: 1 occurrences
+- **for**: 1 occurrences
+- **samples**: 1 occurrences
+- **results**: 1 occurrences
+- **accuracy**: 1 occurrences
+- **eval_params**: 1 occurrences
+- **accuracy_array**: 1 occurrences
+- **data**: 1 occurrences
+- **val**: 1 occurrences
+- **End**: 1 occurrences
+- **following**: 1 occurrences
+- **dnn_conversion**: 1 occurrences
+- **numpy**: 1 occurrences
+- **format**: 1 occurrences
+- **batch_size**: 1 occurrences
+- **tutorial_code**: 1 occurrences
+- **plot_acc**: 1 occurrences
+- **batch**: 1 occurrences
+- **Running**: 1 occurrences
+- **general_fw_accuracy**: 1 occurrences
+- **Accuracy**: 1 occurrences
+- **data_fetcher**: 1 occurrences
+- **models**: 1 occurrences
+- **test**: 1 occurrences
+- **SemSegmEvaluation**: 1 occurrences
+- **test_segm_models**: 1 occurrences
+- **print**: 1 occurrences
+- **original**: 1 occurrences
+- **frame_size**: 1 occurrences
+- **DNN**: 1 occurrences

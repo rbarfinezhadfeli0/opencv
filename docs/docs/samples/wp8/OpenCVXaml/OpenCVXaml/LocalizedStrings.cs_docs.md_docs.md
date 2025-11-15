@@ -1,0 +1,59 @@
+# Documentation for `docs/samples/wp8/OpenCVXaml/OpenCVXaml/LocalizedStrings.cs_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/samples/wp8/OpenCVXaml/OpenCVXaml/LocalizedStrings.cs_docs.md`
+- **File Name**: `LocalizedStrings.cs_docs.md`
+- **File Size**: 1,015 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/samples/wp8/OpenCVXaml/OpenCVXaml/LocalizedStrings.cs_docs.md](../../../../../docs/samples/wp8/OpenCVXaml/OpenCVXaml/LocalizedStrings.cs_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/samples/wp8/OpenCVXaml/OpenCVXaml` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `samples/wp8/OpenCVXaml/OpenCVXaml/LocalizedStrings.cs`
+
+## File Metadata
+
+- **Full Path**: `samples/wp8/OpenCVXaml/OpenCVXaml/LocalizedStrings.cs`
+- **File Name**: `LocalizedStrings.cs`
+- **File Size**: 350 bytes
+- **File Type**: .cs
+- **Link to Source**: [samples/wp8/OpenCVXaml/OpenCVXaml/LocalizedStrings.cs](../../../../samples/wp8/OpenCVXaml/OpenCVXaml/LocalizedStrings.cs)
+
+## Purpose and Role
+
+This file is located in the `samples/wp8/OpenCVXaml/OpenCVXaml` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+﻿using OpenCVXaml.Resources;
+
+namespace OpenCVXaml
+{
+    /// <summary>
+    /// Provides access to string resources.
+    /// </summary>
+    public class LocalizedStrings
+    {
+        private static AppResources _localizedResources = new AppResources();
+
+        public AppResources LocalizedResources { get { return _localizedResources; } }
+    }
+}
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

@@ -1,0 +1,323 @@
+# Keyword Map for `samples/java/tutorial_code/Histograms_Matching/back_projection/CalcBackProjectDemo1.java`
+
+## File Path and Links
+
+- **Source File**: [samples/java/tutorial_code/Histograms_Matching/back_projection/CalcBackProjectDemo1.java](../../../../../samples/java/tutorial_code/Histograms_Matching/back_projection/CalcBackProjectDemo1.java)
+- **Documentation**: [samples/java/tutorial_code/Histograms_Matching/back_projection/CalcBackProjectDemo1.java_docs.md](CalcBackProjectDemo1.java_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **Arrays**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### B
+
+- **Back**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Backprojection**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **BorderLayout**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **BoxLayout**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### C
+
+- **CENTER**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **COLOR_BGR2HSV**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **CV_8UC3**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **CalcBackProject1**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **CalcBackProjectDemo1**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **ChangeEvent**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **ChangeListener**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Container**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Core**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Create**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **CvType**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### D
+
+- **Display**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Draw**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### E
+
+- **EXIT_ON_CLOSE**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Empty**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### G
+
+- **Get**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### H
+
+- **HSV**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **HighGui**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Histogram**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Histograms_Matching**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Hue**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### I
+
+- **Image**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **ImageIcon**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Imgcodecs**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Imgproc**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### J
+
+- **JFrame**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **JLabel**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **JPanel**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **JSlider**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### L
+
+- **List**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### M
+
+- **MAX_SLIDER**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Mat**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **MatOfFloat**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **MatOfInt**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Math**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### N
+
+- **NORM_MINMAX**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### O
+
+- **Override**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### P
+
+- **PAGE_AXIS**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **PAGE_START**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Point**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Projection**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### R
+
+- **Read**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### S
+
+- **Scalar**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Set**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Show**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **String**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **System**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### T
+
+- **Trackbar**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **Transform**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### U
+
+- **Use**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### Y
+
+- **You**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### A
+
+- **add**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **addChangeListener**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **addComponentsToPane**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **and**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **args**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **argument**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **asList**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **awt**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### B
+
+- **back_projection**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **backproj**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **backprojImg**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **backprojLabel**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **binW**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **bins**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### C
+
+- **calcBackProject**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **calcHist**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **class**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **content**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **core**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **corresponds**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **cvtColor**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### D
+
+- **default**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **demo**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **depth**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **doesn**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **double**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### E
+
+- **empty**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **enter**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **err**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **event**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **exit**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### F
+
+- **false**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **final**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **float**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **for**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **frame**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### G
+
+- **getContentPane**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **getLayout**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **getSource**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **getValue**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### H
+
+- **highgui**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **hist**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **histData**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **histImg**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **histImgLabel**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **histSize**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **histogram**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **hsv**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **hue**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **hueList**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **hueRange**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### I
+
+- **image**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **img**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **imgLabel**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **imgPanel**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **imgcodecs**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **imgproc**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **import**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **imread**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **initialize**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **instanceof**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **int**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### J
+
+- **java**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **javax**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### L
+
+- **length**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### M
+
+- **max**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **mixChannels**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **must**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### N
+
+- **need**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **new**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **normalize**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **number**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### O
+
+- **one**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **only**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **opencv**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **org**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### P
+
+- **pack**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **pane**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **path**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **println**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **private**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **public**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### R
+
+- **return**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **round**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### S
+
+- **samples**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **set**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **setDefaultCloseOperation**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **setIcon**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **setLayout**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **setMajorTickSpacing**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **setMinorTickSpacing**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **setPaintLabels**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **setPaintTicks**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **setVisible**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **size**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **slider**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **sliderPanel**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **source**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **src**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **stateChanged**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **static**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **supply**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **swing**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### T
+
+- **that**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **the**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **toBufferedImage**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **true**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **tutorial_code**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### U
+
+- **update**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **use**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **util**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### V
+
+- **value**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+- **void**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### W
+
+- **window**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+### Z
+
+- **zeros**: Technical term or identifier found in [CalcBackProjectDemo1.java](CalcBackProjectDemo1.java_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 171
+- **File**: CalcBackProjectDemo1.java
+- **Size**: 5,937 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

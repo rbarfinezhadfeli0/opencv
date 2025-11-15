@@ -1,0 +1,106 @@
+# Documentation for `docs/platforms/winpack_dldt/2020.4/20200604-dldt-disable-multidevice.patch_kw.md`
+
+## File Metadata
+
+- **Full Path**: `docs/platforms/winpack_dldt/2020.4/20200604-dldt-disable-multidevice.patch_kw.md`
+- **File Name**: `20200604-dldt-disable-multidevice.patch_kw.md`
+- **File Size**: 3,738 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/platforms/winpack_dldt/2020.4/20200604-dldt-disable-multidevice.patch_kw.md](../../../../docs/platforms/winpack_dldt/2020.4/20200604-dldt-disable-multidevice.patch_kw.md)
+
+## Purpose and Role
+
+This file is located in the `docs/platforms/winpack_dldt/2020.4` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Keyword Map for `platforms/winpack_dldt/2020.4/20200604-dldt-disable-multidevice.patch`
+
+## File Path and Links
+
+- **Source File**: [platforms/winpack_dldt/2020.4/20200604-dldt-disable-multidevice.patch](../../../platforms/winpack_dldt/2020.4/20200604-dldt-disable-multidevice.patch)
+- **Documentation**: [platforms/winpack_dldt/2020.4/20200604-dldt-disable-multidevice.patch_docs.md](20200604-dldt-disable-multidevice.patch_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### C
+
+- **CMakeLists**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### A
+
+- **add_subdirectory**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### D
+
+- **diff**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+- **disable**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+- **dldt**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### E
+
+- **endif**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+- **engine**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### G
+
+- **git**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### H
+
+- **hetero_plugin**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### I
+
+- **index**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+- **inference**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### M
+
+- **multi_device**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+- **multidevice**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### P
+
+- **patch**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+- **platforms**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### S
+
+- **src**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### T
+
+- **transformations**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+- **txt**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+### W
+
+- **winpack_dldt**: Technical term or identifier found in [20200604-dldt-disable-multidevice.patch](20200604-dldt-disable-multidevice.patch_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 19
+- **File**: 20200604-dldt-disable-multidevice.patch
+- **Size**: 383 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

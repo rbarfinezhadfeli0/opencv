@@ -1,0 +1,88 @@
+# Documentation for `docs/modules/java/generator/src/`
+
+## Role in the Project
+
+This folder contains source code implementations.
+
+
+**Path**: `docs/modules/java/generator/src/`
+**Direct Files**: 0
+**Subfolders**: 2
+
+## Key Concepts
+
+This folder encompasses the following concepts and functionality:
+
+
+## Important Files
+
+The following files are particularly significant in this folder:
+
+
+
+## Data Flows and Interactions
+
+This folder is organized into 2 subdirectories, each handling specific aspects of functionality:
+
+- **cpp/** - See [cpp/doc.md](cpp/doc.md)
+- **java/** - See [java/doc.md](java/doc.md)
+
+
+### Module Interactions
+
+Files in this folder may interact with:
+- Other folders in the same parent directory
+- Core OpenCV modules
+- Third-party libraries
+- Platform-specific implementations
+
+
+## How to Work with This Folder
+
+### Understanding the Code
+
+1. Review the [index.md](index.md) for a complete file listing
+2. Check [sub.md](sub.md) for a keyword index of all content
+3. Examine individual file documentation for detailed information
+
+### Making Changes
+
+When modifying files in this folder:
+- Follow OpenCV coding standards and conventions
+- Update tests as needed
+- Ensure cross-platform compatibility
+- Document changes appropriately
+- Run relevant test suites
+
+### Testing
+
+Testing should cover:
+- Unit tests for individual components
+- Integration tests for module interactions
+- Performance benchmarks
+- Cross-platform validation
+
+
+## Cross References
+
+### Related Folders
+
+- **Parent Folder**: [docs/modules/java/generator/](../generator/doc.md)
+
+**Sibling Folders**:
+- [android/](../android/doc.md)
+- [android-21/](../android-21/doc.md)
+- [android-24/](../android-24/doc.md)
+- [templates/](../templates/doc.md)
+
+**Subfolders**:
+- [cpp/](cpp/doc.md)
+- [java/](java/doc.md)
+
+
+### See Also
+
+- [Global Repository Index](../../../../../index.md)
+- [Global Keywords](../../../../../keywords.md)
+- [Comprehensive Book](../../../../../comprehensive_book.md)
+

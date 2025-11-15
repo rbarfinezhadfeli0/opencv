@@ -1,0 +1,554 @@
+# Subtree Keyword Index for `samples/python/tutorial_code/TrackingMotion/corner_subpixels/`
+
+## Scope
+
+This keyword index covers **all files** under `samples/python/tutorial_code/TrackingMotion/corner_subpixels/` recursively, including all subdirectories.
+
+**Statistics:**
+- **Total Files in Subtree**: 1
+- **Total Unique Keywords**: 118
+- **Direct Files**: 1
+- **Subfolders**: 0
+
+## Keywords A-Z
+
+The following keywords, identifiers, and technical terms appear in files within this subtree:
+
+
+### A
+
+**Apply** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**ArgumentParser** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**add_argument** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**algorithm** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**and** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**argparse** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**args** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### B
+
+**blockSize** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### C
+
+**COLOR_BGR2GRAY** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Calculate** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Code** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Copy** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Corner** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Could** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Create** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**circle** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**convert** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**copy** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**corner** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**cornerSubPix** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**cornerSubPix_Demo** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**corner_subpixels** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**corners** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**createTrackbar** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**criteria** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**cv2** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**cvtColor** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### D
+
+**Draw** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**def** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**default** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**description** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**detected** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**detection** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**detector** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**down** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### E
+
+**exit** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### F
+
+**FILLED** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**False** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**find** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**findFile** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**for** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**from** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### G
+
+**goodFeaturesToTrack** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**goodFeaturesToTrack_Demo** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**got** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**gradientSize** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**gray** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### H
+
+**help** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### I
+
+**Image** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**image** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**import** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**imread** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**imshow** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**initial** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**input** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**int** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### L
+
+**Load** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**locations** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### M
+
+**max** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**maxCorners** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**maxTrackbar** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**minDistance** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### N
+
+**None** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Number** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**namedWindow** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**needed** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**not** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**numpy** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### O
+
+**open** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### P
+
+**Parameters** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Path** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**parameters** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**parse_args** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**parser** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**pic3** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**png** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**print** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**print_function** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**python** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### Q
+
+**qualityLevel** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### R
+
+**Refined** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**radius** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**randint** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**random** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**range** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**refined** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**rng** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### S
+
+**Set** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Shi** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Show** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**samples** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**seed** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**shape** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**source** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**source_window** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**src** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**src_gray** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### T
+
+**TERM_CRITERIA_EPS** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**TermCriteria_COUNT** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Threshold** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**Tomasi** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**TrackingMotion** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**the** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**them** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**threshold** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**trackbar** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**tutorial** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**tutorial_code** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### U
+
+**useHarrisDetector** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### V
+
+**val** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### W
+
+**Write** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**waitKey** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**what** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**winSize** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+**window** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### Y
+
+**you** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### Z
+
+**zeroZone** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+### _
+
+**__future__** - Found in 1 file:
+  - [samples/python/tutorial_code/TrackingMotion/corner_subpixels/cornerSubPix_Demo.py](cornerSubPix_Demo.py_docs.md) ([keywords](cornerSubPix_Demo.py_kw.md))
+
+
+
+## Folder-Level Navigation
+
+### Keyword Distribution by Subfolder
+
+
+
+### Most Common Keywords
+
+The most frequently appearing keywords in this subtree:
+
+- **TermCriteria_COUNT**: 1 occurrences
+- **what**: 1 occurrences
+- **python**: 1 occurrences
+- **TrackingMotion**: 1 occurrences
+- **copy**: 1 occurrences
+- **from**: 1 occurrences
+- **parameters**: 1 occurrences
+- **threshold**: 1 occurrences
+- **imshow**: 1 occurrences
+- **parser**: 1 occurrences
+- **__future__**: 1 occurrences
+- **import**: 1 occurrences
+- **detector**: 1 occurrences
+- **Apply**: 1 occurrences
+- **samples**: 1 occurrences
+- **val**: 1 occurrences
+- **window**: 1 occurrences
+- **refined**: 1 occurrences
+- **open**: 1 occurrences
+- **not**: 1 occurrences
+- **tutorial_code**: 1 occurrences
+- **int**: 1 occurrences
+- **convert**: 1 occurrences
+- **Threshold**: 1 occurrences
+- **find**: 1 occurrences
+- **got**: 1 occurrences
+- **pic3**: 1 occurrences
+- **winSize**: 1 occurrences
+- **Load**: 1 occurrences
+- **Code**: 1 occurrences
+- **cv2**: 1 occurrences
+- **radius**: 1 occurrences
+- **tutorial**: 1 occurrences
+- **source**: 1 occurrences
+- **goodFeaturesToTrack**: 1 occurrences
+- **corners**: 1 occurrences
+- **maxCorners**: 1 occurrences
+- **src_gray**: 1 occurrences
+- **createTrackbar**: 1 occurrences
+- **gray**: 1 occurrences
+- **help**: 1 occurrences
+- **minDistance**: 1 occurrences
+- **waitKey**: 1 occurrences
+- **Calculate**: 1 occurrences
+- **namedWindow**: 1 occurrences
+- **seed**: 1 occurrences
+- **Create**: 1 occurrences
+- **False**: 1 occurrences
+- **image**: 1 occurrences
+- **COLOR_BGR2GRAY**: 1 occurrences
+- **Show**: 1 occurrences
+- **shape**: 1 occurrences
+- **detection**: 1 occurrences
+- **corner**: 1 occurrences
+- **algorithm**: 1 occurrences
+- **Refined**: 1 occurrences
+- **Corner**: 1 occurrences
+- **src**: 1 occurrences
+- **corner_subpixels**: 1 occurrences
+- **print_function**: 1 occurrences
+- **print**: 1 occurrences
+- **cornerSubPix**: 1 occurrences
+- **description**: 1 occurrences
+- **Draw**: 1 occurrences
+- **add_argument**: 1 occurrences
+- **randint**: 1 occurrences
+- **needed**: 1 occurrences
+- **locations**: 1 occurrences
+- **TERM_CRITERIA_EPS**: 1 occurrences
+- **def**: 1 occurrences
+- **imread**: 1 occurrences
+- **Set**: 1 occurrences
+- **Shi**: 1 occurrences
+- **gradientSize**: 1 occurrences
+- **cornerSubPix_Demo**: 1 occurrences
+- **for**: 1 occurrences
+- **exit**: 1 occurrences
+- **FILLED**: 1 occurrences
+- **circle**: 1 occurrences
+- **Tomasi**: 1 occurrences
+- **down**: 1 occurrences
+- **you**: 1 occurrences
+- **cvtColor**: 1 occurrences
+- **blockSize**: 1 occurrences
+- **criteria**: 1 occurrences
+- **max**: 1 occurrences
+- **default**: 1 occurrences
+- **useHarrisDetector**: 1 occurrences
+- **findFile**: 1 occurrences
+- **Path**: 1 occurrences
+- **detected**: 1 occurrences
+- **them**: 1 occurrences
+- **source_window**: 1 occurrences
+- **range**: 1 occurrences
+- **ArgumentParser**: 1 occurrences
+- **goodFeaturesToTrack_Demo**: 1 occurrences
+- **png**: 1 occurrences
+- **maxTrackbar**: 1 occurrences
+- **initial**: 1 occurrences
+- **the**: 1 occurrences

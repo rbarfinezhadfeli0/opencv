@@ -1,0 +1,86 @@
+# Documentation for `doc/tutorials/core/basic_linear_transform/images/`
+
+## Role in the Project
+
+This folder is part of the OpenCV repository structure.
+
+
+**Path**: `doc/tutorials/core/basic_linear_transform/images/`
+**Direct Files**: 7
+**Subfolders**: 0
+
+## Key Concepts
+
+This folder encompasses the following concepts and functionality:
+
+### File Type Distribution
+
+- **PNG**: 4 files
+- **JPG**: 3 files
+
+
+## Important Files
+
+The following files are particularly significant in this folder:
+
+- **[Basic_Linear_Transform_Tutorial_Result_big.jpg](Basic_Linear_Transform_Tutorial_Result_big.jpg_docs.md)**: JPG file
+- **[Basic_Linear_Transform_Tutorial_histogram_compare.png](Basic_Linear_Transform_Tutorial_histogram_compare.png_docs.md)**: PNG file
+- **[Basic_Linear_Transform_Tutorial_linear_transform_correction.jpg](Basic_Linear_Transform_Tutorial_linear_transform_correction.jpg_docs.md)**: JPG file
+- **[Basic_Linear_Transform_Tutorial_gamma_correction.jpg](Basic_Linear_Transform_Tutorial_gamma_correction.jpg_docs.md)**: JPG file
+- **[Basic_Linear_Transform_Tutorial_hist_alpha.png](Basic_Linear_Transform_Tutorial_hist_alpha.png_docs.md)**: PNG file
+- **[Basic_Linear_Transform_Tutorial_hist_beta.png](Basic_Linear_Transform_Tutorial_hist_beta.png_docs.md)**: PNG file
+- **[Basic_Linear_Transform_Tutorial_gamma.png](Basic_Linear_Transform_Tutorial_gamma.png_docs.md)**: PNG file
+
+
+## Data Flows and Interactions
+
+
+
+### Module Interactions
+
+Files in this folder may interact with:
+- Other folders in the same parent directory
+- Core OpenCV modules
+- Third-party libraries
+- Platform-specific implementations
+
+
+## How to Work with This Folder
+
+### Understanding the Code
+
+1. Review the [index.md](index.md) for a complete file listing
+2. Check [sub.md](sub.md) for a keyword index of all content
+3. Examine individual file documentation for detailed information
+
+### Making Changes
+
+When modifying files in this folder:
+- Follow OpenCV coding standards and conventions
+- Update tests as needed
+- Ensure cross-platform compatibility
+- Document changes appropriately
+- Run relevant test suites
+
+### Testing
+
+Testing should cover:
+- Unit tests for individual components
+- Integration tests for module interactions
+- Performance benchmarks
+- Cross-platform validation
+
+
+## Cross References
+
+### Related Folders
+
+- **Parent Folder**: [doc/tutorials/core/basic_linear_transform/](../basic_linear_transform/doc.md)
+
+
+### See Also
+
+- [Global Repository Index](../../../../../index.md)
+- [Global Keywords](../../../../../keywords.md)
+- [Comprehensive Book](../../../../../comprehensive_book.md)
+

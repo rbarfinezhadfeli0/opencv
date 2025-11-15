@@ -1,0 +1,80 @@
+# Documentation for `docs/samples/winrt/JavaScript/package.appxmanifest_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/samples/winrt/JavaScript/package.appxmanifest_docs.md`
+- **File Name**: `package.appxmanifest_docs.md`
+- **File Size**: 2,126 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/samples/winrt/JavaScript/package.appxmanifest_docs.md](../../../../docs/samples/winrt/JavaScript/package.appxmanifest_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/samples/winrt/JavaScript` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `samples/winrt/JavaScript/package.appxmanifest`
+
+## File Metadata
+
+- **Full Path**: `samples/winrt/JavaScript/package.appxmanifest`
+- **File Name**: `package.appxmanifest`
+- **File Size**: 1,492 bytes
+- **File Type**: .appxmanifest
+- **Link to Source**: [samples/winrt/JavaScript/package.appxmanifest](../../../samples/winrt/JavaScript/package.appxmanifest)
+
+## Purpose and Role
+
+This file is located in the `samples/winrt/JavaScript` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="d70a3790-48ce-4e58-af60-ebefc22e9c7a" Version="1.0.0.0" Publisher="CN=Sergei" />
+  <Properties>
+    <DisplayName>MediaCaptureJavaScript</DisplayName>
+    <PublisherDisplayName>Sergei</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="MediaCaptureJavaScript" Description="MediaCaptureJavaScript" ForegroundText="light" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+        <m2:SplashScreen Image="images\splashscreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>OcvTransform.dll</Path>
+        <ActivatableClass ActivatableClassId="OcvTransform.OcvImageManipulations" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+</Package>
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

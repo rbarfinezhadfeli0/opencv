@@ -1,0 +1,355 @@
+# Documentation for `docs/3rdparty/quirc/src/decode.c_kw.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/quirc/src/decode.c_kw.md`
+- **File Name**: `decode.c_kw.md`
+- **File Size**: 15,819 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/quirc/src/decode.c_kw.md](../../../../docs/3rdparty/quirc/src/decode.c_kw.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/quirc/src` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Keyword Map for `3rdparty/quirc/src/decode.c`
+
+## File Path and Links
+
+- **Source File**: [3rdparty/quirc/src/decode.c](../../../3rdparty/quirc/src/decode.c)
+- **Documentation**: [3rdparty/quirc/src/decode.c_docs.md](decode.c_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **ACTION**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **ALL**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **AND**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **ANY**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **ARISING**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **AUTHOR**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### B
+
+- **Beer**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Berlekamp**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### C
+
+- **CONNECTION**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **CONSEQUENTIAL**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **CONTRACT**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Code**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Compute**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Copyright**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### D
+
+- **DAMAGES**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **DATA**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **DIRECT**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **DISCLAIMS**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Daniel**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### E
+
+- **EVENT**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Evaluate**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### F
+
+- **FITNESS**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **FOR**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **FORMAT_BITS**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **FORMAT_MAX_ERROR**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **FORMAT_SYNDROMES**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **FROM**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Find**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Format**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### G
+
+- **Galois**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Generator**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### I
+
+- **IMPLIED**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **INCLUDING**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **INDIRECT**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### L
+
+- **LIABLE**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **LOSS**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### M
+
+- **MAX_POLY**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **MERCHANTABILITY**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Massey**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### N
+
+- **NEGLIGENCE**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### O
+
+- **OTHER**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **OUT**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### P
+
+- **PERFORMANCE**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **PROFITS**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **PROVIDED**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Permission**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **Polynomial**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### Q
+
+- **QUIRC_ERROR_DATA_ECC**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **QUIRC_SUCCESS**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### R
+
+- **REGARD**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **RESULTING**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### S
+
+- **SHALL**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **SOFTWARE**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **SPECIAL**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **S_1**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **S_6**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### T
+
+- **THE**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **THIS**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **TORTIOUS**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### U
+
+- **USE**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### W
+
+- **WARRANTIES**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **WHATSOEVER**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **WHETHER**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **WITH**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### A
+
+- **above**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **algorithm**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **all**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **alpha_1**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **alpha_6**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **and**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **any**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **appear**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### B
+
+- **berlekamp_massey**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **block_syndromes**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **break**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **but**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### C
+
+- **code**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **codeword**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **com**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **const**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **continue**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **copies**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **copy**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **copyright**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **correct_block**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **correct_format**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **correction**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### D
+
+- **data**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **decode**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **define**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **derivative**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **distribute**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **dlbeer**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **dst**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### E
+
+- **each**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **ecc**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **eloc_poly**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **else**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **error**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **evaluator**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **exp**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### F
+
+- **f_ret**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **fee**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **fields**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **finding**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **for**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **format_syndromes**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### G
+
+- **galois_field**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **get**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **gf16**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **gf16_exp**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **gf16_log**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **gf256**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **gf256_exp**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **gf256_log**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **gmail**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **granted**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### H
+
+- **hereby**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### I
+
+- **include**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **index**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **int**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### L
+
+- **library**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **locations**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **locator**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **log**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **log_a**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **log_c**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **log_x**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### M
+
+- **magnitudes**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **memcpy**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **memset**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **modify**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **mult**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### N
+
+- **nonzero**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **notice**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **npar**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### O
+
+- **omega**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **omega_x**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **operations**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### P
+
+- **permission**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **poly_add**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **poly_eval**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **polynomial**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **polynomials**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **provided**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **purpose**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### Q
+
+- **quirc**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **quirc_decode_error_t**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **quirc_internal**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **quirc_rs_params**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### R
+
+- **rdparty**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **received**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **recognition**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **return**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### S
+
+- **sd_x**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **shift**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **sigma**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **sigma_deriv**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **sizeof**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **software**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **src**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **static**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **stdlib**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **stream**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **string**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **struct**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **sum**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **syndrome**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### T
+
+- **that**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **the**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **them**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **this**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### U
+
+- **uint16_t**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **uint8_t**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **use**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### V
+
+- **value**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **vector**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **void**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### W
+
+- **with**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+- **without**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+### X
+
+- **xinv**: Technical term or identifier found in [decode.c](decode.c_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 181
+- **File**: decode.c
+- **Size**: 21,204 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

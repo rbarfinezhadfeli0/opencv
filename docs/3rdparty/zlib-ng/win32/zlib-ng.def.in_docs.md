@@ -1,0 +1,84 @@
+# Documentation for `3rdparty/zlib-ng/win32/zlib-ng.def.in`
+
+## File Metadata
+
+- **Full Path**: `3rdparty/zlib-ng/win32/zlib-ng.def.in`
+- **File Name**: `zlib-ng.def.in`
+- **File Size**: 2,357 bytes
+- **File Type**: .in
+- **Link to Source**: [3rdparty/zlib-ng/win32/zlib-ng.def.in](../../../3rdparty/zlib-ng/win32/zlib-ng.def.in)
+
+## Purpose and Role
+
+This file is located in the `3rdparty/zlib-ng/win32` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+; zlib-ng data compression library
+EXPORTS
+; basic functions
+    @ZLIB_SYMBOL_PREFIX@zlibng_version
+    @ZLIB_SYMBOL_PREFIX@zng_deflate
+    @ZLIB_SYMBOL_PREFIX@zng_deflateEnd
+    @ZLIB_SYMBOL_PREFIX@zng_deflateInit
+    @ZLIB_SYMBOL_PREFIX@zng_deflateInit2
+    @ZLIB_SYMBOL_PREFIX@zng_inflate
+    @ZLIB_SYMBOL_PREFIX@zng_inflateEnd
+    @ZLIB_SYMBOL_PREFIX@zng_inflateInit
+    @ZLIB_SYMBOL_PREFIX@zng_inflateInit2
+    @ZLIB_SYMBOL_PREFIX@zng_inflateBackInit
+; advanced functions
+    @ZLIB_SYMBOL_PREFIX@zng_deflateSetDictionary
+    @ZLIB_SYMBOL_PREFIX@zng_deflateGetDictionary
+    @ZLIB_SYMBOL_PREFIX@zng_deflateCopy
+    @ZLIB_SYMBOL_PREFIX@zng_deflateReset
+    @ZLIB_SYMBOL_PREFIX@zng_deflateParams
+    @ZLIB_SYMBOL_PREFIX@zng_deflateTune
+    @ZLIB_SYMBOL_PREFIX@zng_deflateBound
+    @ZLIB_SYMBOL_PREFIX@zng_deflatePending
+    @ZLIB_SYMBOL_PREFIX@zng_deflatePrime
+    @ZLIB_SYMBOL_PREFIX@zng_deflateSetHeader
+    @ZLIB_SYMBOL_PREFIX@zng_deflateSetParams
+    @ZLIB_SYMBOL_PREFIX@zng_deflateGetParams
+    @ZLIB_SYMBOL_PREFIX@zng_inflateSetDictionary
+    @ZLIB_SYMBOL_PREFIX@zng_inflateGetDictionary
+    @ZLIB_SYMBOL_PREFIX@zng_inflateSync
+    @ZLIB_SYMBOL_PREFIX@zng_inflateCopy
+    @ZLIB_SYMBOL_PREFIX@zng_inflateReset
+    @ZLIB_SYMBOL_PREFIX@zng_inflateReset2
+    @ZLIB_SYMBOL_PREFIX@zng_inflatePrime
+    @ZLIB_SYMBOL_PREFIX@zng_inflateMark
+    @ZLIB_SYMBOL_PREFIX@zng_inflateGetHeader
+    @ZLIB_SYMBOL_PREFIX@zng_inflateBack
+    @ZLIB_SYMBOL_PREFIX@zng_inflateBackEnd
+    @ZLIB_SYMBOL_PREFIX@zng_zlibCompileFlags
+; utility functions
+    @ZLIB_SYMBOL_PREFIX@zng_compress
+    @ZLIB_SYMBOL_PREFIX@zng_compress2
+    @ZLIB_SYMBOL_PREFIX@zng_compressBound
+    @ZLIB_SYMBOL_PREFIX@zng_uncompress
+    @ZLIB_SYMBOL_PREFIX@zng_uncompress2
+; checksum functions
+    @ZLIB_SYMBOL_PREFIX@zng_adler32
+    @ZLIB_SYMBOL_PREFIX@zng_adler32_z
+    @ZLIB_SYMBOL_PREFIX@zng_crc32
+    @ZLIB_SYMBOL_PREFIX@zng_crc32_z
+    @ZLIB_SYMBOL_PREFIX@zng_adler32_combine
+    @ZLIB_SYMBOL_PREFIX@zng_crc32_combine
+; various hacks, don't look :)
+    @ZLIB_SYMBOL_PREFIX@zng_zError
+    @ZLIB_SYMBOL_PREFIX@zng_inflateSyncPoint
+    @ZLIB_SYMBOL_PREFIX@zng_get_crc_table
+    @ZLIB_SYMBOL_PREFIX@zng_inflateUndermine
+    @ZLIB_SYMBOL_PREFIX@zng_inflateValidate
+    @ZLIB_SYMBOL_PREFIX@zng_inflateCodesUsed
+    @ZLIB_SYMBOL_PREFIX@zng_inflateResetKeep
+    @ZLIB_SYMBOL_PREFIX@zng_deflateResetKeep
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+

@@ -1,0 +1,102 @@
+# Documentation for `docs/platforms/android/`
+
+## Role in the Project
+
+This folder is part of the OpenCV repository structure.
+
+
+**Path**: `docs/platforms/android/`
+**Direct Files**: 30
+**Subfolders**: 3
+
+## Key Concepts
+
+This folder encompasses the following concepts and functionality:
+
+### File Type Distribution
+
+- **MD**: 30 files
+
+
+## Important Files
+
+The following files are particularly significant in this folder:
+
+- **[README.android_docs.md](README.android_docs.md_docs.md)**: Documentation and overview
+- **[README.android_kw.md](README.android_kw.md_docs.md)**: Documentation and overview
+
+
+## Data Flows and Interactions
+
+This folder is organized into 3 subdirectories, each handling specific aspects of functionality:
+
+- **aar-template/** - See [aar-template/doc.md](aar-template/doc.md)
+- **build-tests/** - See [build-tests/doc.md](build-tests/doc.md)
+- **gradle-wrapper/** - See [gradle-wrapper/doc.md](gradle-wrapper/doc.md)
+
+
+### Module Interactions
+
+Files in this folder may interact with:
+- Other folders in the same parent directory
+- Core OpenCV modules
+- Third-party libraries
+- Platform-specific implementations
+
+
+## How to Work with This Folder
+
+### Understanding the Code
+
+1. Review the [index.md](index.md) for a complete file listing
+2. Check [sub.md](sub.md) for a keyword index of all content
+3. Examine individual file documentation for detailed information
+
+### Making Changes
+
+When modifying files in this folder:
+- Follow OpenCV coding standards and conventions
+- Update tests as needed
+- Ensure cross-platform compatibility
+- Document changes appropriately
+- Run relevant test suites
+
+### Testing
+
+Testing should cover:
+- Unit tests for individual components
+- Integration tests for module interactions
+- Performance benchmarks
+- Cross-platform validation
+
+
+## Cross References
+
+### Related Folders
+
+- **Parent Folder**: [docs/platforms/](../platforms/doc.md)
+
+**Sibling Folders**:
+- [apple/](../apple/doc.md)
+- [ios/](../ios/doc.md)
+- [js/](../js/doc.md)
+- [linux/](../linux/doc.md)
+- [maven/](../maven/doc.md)
+- [osx/](../osx/doc.md)
+- [scripts/](../scripts/doc.md)
+- [semihosting/](../semihosting/doc.md)
+- [wince/](../wince/doc.md)
+- [winpack_dldt/](../winpack_dldt/doc.md)
+
+**Subfolders**:
+- [aar-template/](aar-template/doc.md)
+- [build-tests/](build-tests/doc.md)
+- [gradle-wrapper/](gradle-wrapper/doc.md)
+
+
+### See Also
+
+- [Global Repository Index](../../../index.md)
+- [Global Keywords](../../../keywords.md)
+- [Comprehensive Book](../../../comprehensive_book.md)
+

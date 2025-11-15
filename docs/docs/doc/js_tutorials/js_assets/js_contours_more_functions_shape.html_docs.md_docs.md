@@ -1,0 +1,128 @@
+# Documentation for `docs/doc/js_tutorials/js_assets/js_contours_more_functions_shape.html_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/doc/js_tutorials/js_assets/js_contours_more_functions_shape.html_docs.md`
+- **File Name**: `js_contours_more_functions_shape.html_docs.md`
+- **File Size**: 3,447 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/doc/js_tutorials/js_assets/js_contours_more_functions_shape.html_docs.md](../../../../docs/doc/js_tutorials/js_assets/js_contours_more_functions_shape.html_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/doc/js_tutorials/js_assets` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `doc/js_tutorials/js_assets/js_contours_more_functions_shape.html`
+
+## File Metadata
+
+- **Full Path**: `doc/js_tutorials/js_assets/js_contours_more_functions_shape.html`
+- **File Name**: `js_contours_more_functions_shape.html`
+- **File Size**: 2,726 bytes
+- **File Type**: .html
+- **Link to Source**: [doc/js_tutorials/js_assets/js_contours_more_functions_shape.html](../../../doc/js_tutorials/js_assets/js_contours_more_functions_shape.html)
+
+## Purpose and Role
+
+This file is located in the `doc/js_tutorials/js_assets` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Match Shape Example</title>
+<link href="js_example_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h2>Match Shape Example</h2>
+<p>
+    &lt;canvas&gt; elements named <b>canvasInput</b> and <b>canvasOutput</b> have been prepared.<br>
+    Click <b>Try it</b> button to see the result. You can choose another image.<br>
+    You can change the code in the &lt;textarea&gt; to investigate more.
+</p>
+<div>
+<div class="control"><button id="tryIt" disabled>Try it</button></div>
+<textarea class="code" rows="9" cols="100" id="codeEditor" spellcheck="false">
+</textarea>
+<p class="err" id="errorMessage"></p>
+</div>
+<div>
+    <table cellpadding="0" cellspacing="0" width="0" border="0">
+    <tr>
+        <td>
+            <canvas id="canvasInput"></canvas>
+        </td>
+        <td>
+            <canvas id="canvasOutput"></canvas>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="caption">canvasInput <input type="file" id="fileInput" name="file" accept="image/*" /></div>
+        </td>
+        <td>
+            <div class="caption">canvasOutput</div>
+        </td>
+    </tr>
+    </table>
+</div>
+<div>
+    <p><strong>The result is: </strong><span id="matchShapesOutput"></span></p>
+</div>
+<script src="utils.js" type="text/javascript"></script>
+<script id="codeSnippet" type="text/code-snippet">
+let src = cv.imread('canvasInput');
+let dst = cv.Mat.zeros(src.rows, src.cols, cv.CV_8UC3);
+cv.cvtColor(src, src, cv.COLOR_RGBA2GRAY, 0);
+cv.threshold(src, src, 177, 200, cv.THRESH_BINARY);
+let contours = new cv.MatVector();
+let hierarchy = new cv.Mat();
+cv.findContours(src, contours, hierarchy, cv.RETR_CCOMP, cv.CHAIN_APPROX_SIMPLE);
+let contourID0 = 10;
+let contourID1 = 5;
+let color0 = new cv.Scalar(255, 0, 0);
+let color1 = new cv.Scalar(0, 0, 255);
+// You can try more different parameters
+let result = cv.matchShapes(contours.get(contourID0), contours.get(contourID1), 1, 0);
+matchShapesOutput.innerHTML = result;
+cv.drawContours(dst, contours, contourID0, color0, 1, cv.LINE_8, hierarchy, 100);
+cv.drawContours(dst, contours, contourID1, color1, 1, cv.LINE_8, hierarchy, 100);
+cv.imshow('canvasOutput', dst);
+src.delete(); dst.delete(); contours.delete(); hierarchy.delete();
+</script>
+<script type="text/javascript">
+let utils = new Utils('errorMessage');
+
+utils.loadCode('codeSnippet', 'codeEditor');
+utils.loadImageToCanvas('coins.jpg', 'canvasInput');
+utils.addFileInputHandler('fileInput', 'canvasInput');
+
+let tryIt = document.getElementById('tryIt');
+tryIt.addEventListener('click', () => {
+    utils.executeCode('codeEditor');
+});
+
+utils.loadOpenCv(() => {
+    tryIt.removeAttribute('disabled');
+});
+</script>
+</body>
+</html>
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

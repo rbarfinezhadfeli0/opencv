@@ -1,0 +1,148 @@
+# Documentation for `docs/samples/java/ant/src/SimpleSample.java_kw.md`
+
+## File Metadata
+
+- **Full Path**: `docs/samples/java/ant/src/SimpleSample.java_kw.md`
+- **File Name**: `SimpleSample.java_kw.md`
+- **File Size**: 4,526 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/samples/java/ant/src/SimpleSample.java_kw.md](../../../../../docs/samples/java/ant/src/SimpleSample.java_kw.md)
+
+## Purpose and Role
+
+This file is located in the `docs/samples/java/ant/src` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Keyword Map for `samples/java/ant/src/SimpleSample.java`
+
+## File Path and Links
+
+- **Source File**: [samples/java/ant/src/SimpleSample.java](../../../../samples/java/ant/src/SimpleSample.java)
+- **Documentation**: [samples/java/ant/src/SimpleSample.java_docs.md](SimpleSample.java_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### C
+
+- **CV_8UC1**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **Core**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **CvType**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### M
+
+- **Mat**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### N
+
+- **NATIVE_LIBRARY_NAME**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### O
+
+- **OpenCV**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### S
+
+- **Scalar**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **SimpleSample**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **String**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **System**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### V
+
+- **VERSION**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### W
+
+- **Welcome**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### A
+
+- **ant**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **args**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### C
+
+- **class**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **col**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **core**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### D
+
+- **data**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **dump**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### I
+
+- **import**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### J
+
+- **java**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### L
+
+- **loadLibrary**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### M
+
+- **main**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **mc5**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **mr1**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### N
+
+- **new**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### O
+
+- **opencv**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **org**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **out**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### P
+
+- **println**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **public**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### R
+
+- **row**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### S
+
+- **samples**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **setTo**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **src**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+- **static**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+### V
+
+- **void**: Technical term or identifier found in [SimpleSample.java](SimpleSample.java_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 37
+- **File**: SimpleSample.java
+- **Size**: 580 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

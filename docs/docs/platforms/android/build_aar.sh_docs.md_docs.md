@@ -1,0 +1,92 @@
+# Documentation for `docs/platforms/android/build_aar.sh_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/platforms/android/build_aar.sh_docs.md`
+- **File Name**: `build_aar.sh_docs.md`
+- **File Size**: 1,945 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/platforms/android/build_aar.sh_docs.md](../../../docs/platforms/android/build_aar.sh_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/platforms/android` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `platforms/android/build_aar.sh`
+
+## File Metadata
+
+- **Full Path**: `platforms/android/build_aar.sh`
+- **File Name**: `build_aar.sh`
+- **File Size**: 1,399 bytes
+- **File Type**: .sh
+- **Link to Source**: [platforms/android/build_aar.sh](../../platforms/android/build_aar.sh)
+
+## Purpose and Role
+
+This file is located in the `platforms/android` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+#!/bin/bash -e
+SDK_DIR=$1
+
+echo "OpenCV Android SDK path: ${SDK_DIR}"
+
+ANDROID_HOME=${ANDROID_HOME:-${ANDROID_SDK_ROOT:-${ANDROID_SDK?Required ANDROID_HOME/ANDROID_SDK/ANDROID_SDK_ROOT}}}
+ANDROID_NDK=${ANDROID_NDK_HOME-${ANDROID_NDK:-${NDKROOT?Required ANDROID_NDK_HOME/ANDROID_NDK/NDKROOT}}}
+OPENCV_GRADLE_VERBOSE_OPTIONS=${OPENCV_GRADLE_VERBOSE_OPTIONS:-'-i'}
+
+echo "Android SDK: ${ANDROID_HOME}"
+echo "Android NDK: ${ANDROID_NDK}"
+
+if [ ! -d "${ANDROID_HOME}" ]; then
+  echo "FATAL: Missing Android SDK directory"
+  exit 1
+fi
+if [ ! -d "${ANDROID_NDK}" ]; then
+  echo "FATAL: Missing Android NDK directory"
+  exit 1
+fi
+
+export ANDROID_HOME=${ANDROID_HOME}
+export ANDROID_SDK=${ANDROID_HOME}
+export ANDROID_SDK_ROOT=${ANDROID_HOME}
+
+export ANDROID_NDK=${ANDROID_NDK}
+export ANDROID_NDK_HOME=${ANDROID_NDK}
+
+echo "Cloning OpenCV Android SDK ..."
+rm -rf "aar-build"
+cp -rp "${SDK_DIR}" "aar-build"
+echo "Cloning OpenCV Android SDK ... Done!"
+
+# drop cmake bin name and "bin" folder from path
+echo "ndk.dir=${ANDROID_NDK}" > "aar-build/samples/local.properties"
+echo "cmake.dir=$(dirname $(dirname $(which cmake)))" >> "aar-build/samples/local.properties"
+
+echo "Run gradle ..."
+(cd "aar-build/samples"; ./gradlew ${OPENCV_GRADLE_VERBOSE_OPTIONS} opencv:publishReleasePublicationToMyrepoRepository)
+
+mkdir "maven_repo"
+cp -r aar-build/sdk/build/repo/* ./maven_repo/
+
+echo "#"
+echo "# Done!"
+echo "#"
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

@@ -1,0 +1,86 @@
+# Documentation for `docs/doc/tutorials/dnn/dnn_pytorch_tf_classification/images/`
+
+## Role in the Project
+
+This folder is part of the OpenCV repository structure.
+
+
+**Path**: `docs/doc/tutorials/dnn/dnn_pytorch_tf_classification/images/`
+**Direct Files**: 8
+**Subfolders**: 0
+
+## Key Concepts
+
+This folder encompasses the following concepts and functionality:
+
+### File Type Distribution
+
+- **MD**: 8 files
+
+
+## Important Files
+
+The following files are particularly significant in this folder:
+
+- **[opencv_resnet50_test_res_c.jpg_kw.md](opencv_resnet50_test_res_c.jpg_kw.md_docs.md)**: MD file
+- **[squirrel_cls.jpg_kw.md](squirrel_cls.jpg_kw.md_docs.md)**: MD file
+- **[opencv_resnet50_test_res_c.jpg_docs.md](opencv_resnet50_test_res_c.jpg_docs.md_docs.md)**: MD file
+- **[pytorch_resnet50_opencv_test_res.jpg_kw.md](pytorch_resnet50_opencv_test_res.jpg_kw.md_docs.md)**: MD file
+- **[tf_mobilenet_opencv_test_res.jpg_docs.md](tf_mobilenet_opencv_test_res.jpg_docs.md_docs.md)**: MD file
+- **[tf_mobilenet_opencv_test_res.jpg_kw.md](tf_mobilenet_opencv_test_res.jpg_kw.md_docs.md)**: MD file
+- **[pytorch_resnet50_opencv_test_res.jpg_docs.md](pytorch_resnet50_opencv_test_res.jpg_docs.md_docs.md)**: MD file
+- **[squirrel_cls.jpg_docs.md](squirrel_cls.jpg_docs.md_docs.md)**: MD file
+
+
+## Data Flows and Interactions
+
+
+
+### Module Interactions
+
+Files in this folder may interact with:
+- Other folders in the same parent directory
+- Core OpenCV modules
+- Third-party libraries
+- Platform-specific implementations
+
+
+## How to Work with This Folder
+
+### Understanding the Code
+
+1. Review the [index.md](index.md) for a complete file listing
+2. Check [sub.md](sub.md) for a keyword index of all content
+3. Examine individual file documentation for detailed information
+
+### Making Changes
+
+When modifying files in this folder:
+- Follow OpenCV coding standards and conventions
+- Update tests as needed
+- Ensure cross-platform compatibility
+- Document changes appropriately
+- Run relevant test suites
+
+### Testing
+
+Testing should cover:
+- Unit tests for individual components
+- Integration tests for module interactions
+- Performance benchmarks
+- Cross-platform validation
+
+
+## Cross References
+
+### Related Folders
+
+- **Parent Folder**: [docs/doc/tutorials/dnn/dnn_pytorch_tf_classification/](../dnn_pytorch_tf_classification/doc.md)
+
+
+### See Also
+
+- [Global Repository Index](../../../../../../index.md)
+- [Global Keywords](../../../../../../keywords.md)
+- [Comprehensive Book](../../../../../../comprehensive_book.md)
+

@@ -1,0 +1,97 @@
+# Documentation for `docs/samples/wp8/OpenCVXaml/OpenCVXaml/Properties/WMAppManifest.xml_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/samples/wp8/OpenCVXaml/OpenCVXaml/Properties/WMAppManifest.xml_docs.md`
+- **File Name**: `WMAppManifest.xml_docs.md`
+- **File Size**: 2,977 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/samples/wp8/OpenCVXaml/OpenCVXaml/Properties/WMAppManifest.xml_docs.md](../../../../../../docs/samples/wp8/OpenCVXaml/OpenCVXaml/Properties/WMAppManifest.xml_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/samples/wp8/OpenCVXaml/OpenCVXaml/Properties` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `samples/wp8/OpenCVXaml/OpenCVXaml/Properties/WMAppManifest.xml`
+
+## File Metadata
+
+- **Full Path**: `samples/wp8/OpenCVXaml/OpenCVXaml/Properties/WMAppManifest.xml`
+- **File Name**: `WMAppManifest.xml`
+- **File Size**: 1,890 bytes
+- **File Type**: .xml
+- **Link to Source**: [samples/wp8/OpenCVXaml/OpenCVXaml/Properties/WMAppManifest.xml](../../../../../samples/wp8/OpenCVXaml/OpenCVXaml/Properties/WMAppManifest.xml)
+
+## Purpose and Role
+
+This file is located in the `samples/wp8/OpenCVXaml/OpenCVXaml/Properties` directory and serves as part of the OpenCV library infrastructure.
+
+## Configuration File Content
+
+```
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US"/>
+  <App xmlns="" ProductID="{af139c56-d9c7-4afe-8972-e5b30aaba1bc}" Title="OpenCVXaml" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="OpenCVXaml author" Description="Sample description" Publisher="OpenCVXaml" PublisherID="{8dd284a7-c759-40d0-9076-a1ced47c6a9a}">
+    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING"/>
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO"/>
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK"/>
+      <Capability Name="ID_CAP_SENSORS"/>
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT"/>
+    </Capabilities>
+    <Tasks>
+      <DefaultTask  Name ="_default" NavigationPage="MainPage.xaml"/>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="OpenCVXamlToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
+          <Title>OpenCVXaml</Title>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <DeviceLockImageURI></DeviceLockImageURI>
+          <HasLarge></HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA"/>
+      <ScreenResolution Name="ID_RESOLUTION_WXGA"/>
+      <ScreenResolution Name="ID_RESOLUTION_HD720P"/>
+    </ScreenResolutions>
+  </App>
+</Deployment>
+```
+
+## Purpose
+
+This configuration file is used to control build settings, dependencies, or runtime behavior of the OpenCV library.
+
+## Key Settings
+
+Configuration files in OpenCV typically control:
+- Build system configuration (CMake)
+- Compiler flags and options
+- Feature enablement/disablement
+- Path specifications
+- Version information
+- Dependency management
+
+## Usage
+
+This file is processed during the build configuration phase or at runtime to customize OpenCV behavior.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

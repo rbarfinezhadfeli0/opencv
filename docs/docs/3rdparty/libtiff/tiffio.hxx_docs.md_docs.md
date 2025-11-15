@@ -1,0 +1,85 @@
+# Documentation for `docs/3rdparty/libtiff/tiffio.hxx_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/libtiff/tiffio.hxx_docs.md`
+- **File Name**: `tiffio.hxx_docs.md`
+- **File Size**: 2,057 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/libtiff/tiffio.hxx_docs.md](../../../docs/3rdparty/libtiff/tiffio.hxx_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/libtiff` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `3rdparty/libtiff/tiffio.hxx`
+
+## File Metadata
+
+- **Full Path**: `3rdparty/libtiff/tiffio.hxx`
+- **File Name**: `tiffio.hxx`
+- **File Size**: 1,525 bytes
+- **File Type**: .hxx
+- **Link to Source**: [3rdparty/libtiff/tiffio.hxx](../../3rdparty/libtiff/tiffio.hxx)
+
+## Purpose and Role
+
+This file is located in the `3rdparty/libtiff` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+/*
+ * Copyright (c) 1988-1997 Sam Leffler
+ * Copyright (c) 1991-1997 Silicon Graphics, Inc.
+ *
+ * Permission to use, copy, modify, distribute, and sell this software and
+ * its documentation for any purpose is hereby granted without fee, provided
+ * that (i) the above copyright notices and this permission notice appear in
+ * all copies of the software and related documentation, and (ii) the names of
+ * Sam Leffler and Silicon Graphics may not be used in any advertising or
+ * publicity relating to the software without the specific, prior written
+ * permission of Sam Leffler and Silicon Graphics.
+ *
+ * THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
+ * WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR
+ * ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
+ * OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+ * WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF
+ * LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
+ * OF THIS SOFTWARE.
+ */
+
+#ifndef _TIFFIO_HXX_
+#define _TIFFIO_HXX_
+
+/*
+ * TIFF I/O library definitions which provide C++ streams API.
+ */
+
+#include "tiff.h"
+#include "tiffio.h"
+#include <iostream>
+
+extern TIFF *TIFFStreamOpen(const char *, std::ostream *);
+extern TIFF *TIFFStreamOpen(const char *, std::istream *);
+
+#endif /* _TIFFIO_HXX_ */
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

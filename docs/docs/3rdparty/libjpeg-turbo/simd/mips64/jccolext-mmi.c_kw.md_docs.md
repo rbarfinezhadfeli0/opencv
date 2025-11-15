@@ -1,0 +1,387 @@
+# Documentation for `docs/3rdparty/libjpeg-turbo/simd/mips64/jccolext-mmi.c_kw.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/libjpeg-turbo/simd/mips64/jccolext-mmi.c_kw.md`
+- **File Name**: `jccolext-mmi.c_kw.md`
+- **File Size**: 21,795 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/libjpeg-turbo/simd/mips64/jccolext-mmi.c_kw.md](../../../../../docs/3rdparty/libjpeg-turbo/simd/mips64/jccolext-mmi.c_kw.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/libjpeg-turbo/simd/mips64` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Keyword Map for `3rdparty/libjpeg-turbo/simd/mips64/jccolext-mmi.c`
+
+## File Path and Links
+
+- **Source File**: [3rdparty/libjpeg-turbo/simd/mips64/jccolext-mmi.c](../../../../3rdparty/libjpeg-turbo/simd/mips64/jccolext-mmi.c)
+- **Documentation**: [3rdparty/libjpeg-turbo/simd/mips64/jccolext-mmi.c_docs.md](jccolext-mmi.c_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **All**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Altered**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Authors**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### B
+
+- **BYTE_BIT**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Based**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **BeiJing**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### C
+
+- **CaiWanwei**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Cendio**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Commander**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Copyright**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Corporation**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### I
+
+- **IJG**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### J
+
+- **JDIMENSION**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **JPEG**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **JSAMPARRAY**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **JSAMPIMAGE**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **JSAMPROW**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### L
+
+- **Limited**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Loongson**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### M
+
+- **MIYASAKA**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **MMI**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Masaru**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### O
+
+- **Ossman**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### P
+
+- **PTR_ADDU**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Permission**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Pierre**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### R
+
+- **RGB_BLUE**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **RGB_GREEN**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **RGB_PIXELSIZE**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **RGB_RED**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Reserved**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **Rights**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### S
+
+- **SIMD**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **SunZhangzhi**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### T
+
+- **Technology**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **The**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **This**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### Z
+
+- **ZhangLixia**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **ZhuChen**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### _
+
+- **__m64**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **_mm_load_si64**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **_mm_loadhi_pi8_f**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **_mm_loadlo_pi8_f**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **_mm_loadu_si64**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **_mm_slli_si64**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **_mm_srli_si64**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **_mm_unpackhi_pi8**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **_mm_unpacklo_pi8**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### A
+
+- **acknowledgment**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **alter**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **altered**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **and**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **any**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **anyone**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **applications**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **appreciated**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **arising**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **asm**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **authors**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### B
+
+- **being**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **beqz**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **bghe**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **bgho**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **bgle**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **bglo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **bhe**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **bho**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **ble**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **blo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **but**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### C
+
+- **caiwanwei**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **cbe**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **cbhe**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **cbho**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **cble**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **cblo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **cbo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **cendio**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **claim**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **col**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **commercial**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **cre**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **crhe**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **crho**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **crle**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **crlo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **cro**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### D
+
+- **damages**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **define**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **distribution**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **dmtc1**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **documentation**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **dsll32**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### E
+
+- **elif**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **else**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **endif**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **event**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **express**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **extension**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### F
+
+- **file**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **following**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **for**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **freely**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **from**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### G
+
+- **granted**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### H
+
+- **halfbhe**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **halfbho**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **halfble**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **halfblo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **halfrhe**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **halfrho**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **halfrle**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **halfrlo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **held**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### I
+
+- **image_width**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **implied**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **included**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **including**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **inptr**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **input_buf**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **int**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### J
+
+- **jccolext**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **jccolor**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **jsimd_rgb_ycc_convert_mmi**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### L
+
+- **lbu**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **ldc1**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **lhu**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **liable**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **libjpeg**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **library**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **long**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **loongson**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **lwu**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### M
+
+- **marked**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **may**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **memory**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mips64**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **misrepresented**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mmA**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mmB**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mmC**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mmD**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mmE**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mmF**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mmG**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mmH**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mmi**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **mov**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **move**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **must**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### N
+
+- **nop**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **noreorder**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **not**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **notice**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **num_cols**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **num_rows**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### O
+
+- **optimizations**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **origin**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **original**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **ossman**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **outptr0**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **outptr1**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **outptr2**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **output_buf**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **output_row**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### P
+
+- **plainly**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **product**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **provided**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **purpose**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### R
+
+- **rdparty**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **redistribute**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **removed**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **reorder**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **required**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **restrictions**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **rghe**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **rgho**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **rgle**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **rglo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **rhe**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **rho**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **rle**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **rlo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### S
+
+- **set**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **simd**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **sll**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **software**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **source**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **subject**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **subu**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **such**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **sunzhangzhi**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### T
+
+- **that**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **the**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **this**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **turbo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### U
+
+- **use**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### V
+
+- **versions**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **void**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### W
+
+- **warranty**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **while**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **will**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **without**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **would**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **wrote**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### X
+
+- **x86**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **xor**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### Y
+
+- **yhe**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **yhe_bg**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **yhe_rg**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **yho**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **yho_bg**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **yho_rg**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **yle**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **yle_bg**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **yle_rg**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **ylo**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **ylo_bg**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **ylo_rg**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **you**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+### Z
+
+- **zhanglixia**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+- **zhuchen**: Technical term or identifier found in [jccolext-mmi.c](jccolext-mmi.c_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 222
+- **File**: jccolext-mmi.c
+- **Size**: 14,239 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

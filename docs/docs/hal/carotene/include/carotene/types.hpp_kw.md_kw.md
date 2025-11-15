@@ -1,0 +1,209 @@
+# Keyword Map for `docs/hal/carotene/include/carotene/types.hpp_kw.md`
+
+## File Path and Links
+
+- **Source File**: [docs/hal/carotene/include/carotene/types.hpp_kw.md](../../../../../docs/hal/carotene/include/carotene/types.hpp_kw.md)
+- **Documentation**: [docs/hal/carotene/include/carotene/types.hpp_kw.md_docs.md](types.hpp_kw.md_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **Agreement**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### B
+
+- **BORDER_MODE**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **BORDER_MODE_CONSTANT**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **BORDER_MODE_REFLECT**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **BORDER_MODE_REFLECT101**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **BORDER_MODE_REPLICATE**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **BORDER_MODE_UNDEFINED**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **BORDER_MODE_WRAP**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **BSD**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### C
+
+- **CAROTENE_NS**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **CAROTENE_TYPES_HPP**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **COLOR_SPACE**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **COLOR_SPACE_BT601**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **COLOR_SPACE_BT709**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **CONVERT_POLICY**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **CONVERT_POLICY_SATURATE**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **CONVERT_POLICY_WRAP**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Computer**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Copyright**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Corporation**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### D
+
+- **Documentation**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### E
+
+- **Extracted**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### F
+
+- **FLIP_BOTH_MODE**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **FLIP_HORIZONTAL_MODE**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **FLIP_MODE**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **FLIP_VERTICAL_MODE**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **File**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **For**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### K
+
+- **KeypointStore**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Keyword**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Keywords**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### L
+
+- **Library**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **License**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Links**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### M
+
+- **Map**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Margin**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### N
+
+- **NVIDIA**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Neither**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### O
+
+- **Open**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### P
+
+- **Path**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### R
+
+- **Redistribution**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Redistributions**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### S
+
+- **Size2D**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Source**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### T
+
+- **Technical**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **Third**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **This**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### U
+
+- **UINT32_MAX**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### V
+
+- **Vision**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### A
+
+- **above**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **advised**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **agree**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **all**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **and**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **any**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **are**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **arising**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### B
+
+- **binary**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **bottom**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### C
+
+- **carotene**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **const**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **contains**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### D
+
+- **docs**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### E
+
+- **enum**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### F
+
+- **file**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **following**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **for**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **found**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **from**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### H
+
+- **hal**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **hpp**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **hpp_docs**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **hpp_kw**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### I
+
+- **identifier**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **identifiers**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **include**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### K
+
+- **keywords**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### M
+
+- **method**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### N
+
+- **namespace**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### S
+
+- **struct**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### T
+
+- **technical**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **term**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **terms**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **the**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **typedef**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+- **types**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+### V
+
+- **virtual**: Technical term or identifier found in [types.hpp_kw.md](types.hpp_kw.md_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 87
+- **File**: types.hpp_kw.md
+- **Size**: 19,911 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

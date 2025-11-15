@@ -1,0 +1,242 @@
+# Keyword Map for `3rdparty/libjpeg-turbo/simd/x86_64/jdcolor-avx2.asm`
+
+## File Path and Links
+
+- **Source File**: [3rdparty/libjpeg-turbo/simd/x86_64/jdcolor-avx2.asm](../../../../3rdparty/libjpeg-turbo/simd/x86_64/jdcolor-avx2.asm)
+- **Documentation**: [3rdparty/libjpeg-turbo/simd/x86_64/jdcolor-avx2.asm_docs.md](jdcolor-avx2.asm_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **ALIGNZ**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **AVX2**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **Assembler**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### B
+
+- **BITS**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **Based**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### C
+
+- **Cendio**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **Commander**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **Copyright**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **Corporation**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### E
+
+- **EXTN**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_BGRX_BLUE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_BGRX_GREEN**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_BGRX_PIXELSIZE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_BGRX_RED**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_BGR_BLUE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_BGR_GREEN**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_BGR_PIXELSIZE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_BGR_RED**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_RGBX_BLUE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_RGBX_GREEN**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_RGBX_PIXELSIZE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_RGBX_RED**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_RGB_BLUE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_RGB_GREEN**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_RGB_PIXELSIZE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_RGB_RED**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_XBGR_BLUE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_XBGR_GREEN**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_XBGR_PIXELSIZE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_XBGR_RED**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_XRGB_BLUE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_XRGB_GREEN**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_XRGB_PIXELSIZE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **EXT_XRGB_RED**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### F
+
+- **FIX**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **F_0_228**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **F_0_285**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **F_0_344**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **F_0_402**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **F_0_714**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **F_1_402**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **F_1_772**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **For**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### G
+
+- **GLOBAL_DATA**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### I
+
+- **IJG**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **Intel**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### J
+
+- **JPEG**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### M
+
+- **MIYASAKA**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **Masaru**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### N
+
+- **NASM**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **Netwide**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### O
+
+- **Ossman**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### P
+
+- **PD_ONEHALF**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **PW_F0402**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **PW_MF0228**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **PW_MF0344_F0285**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **PW_ONE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **Pierre**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### R
+
+- **RGB_BLUE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **RGB_GREEN**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **RGB_PIXELSIZE**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **RGB_RED**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### S
+
+- **SCALEBITS**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **SECTION**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **SEG_CONST**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **SEG_TEXT**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **SIMD**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### T
+
+- **This**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### Y
+
+- **Yasm**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### A
+
+- **and**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **asm**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **assembled**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **avx2**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### B
+
+- **bit**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### C
+
+- **cendio**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **colorspace**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **conditions**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **conversion**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **copyright**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### D
+
+- **define**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **distribution**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### E
+
+- **equ**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **extension**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### F
+
+- **file**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **for**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### I
+
+- **inc**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **include**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### J
+
+- **jconst_ycc_rgb_convert_avx2**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **jdcolext**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **jdcolor**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **jsimd_ycc_extbgr_convert_avx2**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **jsimd_ycc_extbgrx_convert_avx2**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **jsimd_ycc_extrgb_convert_avx2**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **jsimd_ycc_extrgbx_convert_avx2**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **jsimd_ycc_extxbgr_convert_avx2**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **jsimd_ycc_extxrgb_convert_avx2**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **jsimd_ycc_rgb_convert_avx2**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **jsimdext**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### L
+
+- **libjpeg**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **library**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### N
+
+- **notice**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### O
+
+- **ossman**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### R
+
+- **rdparty**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### S
+
+- **see**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **should**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **simd**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### T
+
+- **the**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **times**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **turbo**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### U
+
+- **undef**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **use**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### W
+
+- **with**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+### X
+
+- **x86**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+- **x86_64**: Technical term or identifier found in [jdcolor-avx2.asm](jdcolor-avx2.asm_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 114
+- **File**: jdcolor-avx2.asm
+- **Size**: 3,341 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

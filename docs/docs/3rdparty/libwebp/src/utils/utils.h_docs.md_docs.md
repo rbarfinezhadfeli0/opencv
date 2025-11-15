@@ -1,0 +1,357 @@
+# Documentation for `docs/3rdparty/libwebp/src/utils/utils.h_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/libwebp/src/utils/utils.h_docs.md`
+- **File Name**: `utils.h_docs.md`
+- **File Size**: 10,644 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/libwebp/src/utils/utils.h_docs.md](../../../../../docs/3rdparty/libwebp/src/utils/utils.h_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/libwebp/src/utils` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `3rdparty/libwebp/src/utils/utils.h`
+
+## File Metadata
+
+- **Full Path**: `3rdparty/libwebp/src/utils/utils.h`
+- **File Name**: `utils.h`
+- **File Size**: 7,152 bytes
+- **File Type**: .h
+- **Link to Source**: [3rdparty/libwebp/src/utils/utils.h](../../../../3rdparty/libwebp/src/utils/utils.h)
+
+## Purpose and Role
+
+This file is located in the `3rdparty/libwebp/src/utils` directory and serves as part of the OpenCV library infrastructure.
+
+## Original Source Code
+
+The following is the complete source code of this file:
+
+```
+// Copyright 2012 Google Inc. All Rights Reserved.
+//
+// Use of this source code is governed by a BSD-style license
+// that can be found in the COPYING file in the root of the source
+// tree. An additional intellectual property rights grant can be found
+// in the file PATENTS. All contributing project authors may
+// be found in the AUTHORS file in the root of the source tree.
+// -----------------------------------------------------------------------------
+//
+// Misc. common utility functions
+//
+// Authors: Skal (pascal.massimino@gmail.com)
+//          Urvang (urvang@google.com)
+
+#ifndef WEBP_UTILS_UTILS_H_
+#define WEBP_UTILS_UTILS_H_
+
+#ifdef HAVE_CONFIG_H
+#include "src/webp/config.h"
+#endif
+
+#include <assert.h>
+
+#include "src/webp/types.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+//------------------------------------------------------------------------------
+// Memory allocation
+
+// This is the maximum memory amount that libwebp will ever try to allocate.
+#ifndef WEBP_MAX_ALLOCABLE_MEMORY
+#if SIZE_MAX > (1ULL << 34)
+#define WEBP_MAX_ALLOCABLE_MEMORY (1ULL << 34)
+#else
+// For 32-bit targets keep this below INT_MAX to avoid valgrind warnings.
+#define WEBP_MAX_ALLOCABLE_MEMORY ((1ULL << 31) - (1 << 16))
+#endif
+#endif  // WEBP_MAX_ALLOCABLE_MEMORY
+
+static WEBP_INLINE int CheckSizeOverflow(uint64_t size) {
+  return size == (size_t)size;
+}
+
+// size-checking safe malloc/calloc: verify that the requested size is not too
+// large, or return NULL. You don't need to call these for constructs like
+// malloc(sizeof(foo)), but only if there's picture-dependent size involved
+// somewhere (like: malloc(num_pixels * sizeof(*something))). That's why this
+// safe malloc() borrows the signature from calloc(), pointing at the dangerous
+// underlying multiply involved.
+WEBP_EXTERN void* WebPSafeMalloc(uint64_t nmemb, size_t size);
+// Note that WebPSafeCalloc() expects the second argument type to be 'size_t'
+// in order to favor the "calloc(num_foo, sizeof(foo))" pattern.
+WEBP_EXTERN void* WebPSafeCalloc(uint64_t nmemb, size_t size);
+
+// Companion deallocation function to the above allocations.
+WEBP_EXTERN void WebPSafeFree(void* const ptr);
+
+//------------------------------------------------------------------------------
+// Alignment
+
+#define WEBP_ALIGN_CST 31
+#define WEBP_ALIGN(PTR) (((uintptr_t)(PTR) + WEBP_ALIGN_CST) & \
+                         ~(uintptr_t)WEBP_ALIGN_CST)
+
+#include <string.h>
+// memcpy() is the safe way of moving potentially unaligned 32b memory.
+static WEBP_INLINE uint32_t WebPMemToUint32(const uint8_t* const ptr) {
+  uint32_t A;
+  memcpy(&A, ptr, sizeof(A));
+  return A;
+}
+
+static WEBP_INLINE int32_t WebPMemToInt32(const uint8_t* const ptr) {
+  return (int32_t)WebPMemToUint32(ptr);
+}
+
+static WEBP_INLINE void WebPUint32ToMem(uint8_t* const ptr, uint32_t val) {
+  memcpy(ptr, &val, sizeof(val));
+}
+
+static WEBP_INLINE void WebPInt32ToMem(uint8_t* const ptr, int val) {
+  WebPUint32ToMem(ptr, (uint32_t)val);
+}
+
+//------------------------------------------------------------------------------
+// Reading/writing data.
+
+// Read 16, 24 or 32 bits stored in little-endian order.
+static WEBP_INLINE int GetLE16(const uint8_t* const data) {
+  return (int)(data[0] << 0) | (data[1] << 8);
+}
+
+static WEBP_INLINE int GetLE24(const uint8_t* const data) {
+  return GetLE16(data) | (data[2] << 16);
+}
+
+static WEBP_INLINE uint32_t GetLE32(const uint8_t* const data) {
+  return GetLE16(data) | ((uint32_t)GetLE16(data + 2) << 16);
+}
+
+// Store 16, 24 or 32 bits in little-endian order.
+static WEBP_INLINE void PutLE16(uint8_t* const data, int val) {
+  assert(val < (1 << 16));
+  data[0] = (val >> 0) & 0xff;
+  data[1] = (val >> 8) & 0xff;
+}
+
+static WEBP_INLINE void PutLE24(uint8_t* const data, int val) {
+  assert(val < (1 << 24));
+  PutLE16(data, val & 0xffff);
+  data[2] = (val >> 16) & 0xff;
+}
+
+static WEBP_INLINE void PutLE32(uint8_t* const data, uint32_t val) {
+  PutLE16(data, (int)(val & 0xffff));
+  PutLE16(data + 2, (int)(val >> 16));
+}
+
+// use GNU builtins where available.
+#if defined(__GNUC__) && \
+    ((__GNUC__ == 3 && __GNUC_MINOR__ >= 4) || __GNUC__ >= 4)
+// Returns (int)floor(log2(n)). n must be > 0.
+static WEBP_INLINE int BitsLog2Floor(uint32_t n) {
+  return 31 ^ __builtin_clz(n);
+}
+// counts the number of trailing zero
+static WEBP_INLINE int BitsCtz(uint32_t n) { return __builtin_ctz(n); }
+#elif defined(_MSC_VER) && _MSC_VER > 1310 && \
+      (defined(_M_X64) || defined(_M_IX86))
+#include <intrin.h>
+#pragma intrinsic(_BitScanReverse)
+#pragma intrinsic(_BitScanForward)
+
+static WEBP_INLINE int BitsLog2Floor(uint32_t n) {
+  unsigned long first_set_bit;  // NOLINT (runtime/int)
+  _BitScanReverse(&first_set_bit, n);
+  return first_set_bit;
+}
+static WEBP_INLINE int BitsCtz(uint32_t n) {
+  unsigned long first_set_bit;  // NOLINT (runtime/int)
+  _BitScanForward(&first_set_bit, n);
+  return first_set_bit;
+}
+#else   // default: use the (slow) C-version.
+#define WEBP_HAVE_SLOW_CLZ_CTZ   // signal that the Clz/Ctz function are slow
+// Returns 31 ^ clz(n) = log2(n). This is the default C-implementation, either
+// based on table or not. Can be used as fallback if clz() is not available.
+#define WEBP_NEED_LOG_TABLE_8BIT
+extern const uint8_t WebPLogTable8bit[256];
+static WEBP_INLINE int WebPLog2FloorC(uint32_t n) {
+  int log_value = 0;
+  while (n >= 256) {
+    log_value += 8;
+    n >>= 8;
+  }
+  return log_value + WebPLogTable8bit[n];
+}
+
+static WEBP_INLINE int BitsLog2Floor(uint32_t n) { return WebPLog2FloorC(n); }
+
+static WEBP_INLINE int BitsCtz(uint32_t n) {
+  int i;
+  for (i = 0; i < 32; ++i, n >>= 1) {
+    if (n & 1) return i;
+  }
+  return 32;
+}
+
+#endif
+
+//------------------------------------------------------------------------------
+// Pixel copying.
+
+struct WebPPicture;
+
+// Copy width x height pixels from 'src' to 'dst' honoring the strides.
+WEBP_EXTERN void WebPCopyPlane(const uint8_t* src, int src_stride,
+                               uint8_t* dst, int dst_stride,
+                               int width, int height);
+
+// Copy ARGB pixels from 'src' to 'dst' honoring strides. 'src' and 'dst' are
+// assumed to be already allocated and using ARGB data.
+WEBP_EXTERN void WebPCopyPixels(const struct WebPPicture* const src,
+                                struct WebPPicture* const dst);
+
+//------------------------------------------------------------------------------
+// Unique colors.
+
+// Returns count of unique colors in 'pic', assuming pic->use_argb is true.
+// If the unique color count is more than MAX_PALETTE_SIZE, returns
+// MAX_PALETTE_SIZE+1.
+// If 'palette' is not NULL and number of unique colors is less than or equal to
+// MAX_PALETTE_SIZE, also outputs the actual unique colors into 'palette'.
+// Note: 'palette' is assumed to be an array already allocated with at least
+// MAX_PALETTE_SIZE elements.
+// TODO(vrabaud) remove whenever we can break the ABI.
+WEBP_EXTERN int WebPGetColorPalette(const struct WebPPicture* const pic,
+                                    uint32_t* const palette);
+
+//------------------------------------------------------------------------------
+
+#ifdef __cplusplus
+}    // extern "C"
+#endif
+
+#endif  // WEBP_UTILS_UTILS_H_
+```
+
+## High-Level Overview
+
+This is a C++ header file that declares interfaces, classes, and function prototypes.
+
+**Key Characteristics:**
+- Defines public APIs and interfaces
+- Contains class declarations and templates
+- May include inline function implementations
+- Provides documentation through comments
+- Uses header guards or #pragma once
+
+
+## Detailed Walkthrough
+
+This section provides an in-depth examination of the code structure, logic, and implementation details.
+
+### Classes and Structures
+
+- **WebPPicture**: A class/struct defined in this file
+
+### Functions and Methods
+
+- **WEBP_UTILS_UTILS_H_()**: A function/method defined in this file
+- **WEBP_MAX_ALLOCABLE_MEMORY()**: A function/method defined in this file
+- **to()**: A function/method defined in this file
+- **HAVE_CONFIG_H()**: A function/method defined in this file
+- **__cplusplus()**: A function/method defined in this file
+- **are()**: A function/method defined in this file
+
+
+## Design and Architecture
+
+This file is part of the larger OpenCV architecture. It contributes to the overall functionality by providing specific implementations and interfaces.
+
+### Dependencies
+
+**C++ Includes:**
+- `src/webp/config.h`
+- `intrin.h`
+- `string.h`
+- `assert.h`
+- `src/webp/types.h`
+
+**Python Imports:**
+- `calloc`
+
+
+### Architectural Role
+
+This file operates within the OpenCV module system, interfacing with other components through well-defined APIs and data structures.
+
+## Performance and Complexity
+
+### Computational Complexity
+
+The algorithms and data structures in this file have various complexity characteristics depending on the operations performed.
+
+### Memory Considerations
+
+Memory usage patterns depend on the specific functionality implemented, including stack allocations, heap allocations, and resource management strategies.
+
+### Performance Optimization
+
+OpenCV employs various optimization techniques including:
+- SIMD vectorization where applicable
+- Multi-threading support
+- Hardware acceleration (CUDA, OpenCL, etc.)
+- Efficient memory access patterns
+
+## Security and Safety Considerations
+
+### Potential Vulnerabilities
+
+Code that processes external data should be carefully reviewed for:
+- Buffer overflow vulnerabilities
+- Integer overflow/underflow
+- Input validation issues
+- Resource exhaustion attacks
+
+### Safety Measures
+
+OpenCV includes various safety mechanisms:
+- Bounds checking in debug builds
+- Exception handling
+- Resource management (RAII in C++)
+- Input sanitization
+
+## Testing and Usage
+
+### How to Use This File
+
+This file is typically used as part of the larger OpenCV library and is not intended to be used in isolation.
+
+### Testing Approach
+
+Testing should cover:
+- Unit tests for individual functions
+- Integration tests for component interactions
+- Performance benchmarks
+- Edge case validation
+
+## Related Files
+
+This file is related to other files in the same module and may interact with files in other modules.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

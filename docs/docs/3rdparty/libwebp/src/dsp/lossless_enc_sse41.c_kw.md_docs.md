@@ -1,0 +1,311 @@
+# Documentation for `docs/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c_kw.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c_kw.md`
+- **File Name**: `lossless_enc_sse41.c_kw.md`
+- **File Size**: 17,243 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c_kw.md](../../../../../docs/3rdparty/libwebp/src/dsp/lossless_enc_sse41.c_kw.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/libwebp/src/dsp` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Keyword Map for `3rdparty/libwebp/src/dsp/lossless_enc_sse41.c`
+
+## File Path and Links
+
+- **Source File**: [3rdparty/libwebp/src/dsp/lossless_enc_sse41.c](../../../../3rdparty/libwebp/src/dsp/lossless_enc_sse41.c)
+- **Documentation**: [3rdparty/libwebp/src/dsp/lossless_enc_sse41.c_docs.md](lossless_enc_sse41.c_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **AUTHORS**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **All**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **Author**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### B
+
+- **BSD**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### C
+
+- **COPYING**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **CST_5b**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **CollectColorBlueTransforms_SSE41**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **CollectColorRedTransforms_SSE41**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **Color**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **Copyright**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **Cost**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### E
+
+- **Entry**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **ExtraCostCombined_SSE41**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **ExtraCost_SSE41**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### F
+
+- **For**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### G
+
+- **Google**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **Green**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### H
+
+- **HorizontalSum_SSE41**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### I
+
+- **Inc**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### M
+
+- **MK_CST_16**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### P
+
+- **PATENTS**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### R
+
+- **Reserved**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **Rights**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### S
+
+- **SSE4**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **Skal**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **Subtract**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **SubtractGreenFromBlueAndRed_SSE41**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### T
+
+- **Transform**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### U
+
+- **Use**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### V
+
+- **VP8LCollectColorBlueTransforms**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **VP8LCollectColorBlueTransforms_C**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **VP8LCollectColorRedTransforms**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **VP8LCollectColorRedTransforms_C**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **VP8LEncDspInitSSE41**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **VP8LExtraCost**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **VP8LExtraCostCombined**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **VP8LSubtractGreenFromBlueAndRed**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **VP8LSubtractGreenFromBlueAndRed_C**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### W
+
+- **WEBP_DSP_INIT_STUB**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **WEBP_INLINE**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **WEBP_TSAN_IGNORE_FUNCTION**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **WEBP_USE_SSE41**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### _
+
+- **__m128i**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_add_epi16**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_add_epi32**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_and_si128**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_cvtsi128_si32**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_extract_epi8**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_hadd_epi32**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_loadu_si128**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_madd_epi16**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_mulhi_epi16**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_mullo_epi32**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_set1_epi32**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_set_epi32**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_set_epi8**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_setr_epi8**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_shuffle_epi8**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_srli_epi32**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_srli_si128**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_storeu_si128**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_sub_epi16**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **_mm_sub_epi8**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### A
+
+- **additional**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **and**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **argb**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **argb_data**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **assert**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **authors**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### C
+
+- **can**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **code**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **com**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **const**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **constants**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **contributing**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **cost**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### D
+
+- **define**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **defined**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **dsp**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### E
+
+- **else**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **encoder**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **extended**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **extern**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### F
+
+- **fallthrough**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **file**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **finish**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **for**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **found**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### G
+
+- **gmail**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **governed**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **grant**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **green_to_blue**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **green_to_red**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### H
+
+- **histo**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### I
+
+- **in_0g0g**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **include**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **int**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **int16_t**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **intellectual**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### K
+
+- **kCstShuffle**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### L
+
+- **left_over**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **length**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **libwebp**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **license**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **lossless**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **lossless_enc_sse41**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### M
+
+- **mask_g**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **massimino**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **may**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **methods**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **mul**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **mult**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **multiplying**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### N
+
+- **num_pixels**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### O
+
+- **off**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **operations**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **out**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### P
+
+- **pascal**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **perm**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **plain**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **point**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **pre**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **project**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **property**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### R
+
+- **rdparty**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **red_to_blue**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **return**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **rights**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **root**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### S
+
+- **shifted**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **sign**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **smmintrin**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **source**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **src**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **static**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **stride**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **style**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### T
+
+- **that**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **the**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **this**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **tile_height**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **tile_width**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **tree**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### U
+
+- **uint16_t**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **uint32_t**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **undef**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### V
+
+- **variant**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+- **void**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+### W
+
+- **with**: Technical term or identifier found in [lossless_enc_sse41.c](lossless_enc_sse41.c_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 149
+- **File**: lossless_enc_sse41.c
+- **Size**: 7,787 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

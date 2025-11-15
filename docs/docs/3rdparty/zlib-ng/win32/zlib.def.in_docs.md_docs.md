@@ -1,0 +1,110 @@
+# Documentation for `docs/3rdparty/zlib-ng/win32/zlib.def.in_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/zlib-ng/win32/zlib.def.in_docs.md`
+- **File Name**: `zlib.def.in_docs.md`
+- **File Size**: 2,867 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/zlib-ng/win32/zlib.def.in_docs.md](../../../../docs/3rdparty/zlib-ng/win32/zlib.def.in_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/zlib-ng/win32` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `3rdparty/zlib-ng/win32/zlib.def.in`
+
+## File Metadata
+
+- **Full Path**: `3rdparty/zlib-ng/win32/zlib.def.in`
+- **File Name**: `zlib.def.in`
+- **File Size**: 2,298 bytes
+- **File Type**: .in
+- **Link to Source**: [3rdparty/zlib-ng/win32/zlib.def.in](../../../3rdparty/zlib-ng/win32/zlib.def.in)
+
+## Purpose and Role
+
+This file is located in the `3rdparty/zlib-ng/win32` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+; zlib data compression library
+EXPORTS
+; basic functions
+    @ZLIB_SYMBOL_PREFIX@zlibVersion
+    @ZLIB_SYMBOL_PREFIX@deflate
+    @ZLIB_SYMBOL_PREFIX@deflateEnd
+    @ZLIB_SYMBOL_PREFIX@inflate
+    @ZLIB_SYMBOL_PREFIX@inflateEnd
+; advanced functions
+    @ZLIB_SYMBOL_PREFIX@deflateSetDictionary
+    @ZLIB_SYMBOL_PREFIX@deflateGetDictionary
+    @ZLIB_SYMBOL_PREFIX@deflateCopy
+    @ZLIB_SYMBOL_PREFIX@deflateReset
+    @ZLIB_SYMBOL_PREFIX@deflateParams
+    @ZLIB_SYMBOL_PREFIX@deflateTune
+    @ZLIB_SYMBOL_PREFIX@deflateBound
+    @ZLIB_SYMBOL_PREFIX@deflatePending
+    @ZLIB_SYMBOL_PREFIX@deflatePrime
+    @ZLIB_SYMBOL_PREFIX@deflateSetHeader
+    @ZLIB_SYMBOL_PREFIX@inflateSetDictionary
+    @ZLIB_SYMBOL_PREFIX@inflateGetDictionary
+    @ZLIB_SYMBOL_PREFIX@inflateSync
+    @ZLIB_SYMBOL_PREFIX@inflateCopy
+    @ZLIB_SYMBOL_PREFIX@inflateReset
+    @ZLIB_SYMBOL_PREFIX@inflateReset2
+    @ZLIB_SYMBOL_PREFIX@inflatePrime
+    @ZLIB_SYMBOL_PREFIX@inflateMark
+    @ZLIB_SYMBOL_PREFIX@inflateGetHeader
+    @ZLIB_SYMBOL_PREFIX@inflateBack
+    @ZLIB_SYMBOL_PREFIX@inflateBackEnd
+    @ZLIB_SYMBOL_PREFIX@zlibCompileFlags
+; utility functions
+    @ZLIB_SYMBOL_PREFIX@compress
+    @ZLIB_SYMBOL_PREFIX@compress2
+    @ZLIB_SYMBOL_PREFIX@compressBound
+    @ZLIB_SYMBOL_PREFIX@uncompress
+    @ZLIB_SYMBOL_PREFIX@uncompress2
+; large file functions
+    @ZLIB_SYMBOL_PREFIX@adler32_combine64
+    @ZLIB_SYMBOL_PREFIX@crc32_combine64
+    @ZLIB_SYMBOL_PREFIX@crc32_combine_gen64
+; checksum functions
+    @ZLIB_SYMBOL_PREFIX@adler32
+    @ZLIB_SYMBOL_PREFIX@adler32_z
+    @ZLIB_SYMBOL_PREFIX@crc32
+    @ZLIB_SYMBOL_PREFIX@crc32_z
+    @ZLIB_SYMBOL_PREFIX@adler32_combine
+    @ZLIB_SYMBOL_PREFIX@crc32_combine
+    @ZLIB_SYMBOL_PREFIX@crc32_combine_gen
+    @ZLIB_SYMBOL_PREFIX@crc32_combine_op
+; various hacks, don't look :)
+    @ZLIB_SYMBOL_PREFIX@deflateInit_
+    @ZLIB_SYMBOL_PREFIX@deflateInit2_
+    @ZLIB_SYMBOL_PREFIX@inflateInit_
+    @ZLIB_SYMBOL_PREFIX@inflateInit2_
+    @ZLIB_SYMBOL_PREFIX@inflateBackInit_
+    @ZLIB_SYMBOL_PREFIX@zError
+    @ZLIB_SYMBOL_PREFIX@inflateSyncPoint
+    @ZLIB_SYMBOL_PREFIX@get_crc_table
+    @ZLIB_SYMBOL_PREFIX@inflateUndermine
+    @ZLIB_SYMBOL_PREFIX@inflateValidate
+    @ZLIB_SYMBOL_PREFIX@inflateCodesUsed
+    @ZLIB_SYMBOL_PREFIX@inflateResetKeep
+    @ZLIB_SYMBOL_PREFIX@deflateResetKeep
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

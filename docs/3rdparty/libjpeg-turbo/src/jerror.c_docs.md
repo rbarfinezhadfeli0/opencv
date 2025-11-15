@@ -1,0 +1,365 @@
+# Documentation for `3rdparty/libjpeg-turbo/src/jerror.c`
+
+## File Metadata
+
+- **Full Path**: `3rdparty/libjpeg-turbo/src/jerror.c`
+- **File Name**: `jerror.c`
+- **File Size**: 7,566 bytes
+- **File Type**: .c
+- **Link to Source**: [3rdparty/libjpeg-turbo/src/jerror.c](../../../3rdparty/libjpeg-turbo/src/jerror.c)
+
+## Purpose and Role
+
+This file is located in the `3rdparty/libjpeg-turbo/src` directory and serves as part of the OpenCV library infrastructure.
+
+## Original Source Code
+
+The following is the complete source code of this file:
+
+```
+/*
+ * jerror.c
+ *
+ * This file was part of the Independent JPEG Group's software:
+ * Copyright (C) 1991-1998, Thomas G. Lane.
+ * libjpeg-turbo Modifications:
+ * Copyright (C) 2022, 2024, D. R. Commander.
+ * For conditions of distribution and use, see the accompanying README.ijg
+ * file.
+ *
+ * This file contains simple error-reporting and trace-message routines.
+ * These are suitable for Unix-like systems and others where writing to
+ * stderr is the right thing to do.  Many applications will want to replace
+ * some or all of these routines.
+ *
+ * If you define USE_WINDOWS_MESSAGEBOX in jconfig.h or in the makefile,
+ * you get a Windows-specific hack to display error messages in a dialog box.
+ * It ain't much, but it beats dropping error messages into the bit bucket,
+ * which is what happens to output to stderr under most Windows C compilers.
+ *
+ * These routines are used by both the compression and decompression code.
+ */
+
+/* this is not a core library module, so it doesn't define JPEG_INTERNALS */
+#include "jinclude.h"
+#include "jpeglib.h"
+#include "jversion.h"
+#include "jerror.h"
+
+#ifdef USE_WINDOWS_MESSAGEBOX
+#include <windows.h>
+#endif
+
+#ifndef EXIT_FAILURE            /* define exit() codes if not provided */
+#define EXIT_FAILURE  1
+#endif
+
+
+/*
+ * Create the message string table.
+ * We do this from the master message list in jerror.h by re-reading
+ * jerror.h with a suitable definition for macro JMESSAGE.
+ */
+
+#define JMESSAGE(code, string)  string,
+
+static const char * const jpeg_std_message_table[] = {
+#include "jerror.h"
+  NULL
+};
+
+
+/*
+ * Error exit handler: must not return to caller.
+ *
+ * Applications may override this if they want to get control back after
+ * an error.  Typically one would longjmp somewhere instead of exiting.
+ * The setjmp buffer can be made a private field within an expanded error
+ * handler object.  Note that the info needed to generate an error message
+ * is stored in the error object, so you can generate the message now or
+ * later, at your convenience.
+ * You should make sure that the JPEG object is cleaned up (with jpeg_abort
+ * or jpeg_destroy) at some point.
+ */
+
+METHODDEF(void)
+error_exit(j_common_ptr cinfo)
+{
+  /* Always display the message */
+  (*cinfo->err->output_message) (cinfo);
+
+  /* Let the memory manager delete any temp files before we die */
+  jpeg_destroy(cinfo);
+
+  exit(EXIT_FAILURE);
+}
+
+
+/*
+ * Actual output of an error or trace message.
+ * Applications may override this method to send JPEG messages somewhere
+ * other than stderr.
+ *
+ * On Windows, printing to stderr is generally completely useless,
+ * so we provide optional code to produce an error-dialog popup.
+ * Most Windows applications will still prefer to override this routine,
+ * but if they don't, it'll do something at least marginally useful.
+ *
+ * NOTE: to use the library in an environment that doesn't support the
+ * C stdio library, you may have to delete the call to fprintf() entirely,
+ * not just not use this routine.
+ */
+
+METHODDEF(void)
+output_message(j_common_ptr cinfo)
+{
+  char buffer[JMSG_LENGTH_MAX];
+
+  /* Create the message */
+  (*cinfo->err->format_message) (cinfo, buffer);
+
+#ifdef USE_WINDOWS_MESSAGEBOX
+  /* Display it in a message dialog box */
+  MessageBox(GetActiveWindow(), buffer, "JPEG Library Error",
+             MB_OK | MB_ICONERROR);
+#else
+  /* Send it to stderr, adding a newline */
+  fprintf(stderr, "%s\n", buffer);
+#endif
+}
+
+
+/*
+ * Decide whether to emit a trace or warning message.
+ * msg_level is one of:
+ *   -1: recoverable corrupt-data warning, may want to abort.
+ *    0: important advisory messages (always display to user).
+ *    1: first level of tracing detail.
+ *    2,3,...: successively more detailed tracing messages.
+ * An application might override this method if it wanted to abort on warnings
+ * or change the policy about which messages to display.
+ */
+
+METHODDEF(void)
+emit_message(j_common_ptr cinfo, int msg_level)
+{
+  struct jpeg_error_mgr *err = cinfo->err;
+
+  if (msg_level < 0) {
+    /* It's a warning message.  Since corrupt files may generate many warnings,
+     * the policy implemented here is to show only the first warning,
+     * unless trace_level >= 3.
+     */
+    if (err->num_warnings == 0 || err->trace_level >= 3)
+      (*err->output_message) (cinfo);
+    /* Always count warnings in num_warnings. */
+    err->num_warnings++;
+  } else {
+    /* It's a trace message.  Show it if trace_level >= msg_level. */
+    if (err->trace_level >= msg_level)
+      (*err->output_message) (cinfo);
+  }
+}
+
+
+/*
+ * Format a message string for the most recent JPEG error or message.
+ * The message is stored into buffer, which should be at least JMSG_LENGTH_MAX
+ * characters.  Note that no '\n' character is added to the string.
+ * Few applications should need to override this method.
+ */
+
+METHODDEF(void)
+format_message(j_common_ptr cinfo, char *buffer)
+{
+  struct jpeg_error_mgr *err = cinfo->err;
+  int msg_code = err->msg_code;
+  const char *msgtext = NULL;
+  const char *msgptr;
+  char ch;
+  boolean isstring;
+
+  /* Look up message string in proper table */
+  if (msg_code > 0 && msg_code <= err->last_jpeg_message) {
+    msgtext = err->jpeg_message_table[msg_code];
+  } else if (err->addon_message_table != NULL &&
+             msg_code >= err->first_addon_message &&
+             msg_code <= err->last_addon_message) {
+    msgtext = err->addon_message_table[msg_code - err->first_addon_message];
+  }
+
+  /* Defend against bogus message number */
+  if (msgtext == NULL) {
+    err->msg_parm.i[0] = msg_code;
+    msgtext = err->jpeg_message_table[0];
+  }
+
+  /* Check for string parameter, as indicated by %s in the message text */
+  isstring = FALSE;
+  msgptr = msgtext;
+  while ((ch = *msgptr++) != '\0') {
+    if (ch == '%') {
+      if (*msgptr == 's') isstring = TRUE;
+      break;
+    }
+  }
+
+  /* Format the message into the passed buffer */
+  if (isstring)
+    SNPRINTF(buffer, JMSG_LENGTH_MAX, msgtext, err->msg_parm.s);
+  else
+    SNPRINTF(buffer, JMSG_LENGTH_MAX, msgtext,
+             err->msg_parm.i[0], err->msg_parm.i[1],
+             err->msg_parm.i[2], err->msg_parm.i[3],
+             err->msg_parm.i[4], err->msg_parm.i[5],
+             err->msg_parm.i[6], err->msg_parm.i[7]);
+}
+
+
+/*
+ * Reset error state variables at start of a new image.
+ * This is called during compression startup to reset trace/error
+ * processing to default state, without losing any application-specific
+ * method pointers.  An application might possibly want to override
+ * this method if it has additional error processing state.
+ */
+
+METHODDEF(void)
+reset_error_mgr(j_common_ptr cinfo)
+{
+  cinfo->err->num_warnings = 0;
+  /* trace_level is not reset since it is an application-supplied parameter */
+  cinfo->err->msg_code = 0;     /* may be useful as a flag for "no error" */
+}
+
+
+/*
+ * Fill in the standard error-handling methods in a jpeg_error_mgr object.
+ * Typical call is:
+ *      struct jpeg_compress_struct cinfo;
+ *      struct jpeg_error_mgr err;
+ *
+ *      cinfo.err = jpeg_std_error(&err);
+ * after which the application may override some of the methods.
+ */
+
+GLOBAL(struct jpeg_error_mgr *)
+jpeg_std_error(struct jpeg_error_mgr *err)
+{
+  memset(err, 0, sizeof(struct jpeg_error_mgr));
+
+  err->error_exit = error_exit;
+  err->emit_message = emit_message;
+  err->output_message = output_message;
+  err->format_message = format_message;
+  err->reset_error_mgr = reset_error_mgr;
+
+  /* Initialize message table pointers */
+  err->jpeg_message_table = jpeg_std_message_table;
+  err->last_jpeg_message = (int)JMSG_LASTMSGCODE - 1;
+
+  return err;
+}
+```
+
+## High-Level Overview
+
+This is a C++ implementation file containing the core logic and algorithms for OpenCV functionality.
+
+**Key Characteristics:**
+- Implements algorithms and data processing routines
+- May contain performance-critical code
+- Uses C++ features like templates, classes, and STL
+- Integrates with OpenCV's module system
+
+
+## Detailed Walkthrough
+
+This section provides an in-depth examination of the code structure, logic, and implementation details.
+
+### Classes and Structures
+
+- **jpeg_compress_struct**: A class/struct defined in this file
+- **jpeg_error_mgr**: A class/struct defined in this file
+
+### Functions and Methods
+
+- **USE_WINDOWS_MESSAGEBOX()**: A function/method defined in this file
+- **EXIT_FAILURE()**: A function/method defined in this file
+
+
+## Design and Architecture
+
+This file is part of the larger OpenCV architecture. It contributes to the overall functionality by providing specific implementations and interfaces.
+
+### Dependencies
+
+**C++ Includes:**
+- `jpeglib.h`
+- `jversion.h`
+- `jinclude.h`
+- `windows.h`
+- `jerror.h`
+
+**Python Imports:**
+- `the`
+
+
+### Architectural Role
+
+This file operates within the OpenCV module system, interfacing with other components through well-defined APIs and data structures.
+
+## Performance and Complexity
+
+### Computational Complexity
+
+The algorithms and data structures in this file have various complexity characteristics depending on the operations performed.
+
+### Memory Considerations
+
+Memory usage patterns depend on the specific functionality implemented, including stack allocations, heap allocations, and resource management strategies.
+
+### Performance Optimization
+
+OpenCV employs various optimization techniques including:
+- SIMD vectorization where applicable
+- Multi-threading support
+- Hardware acceleration (CUDA, OpenCL, etc.)
+- Efficient memory access patterns
+
+## Security and Safety Considerations
+
+### Potential Vulnerabilities
+
+Code that processes external data should be carefully reviewed for:
+- Buffer overflow vulnerabilities
+- Integer overflow/underflow
+- Input validation issues
+- Resource exhaustion attacks
+
+### Safety Measures
+
+OpenCV includes various safety mechanisms:
+- Bounds checking in debug builds
+- Exception handling
+- Resource management (RAII in C++)
+- Input sanitization
+
+## Testing and Usage
+
+### How to Use This File
+
+This file is typically used as part of the larger OpenCV library and is not intended to be used in isolation.
+
+### Testing Approach
+
+Testing should cover:
+- Unit tests for individual functions
+- Integration tests for component interactions
+- Performance benchmarks
+- Edge case validation
+
+## Related Files
+
+This file is related to other files in the same module and may interact with files in other modules.
+

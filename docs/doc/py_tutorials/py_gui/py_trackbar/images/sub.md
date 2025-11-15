@@ -1,0 +1,71 @@
+# Subtree Keyword Index for `doc/py_tutorials/py_gui/py_trackbar/images/`
+
+## Scope
+
+This keyword index covers **all files** under `doc/py_tutorials/py_gui/py_trackbar/images/` recursively, including all subdirectories.
+
+**Statistics:**
+- **Total Files in Subtree**: 1
+- **Total Unique Keywords**: 7
+- **Direct Files**: 1
+- **Subfolders**: 0
+
+## Keywords A-Z
+
+The following keywords, identifiers, and technical terms appear in files within this subtree:
+
+
+### D
+
+**doc** - Found in 1 file:
+  - [doc/py_tutorials/py_gui/py_trackbar/images/trackbar_screenshot.jpg](trackbar_screenshot.jpg_docs.md) ([keywords](trackbar_screenshot.jpg_kw.md))
+
+
+### I
+
+**images** - Found in 1 file:
+  - [doc/py_tutorials/py_gui/py_trackbar/images/trackbar_screenshot.jpg](trackbar_screenshot.jpg_docs.md) ([keywords](trackbar_screenshot.jpg_kw.md))
+
+
+### J
+
+**jpg** - Found in 1 file:
+  - [doc/py_tutorials/py_gui/py_trackbar/images/trackbar_screenshot.jpg](trackbar_screenshot.jpg_docs.md) ([keywords](trackbar_screenshot.jpg_kw.md))
+
+
+### P
+
+**py_gui** - Found in 1 file:
+  - [doc/py_tutorials/py_gui/py_trackbar/images/trackbar_screenshot.jpg](trackbar_screenshot.jpg_docs.md) ([keywords](trackbar_screenshot.jpg_kw.md))
+
+**py_trackbar** - Found in 1 file:
+  - [doc/py_tutorials/py_gui/py_trackbar/images/trackbar_screenshot.jpg](trackbar_screenshot.jpg_docs.md) ([keywords](trackbar_screenshot.jpg_kw.md))
+
+**py_tutorials** - Found in 1 file:
+  - [doc/py_tutorials/py_gui/py_trackbar/images/trackbar_screenshot.jpg](trackbar_screenshot.jpg_docs.md) ([keywords](trackbar_screenshot.jpg_kw.md))
+
+
+### T
+
+**trackbar_screenshot** - Found in 1 file:
+  - [doc/py_tutorials/py_gui/py_trackbar/images/trackbar_screenshot.jpg](trackbar_screenshot.jpg_docs.md) ([keywords](trackbar_screenshot.jpg_kw.md))
+
+
+
+## Folder-Level Navigation
+
+### Keyword Distribution by Subfolder
+
+
+
+### Most Common Keywords
+
+The most frequently appearing keywords in this subtree:
+
+- **trackbar_screenshot**: 1 occurrences
+- **py_gui**: 1 occurrences
+- **py_trackbar**: 1 occurrences
+- **images**: 1 occurrences
+- **py_tutorials**: 1 occurrences
+- **doc**: 1 occurrences
+- **jpg**: 1 occurrences

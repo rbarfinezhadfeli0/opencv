@@ -1,0 +1,210 @@
+# Keyword Map for `samples/hal/README.md`
+
+## File Path and Links
+
+- **Source File**: [samples/hal/README.md](../../samples/hal/README.md)
+- **Documentation**: [samples/hal/README.md_docs.md](README.md_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **After**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### B
+
+- **Build**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### C
+
+- **Create**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **Custom**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### D
+
+- **DOpenCV_HAL_DIR**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### H
+
+- **HAL**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### O
+
+- **OpenCV**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### R
+
+- **README**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **Run**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### S
+
+- **Samples**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### T
+
+- **The**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### _
+
+- **__c_hal__**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **__slow_hal__**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### A
+
+- **all**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **and**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **are**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **array**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### B
+
+- **bin**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **bitwise_and**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **build**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### C
+
+- **can**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **cmake**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **code**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **contains**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **created**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **custom**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### D
+
+- **default**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **demonstrate**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **demonstration**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **dir**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### E
+
+- **element**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **error**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **example**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **executable**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### F
+
+- **find**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **folder**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **for**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **function**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **functionality**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **functions**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### G
+
+- **gtest_filter**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### H
+
+- **hal**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **handling**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **home**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### I
+
+- **implementations**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **intended**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### L
+
+- **library**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **libslow_hal**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **logical**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### M
+
+- **make**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **making**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **mechanism**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### N
+
+- **naive**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **not**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### O
+
+- **only**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **opencv**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **opencv_perf_core**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **operations**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### P
+
+- **pure**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### R
+
+- **replacement**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **returning**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **run**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### S
+
+- **samples**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **slow_hal**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **slower**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **some**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **src**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **static**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **switching**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### T
+
+- **test**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **tests**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **than**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **that**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **the**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **them**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **this**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **twice**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### U
+
+- **used**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### V
+
+- **verify**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### W
+
+- **will**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **wise**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **with**: Technical term or identifier found in [README.md](README.md_docs.md)
+- **works**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### X
+
+- **xor**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+### Y
+
+- **you**: Technical term or identifier found in [README.md](README.md_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 85
+- **File**: README.md
+- **Size**: 1,326 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

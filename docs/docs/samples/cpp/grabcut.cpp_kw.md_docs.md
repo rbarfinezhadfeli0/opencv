@@ -1,0 +1,332 @@
+# Documentation for `docs/samples/cpp/grabcut.cpp_kw.md`
+
+## File Metadata
+
+- **Full Path**: `docs/samples/cpp/grabcut.cpp_kw.md`
+- **File Name**: `grabcut.cpp_kw.md`
+- **File Size**: 15,790 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/samples/cpp/grabcut.cpp_kw.md](../../../docs/samples/cpp/grabcut.cpp_kw.md)
+
+## Purpose and Role
+
+This file is located in the `docs/samples/cpp` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Keyword Map for `samples/cpp/grabcut.cpp`
+
+## File Path and Links
+
+- **Source File**: [samples/cpp/grabcut.cpp](../../samples/cpp/grabcut.cpp)
+- **Documentation**: [samples/cpp/grabcut.cpp_docs.md](grabcut.cpp_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### B
+
+- **BGD_KEY**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **BLUE**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### C
+
+- **CV_8UC1**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **CV_8UC3**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **CV_Assert**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **CV_Error**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **Call**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### E
+
+- **EVENT_FLAG_CTRLKEY**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **EVENT_FLAG_SHIFTKEY**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **Error**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### F
+
+- **FGD_KEY**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### G
+
+- **GCApplication**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **GC_BGD**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **GC_FGD**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **GC_PR_BGD**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **GC_PR_FGD**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **GREEN**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **GrabCut**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### I
+
+- **IN_PROCESS**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### L
+
+- **LIGHTBLUE**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### M
+
+- **Mat**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### N
+
+- **NOT_SET**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### P
+
+- **PINK**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **Point**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### R
+
+- **RED**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **Rect**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### S
+
+- **SET**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **Scalar**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **StsBadArg**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### T
+
+- **TODO**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### _
+
+- **_image**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **_winName**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### A
+
+- **add**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **addWeighted**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **all**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **and**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **area**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **args**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **argv**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **around**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **attempt**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### B
+
+- **bad**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **begin**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **bgdModel**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **bgdPxls**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **binMask**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **black**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **bool**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **bpxls**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **button**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **bvalue**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### C
+
+- **char**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **circle**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **class**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **clear**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **cols**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **comMask**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **const**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **const_iterator**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **copyTo**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **cout**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **cpp**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **create**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### D
+
+- **demonstrates**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### E
+
+- **else**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **empty**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **end**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **endl**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **enum**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **event**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### F
+
+- **false**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **fgdModel**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **fgdPxls**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **flags**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **for**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **fpxls**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **fvalue**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### G
+
+- **getBinMask**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **getIterCount**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **grabcut**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### H
+
+- **has**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **height**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **help**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **highgui**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **hpp**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### I
+
+- **image**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **image_name**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **imgcodecs**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **imgproc**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **imshow**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **include**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **incorrect**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **int**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **iostream**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **isInitialized**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **isPr**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **iterCount**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **iteration**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### K
+
+- **keys**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### L
+
+- **lblsState**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **left**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### M
+
+- **mask**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **max**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **min**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **mouse**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **mouseClick**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### N
+
+- **nHot**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **nSelect**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **nThis**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **namespace**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **next**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **nextIter**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **not**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### O
+
+- **object**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **opencv2**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **original**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **out**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### P
+
+- **param**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **pixels**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **prBgdPxls**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **prFgdPxls**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **prLblsState**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **private**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **program**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **public**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **push_back**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### Q
+
+- **quit**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### R
+
+- **radius**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **rect**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **rectState**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **rectangle**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **rectangular**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **region**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **res**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **reset**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **restore**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **return**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **right**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **rows**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### S
+
+- **samples**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **segment**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **segmentation**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **select**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **set**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **setImageAndWinName**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **setLblsInMask**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **setRectInMask**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **setTo**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **showImage**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **size**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **static**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **std**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **string**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### T
+
+- **tCTRL**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **tESC**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **tSHIFT**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **the**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **then**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **thickness**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **tleft**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **type**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### U
+
+- **uchar**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **using**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### V
+
+- **vector**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **void**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### W
+
+- **want**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **width**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **will**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+- **winName**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+### Y
+
+- **you**: Technical term or identifier found in [grabcut.cpp](grabcut.cpp_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 170
+- **File**: grabcut.cpp
+- **Size**: 9,801 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

@@ -1,0 +1,151 @@
+# Keyword Map for `modules/gapi/src/backends/onnx/coreml_ep.hpp`
+
+## File Path and Links
+
+- **Source File**: [modules/gapi/src/backends/onnx/coreml_ep.hpp](../../../../../modules/gapi/src/backends/onnx/coreml_ep.hpp)
+- **Documentation**: [modules/gapi/src/backends/onnx/coreml_ep.hpp_docs.md](coreml_ep.hpp_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### C
+
+- **Copyright**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **CoreML**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **Corporation**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### H
+
+- **HAVE_ONNX**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### I
+
+- **Intel**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### L
+
+- **LICENSE**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### O
+
+- **OPENCV_GAPI_COREML_EP_HPP**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **OpenCV**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **Ort**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### S
+
+- **SessionOptions**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### T
+
+- **This**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### A
+
+- **addCoreMLExecutionProvider**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **and**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### B
+
+- **backends**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### C
+
+- **const**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **coreml_ep**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### D
+
+- **define**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **directory**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **distribution**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### E
+
+- **endif**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### F
+
+- **file**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **found**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### G
+
+- **gapi**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **gimpl**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### H
+
+- **hpp**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **html**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **http**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### I
+
+- **ifdef**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **ifndef**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **include**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **infer**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### L
+
+- **level**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **license**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### M
+
+- **modules**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### N
+
+- **namespace**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### O
+
+- **onnx**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **onnxruntime_cxx_api**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **opencv**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **opencv2**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **org**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### P
+
+- **part**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **project**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### S
+
+- **session_options**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **src**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **subject**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### T
+
+- **terms**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **the**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **this**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+- **top**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+### V
+
+- **void**: Technical term or identifier found in [coreml_ep.hpp](coreml_ep.hpp_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 50
+- **File**: coreml_ep.hpp
+- **Size**: 659 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

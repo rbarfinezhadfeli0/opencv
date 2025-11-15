@@ -1,0 +1,357 @@
+# Subtree Keyword Index for `samples/java/tutorial_code/core/AddingImages/`
+
+## Scope
+
+This keyword index covers **all files** under `samples/java/tutorial_code/core/AddingImages/` recursively, including all subdirectories.
+
+**Statistics:**
+- **Total Files in Subtree**: 1
+- **Total Unique Keywords**: 68
+- **Direct Files**: 1
+- **Subfolders**: 0
+
+## Keywords A-Z
+
+The following keywords, identifiers, and technical terms appear in files within this subtree:
+
+
+### A
+
+**AddingImages** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**AddingImagesRun** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**addWeighted** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**alpha** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**args** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### B
+
+**Blend** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**Blender** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**beta** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**blend_images** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### C
+
+**Core** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**class** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**core** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### D
+
+**display** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**double** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**dst** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### E
+
+**Enter** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**Error** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**empty** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**exit** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### H
+
+**HighGui** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**highgui** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### I
+
+**Imgcodecs** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**images** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**imgcodecs** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**import** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**imread** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**imshow** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**input** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### J
+
+**java** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**jpg** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### L
+
+**Linear** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**LinuxLogo** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**Load** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**Locale** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**library** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**load** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**loadLibrary** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**loading** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### M
+
+**Mat** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**main** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### N
+
+**NATIVE_LIBRARY_NAME** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**native** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**new** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**nextDouble** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### O
+
+**opencv** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**org** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**out** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### P
+
+**println** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**public** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### R
+
+**return** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**run** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### S
+
+**Scanner** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**Simple** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**String** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**System** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**samples** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**scan** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**src1** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**src2** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**static** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### T
+
+**the** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**true** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**tutorial_code** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### U
+
+**useLocale** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**util** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### V
+
+**void** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+### W
+
+**WindowsLogo** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+**waitKey** - Found in 1 file:
+  - [samples/java/tutorial_code/core/AddingImages/AddingImages.java](AddingImages.java_docs.md) ([keywords](AddingImages.java_kw.md))
+
+
+
+## Folder-Level Navigation
+
+### Keyword Distribution by Subfolder
+
+
+
+### Most Common Keywords
+
+The most frequently appearing keywords in this subtree:
+
+- **Linear**: 1 occurrences
+- **beta**: 1 occurrences
+- **class**: 1 occurrences
+- **highgui**: 1 occurrences
+- **empty**: 1 occurrences
+- **Load**: 1 occurrences
+- **System**: 1 occurrences
+- **Blender**: 1 occurrences
+- **scan**: 1 occurrences
+- **Core**: 1 occurrences
+- **images**: 1 occurrences
+- **nextDouble**: 1 occurrences
+- **public**: 1 occurrences
+- **out**: 1 occurrences
+- **jpg**: 1 occurrences
+- **loading**: 1 occurrences
+- **imread**: 1 occurrences
+- **Mat**: 1 occurrences
+- **src2**: 1 occurrences
+- **imshow**: 1 occurrences
+- **NATIVE_LIBRARY_NAME**: 1 occurrences
+- **String**: 1 occurrences
+- **void**: 1 occurrences
+- **src1**: 1 occurrences
+- **load**: 1 occurrences
+- **display**: 1 occurrences
+- **core**: 1 occurrences
+- **waitKey**: 1 occurrences
+- **run**: 1 occurrences
+- **import**: 1 occurrences
+- **double**: 1 occurrences
+- **dst**: 1 occurrences
+- **input**: 1 occurrences
+- **AddingImagesRun**: 1 occurrences
+- **addWeighted**: 1 occurrences
+- **the**: 1 occurrences
+- **samples**: 1 occurrences
+- **exit**: 1 occurrences
+- **java**: 1 occurrences
+- **org**: 1 occurrences
+- **native**: 1 occurrences
+- **HighGui**: 1 occurrences
+- **new**: 1 occurrences
+- **Imgcodecs**: 1 occurrences
+- **Locale**: 1 occurrences
+- **Enter**: 1 occurrences
+- **library**: 1 occurrences
+- **alpha**: 1 occurrences
+- **util**: 1 occurrences
+- **tutorial_code**: 1 occurrences
+- **return**: 1 occurrences
+- **Scanner**: 1 occurrences
+- **imgcodecs**: 1 occurrences
+- **true**: 1 occurrences
+- **blend_images**: 1 occurrences
+- **Simple**: 1 occurrences
+- **Error**: 1 occurrences
+- **Blend**: 1 occurrences
+- **AddingImages**: 1 occurrences
+- **LinuxLogo**: 1 occurrences
+- **loadLibrary**: 1 occurrences
+- **main**: 1 occurrences
+- **useLocale**: 1 occurrences
+- **args**: 1 occurrences
+- **opencv**: 1 occurrences
+- **println**: 1 occurrences
+- **static**: 1 occurrences
+- **WindowsLogo**: 1 occurrences

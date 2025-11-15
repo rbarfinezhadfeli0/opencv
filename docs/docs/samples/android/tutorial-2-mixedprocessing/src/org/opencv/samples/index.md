@@ -1,0 +1,33 @@
+# Index of `docs/samples/android/tutorial-2-mixedprocessing/src/org/opencv/samples/`
+
+## Overview
+
+This folder is part of the OpenCV repository structure and contains and other repository content.
+
+**Location**: `docs/samples/android/tutorial-2-mixedprocessing/src/org/opencv/samples`
+
+
+## Subfolders (1)
+
+This folder contains the following subdirectories:
+
+- **[tutorial2/](tutorial2/index.md)**: Subfolder containing 2 files
+
+## Files
+
+This folder contains no files (only subdirectories).
+
+
+## Navigation Hints
+
+### How to Explore This Folder
+
+4. **Browse subdirectories** for more specific functionality
+
+
+### Documentation Files
+
+- **[doc.md](doc.md)**: Detailed narrative documentation for this folder
+- **[sub.md](sub.md)**: Keyword index for this folder and all subfolders
+- **index.md** (this file): Quick reference and file listing
+

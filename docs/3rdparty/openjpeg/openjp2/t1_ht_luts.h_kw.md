@@ -1,0 +1,59 @@
+# Keyword Map for `3rdparty/openjpeg/openjp2/t1_ht_luts.h`
+
+## File Path and Links
+
+- **Source File**: [3rdparty/openjpeg/openjp2/t1_ht_luts.h](../../../3rdparty/openjpeg/openjp2/t1_ht_luts.h)
+- **Documentation**: [3rdparty/openjpeg/openjp2/t1_ht_luts.h_docs.md](t1_ht_luts.h_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### O
+
+- **OPJ_UINT16**: Technical term or identifier found in [t1_ht_luts.h](t1_ht_luts.h_docs.md)
+
+### C
+
+- **const**: Technical term or identifier found in [t1_ht_luts.h](t1_ht_luts.h_docs.md)
+
+### O
+
+- **openjp2**: Technical term or identifier found in [t1_ht_luts.h](t1_ht_luts.h_docs.md)
+- **openjpeg**: Technical term or identifier found in [t1_ht_luts.h](t1_ht_luts.h_docs.md)
+
+### R
+
+- **rdparty**: Technical term or identifier found in [t1_ht_luts.h](t1_ht_luts.h_docs.md)
+
+### S
+
+- **static**: Technical term or identifier found in [t1_ht_luts.h](t1_ht_luts.h_docs.md)
+
+### T
+
+- **t1_ht_luts**: Technical term or identifier found in [t1_ht_luts.h](t1_ht_luts.h_docs.md)
+
+### V
+
+- **vlc_tbl0**: Technical term or identifier found in [t1_ht_luts.h](t1_ht_luts.h_docs.md)
+- **vlc_tbl1**: Technical term or identifier found in [t1_ht_luts.h](t1_ht_luts.h_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 9
+- **File**: t1_ht_luts.h
+- **Size**: 17,498 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

@@ -1,0 +1,594 @@
+# Documentation for `hal/carotene/src/add.cpp`
+
+## File Metadata
+
+- **Full Path**: `hal/carotene/src/add.cpp`
+- **File Name**: `add.cpp`
+- **File Size**: 15,496 bytes
+- **File Type**: .cpp
+- **Link to Source**: [hal/carotene/src/add.cpp](../../../hal/carotene/src/add.cpp)
+
+## Purpose and Role
+
+This file is located in the `hal/carotene/src` directory and serves as part of the OpenCV library infrastructure.
+
+## Original Source Code
+
+The following is the complete source code of this file:
+
+```
+/*
+ * By downloading, copying, installing or using the software you agree to this license.
+ * If you do not agree to this license, do not download, install,
+ * copy or use the software.
+ *
+ *
+ *                           License Agreement
+ *                For Open Source Computer Vision Library
+ *                        (3-clause BSD License)
+ *
+ * Copyright (C) 2014, NVIDIA Corporation, all rights reserved.
+ * Third party copyrights are property of their respective owners.
+ *
+ * Redistribution and use in source and binary forms, with or without modification,
+ * are permitted provided that the following conditions are met:
+ *
+ *   * Redistributions of source code must retain the above copyright notice,
+ *     this list of conditions and the following disclaimer.
+ *
+ *   * Redistributions in binary form must reproduce the above copyright notice,
+ *     this list of conditions and the following disclaimer in the documentation
+ *     and/or other materials provided with the distribution.
+ *
+ *   * Neither the names of the copyright holders nor the names of the contributors
+ *     may be used to endorse or promote products derived from this software
+ *     without specific prior written permission.
+ *
+ * This software is provided by the copyright holders and contributors "as is" and
+ * any express or implied warranties, including, but not limited to, the implied
+ * warranties of merchantability and fitness for a particular purpose are disclaimed.
+ * In no event shall copyright holders or contributors be liable for any direct,
+ * indirect, incidental, special, exemplary, or consequential damages
+ * (including, but not limited to, procurement of substitute goods or services;
+ * loss of use, data, or profits; or business interruption) however caused
+ * and on any theory of liability, whether in contract, strict liability,
+ * or tort (including negligence or otherwise) arising in any way out of
+ * the use of this software, even if advised of the possibility of such damage.
+ */
+
+#include "common.hpp"
+#include "vtransform.hpp"
+
+namespace CAROTENE_NS {
+
+#ifdef CAROTENE_NEON
+
+namespace {
+
+template <typename T, typename WT>
+struct AddWrap
+{
+    typedef T type;
+
+    void operator() (const typename internal::VecTraits<T>::vec128 & v_src0,
+                     const typename internal::VecTraits<T>::vec128 & v_src1,
+                     typename internal::VecTraits<T>::vec128 & v_dst) const
+    {
+        v_dst = internal::vaddq(v_src0, v_src1);
+    }
+
+    void operator() (const typename internal::VecTraits<T>::vec64 & v_src0,
+                     const typename internal::VecTraits<T>::vec64 & v_src1,
+                     typename internal::VecTraits<T>::vec64 & v_dst) const
+    {
+        v_dst = internal::vadd(v_src0, v_src1);
+    }
+
+    void operator() (const T * src0, const T * src1, T * dst) const
+    {
+        dst[0] = (T)((WT)src0[0] + (WT)src1[0]);
+    }
+};
+
+template <typename T, typename WT>
+struct AddSaturate
+{
+    typedef T type;
+
+    void operator() (const typename internal::VecTraits<T>::vec128 & v_src0,
+                     const typename internal::VecTraits<T>::vec128 & v_src1,
+                     typename internal::VecTraits<T>::vec128 & v_dst) const
+    {
+        v_dst = internal::vqaddq(v_src0, v_src1);
+    }
+
+    void operator() (const typename internal::VecTraits<T>::vec64 & v_src0,
+                     const typename internal::VecTraits<T>::vec64 & v_src1,
+                     typename internal::VecTraits<T>::vec64 & v_dst) const
+    {
+        v_dst = internal::vqadd(v_src0, v_src1);
+    }
+
+    void operator() (const T * src0, const T * src1, T * dst) const
+    {
+        dst[0] = internal::saturate_cast<T>((WT)src0[0] + (WT)src1[0]);
+    }
+};
+
+} // namespace
+
+#endif
+
+void add(const Size2D &size,
+         const u8 * src0Base, ptrdiff_t src0Stride,
+         const u8 * src1Base, ptrdiff_t src1Stride,
+         u8 *dstBase, ptrdiff_t dstStride,
+         CONVERT_POLICY policy)
+{
+    internal::assertSupportedConfiguration();
+#ifdef CAROTENE_NEON
+    if (policy == CONVERT_POLICY_SATURATE)
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddSaturate<u8, u16>());
+    }
+    else
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddWrap<u8, u16>());
+    }
+#else
+    (void)size;
+    (void)src0Base;
+    (void)src0Stride;
+    (void)src1Base;
+    (void)src1Stride;
+    (void)dstBase;
+    (void)dstStride;
+    (void)policy;
+#endif
+}
+
+void add(const Size2D &size,
+         const s8 * src0Base, ptrdiff_t src0Stride,
+         const s8 * src1Base, ptrdiff_t src1Stride,
+         s8 *dstBase, ptrdiff_t dstStride,
+         CONVERT_POLICY policy)
+{
+    internal::assertSupportedConfiguration();
+#ifdef CAROTENE_NEON
+    if (policy == CONVERT_POLICY_SATURATE)
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddSaturate<s8, s16>());
+    }
+    else
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddWrap<s8, s16>());
+    }
+#else
+    (void)size;
+    (void)src0Base;
+    (void)src0Stride;
+    (void)src1Base;
+    (void)src1Stride;
+    (void)dstBase;
+    (void)dstStride;
+    (void)policy;
+#endif
+}
+
+void add(const Size2D &size,
+         const u8 * src0Base, ptrdiff_t src0Stride,
+         const u8 * src1Base, ptrdiff_t src1Stride,
+         s16 *dstBase, ptrdiff_t dstStride,
+         CONVERT_POLICY)
+{
+    internal::assertSupportedConfiguration();
+#ifdef CAROTENE_NEON
+    size_t roiw32 = size.width >= 31 ? size.width - 31 : 0;
+    size_t roiw8 = size.width >= 7 ? size.width - 7 : 0;
+
+    for (size_t i = 0; i < size.height; ++i)
+    {
+        const u8 * src0 = internal::getRowPtr(src0Base, src0Stride, i);
+        const u8 * src1 = internal::getRowPtr(src1Base, src1Stride, i);
+        u16 * dst = internal::getRowPtr((u16 *)dstBase, dstStride, i);
+        size_t j = 0;
+
+        for (; j < roiw32; j += 32)
+        {
+            internal::prefetch(src0 + j);
+            internal::prefetch(src1 + j);
+            uint8x16_t v_src00 = vld1q_u8(src0 + j), v_src01 = vld1q_u8(src0 + j + 16);
+            uint8x16_t v_src10 = vld1q_u8(src1 + j), v_src11 = vld1q_u8(src1 + j + 16);
+            vst1q_u16(dst + j, vaddl_u8(vget_low_u8(v_src00), vget_low_u8(v_src10)));
+            vst1q_u16(dst + j + 8, vaddl_u8(vget_high_u8(v_src00), vget_high_u8(v_src10)));
+            vst1q_u16(dst + j + 16, vaddl_u8(vget_low_u8(v_src01), vget_low_u8(v_src11)));
+            vst1q_u16(dst + j + 24, vaddl_u8(vget_high_u8(v_src01), vget_high_u8(v_src11)));
+        }
+        for (; j < roiw8; j += 8)
+        {
+            uint8x8_t v_src0 = vld1_u8(src0 + j);
+            uint8x8_t v_src1 = vld1_u8(src1 + j);
+            vst1q_u16(dst + j, vaddl_u8(v_src0, v_src1));
+        }
+
+        for (; j < size.width; j++)
+            dst[j] = (u16)src0[j] + (u16)src1[j];
+    }
+#else
+    (void)size;
+    (void)src0Base;
+    (void)src0Stride;
+    (void)src1Base;
+    (void)src1Stride;
+    (void)dstBase;
+    (void)dstStride;
+#endif
+}
+
+void add(const Size2D &size,
+         const u8 * src0Base, ptrdiff_t src0Stride,
+         const s16 * src1Base, ptrdiff_t src1Stride,
+         s16 *dstBase, ptrdiff_t dstStride,
+         CONVERT_POLICY policy)
+{
+    internal::assertSupportedConfiguration();
+#ifdef CAROTENE_NEON
+    size_t roiw16 = size.width >= 15 ? size.width - 15 : 0;
+    size_t roiw8 = size.width >= 7 ? size.width - 7 : 0;
+
+    for (size_t i = 0; i < size.height; ++i)
+    {
+        const u8 * src0 = internal::getRowPtr(src0Base, src0Stride, i);
+        const s16 * src1 = internal::getRowPtr(src1Base, src1Stride, i);
+        s16 * dst = internal::getRowPtr(dstBase, dstStride, i);
+        size_t j = 0;
+
+        if (policy == CONVERT_POLICY_SATURATE)
+        {
+            for (; j < roiw16; j += 16)
+            {
+                internal::prefetch(src0 + j);
+                internal::prefetch(src1 + j);
+                uint8x16_t v_src0 = vld1q_u8(src0 + j);
+                int16x8_t v_src00 = vreinterpretq_s16_u16(vmovl_u8(vget_low_u8(v_src0)));
+                int16x8_t v_src01 = vreinterpretq_s16_u16(vmovl_u8(vget_high_u8(v_src0)));
+                int16x8_t v_src10 = vld1q_s16(src1 + j), v_src11 = vld1q_s16(src1 + j + 8);
+                int16x8_t v_dst0 = vqaddq_s16(v_src00, v_src10);
+                int16x8_t v_dst1 = vqaddq_s16(v_src01, v_src11);
+                vst1q_s16(dst + j, v_dst0);
+                vst1q_s16(dst + j + 8, v_dst1);
+            }
+            for (; j < roiw8; j += 8)
+            {
+                int16x8_t v_src0 = vreinterpretq_s16_u16(vmovl_u8(vld1_u8(src0 + j)));
+                int16x8_t v_src1 = vld1q_s16(src1 + j);
+                int16x8_t v_dst = vqaddq_s16(v_src0, v_src1);
+                vst1q_s16(dst + j, v_dst);
+            }
+
+            for (; j < size.width; j++)
+                dst[j] = internal::saturate_cast<s16>((s32)src0[j] + (s32)src1[j]);
+        }
+        else
+        {
+            for (; j < roiw16; j += 16)
+            {
+                internal::prefetch(src0 + j);
+                internal::prefetch(src1 + j);
+                uint8x16_t v_src0 = vld1q_u8(src0 + j);
+                int16x8_t v_src00 = vreinterpretq_s16_u16(vmovl_u8(vget_low_u8(v_src0)));
+                int16x8_t v_src01 = vreinterpretq_s16_u16(vmovl_u8(vget_high_u8(v_src0)));
+                int16x8_t v_src10 = vld1q_s16(src1 + j), v_src11 = vld1q_s16(src1 + j + 8);
+                int16x8_t v_dst0 = vaddq_s16(v_src00, v_src10);
+                int16x8_t v_dst1 = vaddq_s16(v_src01, v_src11);
+                vst1q_s16(dst + j, v_dst0);
+                vst1q_s16(dst + j + 8, v_dst1);
+            }
+            for (; j < roiw8; j += 8)
+            {
+                int16x8_t v_src0 = vreinterpretq_s16_u16(vmovl_u8(vld1_u8(src0 + j)));
+                int16x8_t v_src1 = vld1q_s16(src1 + j);
+                int16x8_t v_dst = vaddq_s16(v_src0, v_src1);
+                vst1q_s16(dst + j, v_dst);
+            }
+
+            for (; j < size.width; j++)
+                dst[j] = (s16)((s32)src0[j] + (s32)src1[j]);
+        }
+    }
+#else
+    (void)size;
+    (void)src0Base;
+    (void)src0Stride;
+    (void)src1Base;
+    (void)src1Stride;
+    (void)dstBase;
+    (void)dstStride;
+    (void)policy;
+#endif
+}
+
+void add(const Size2D &size,
+         const s16 * src0Base, ptrdiff_t src0Stride,
+         const s16 * src1Base, ptrdiff_t src1Stride,
+         s16 *dstBase, ptrdiff_t dstStride,
+         CONVERT_POLICY policy)
+{
+    internal::assertSupportedConfiguration();
+#ifdef CAROTENE_NEON
+        if (policy == CONVERT_POLICY_SATURATE)
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddSaturate<s16, s32>());
+    }
+    else
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddWrap<s16, s32>());
+    }
+#else
+    (void)size;
+    (void)src0Base;
+    (void)src0Stride;
+    (void)src1Base;
+    (void)src1Stride;
+    (void)dstBase;
+    (void)dstStride;
+    (void)policy;
+#endif
+}
+
+void add(const Size2D &size,
+         const u16 * src0Base, ptrdiff_t src0Stride,
+         const u16 * src1Base, ptrdiff_t src1Stride,
+         u16 * dstBase, ptrdiff_t dstStride,
+         CONVERT_POLICY policy)
+{
+    internal::assertSupportedConfiguration();
+#ifdef CAROTENE_NEON
+        if (policy == CONVERT_POLICY_SATURATE)
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddSaturate<u16, u32>());
+    }
+    else
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddWrap<u16, u32>());
+    }
+#else
+    (void)size;
+    (void)src0Base;
+    (void)src0Stride;
+    (void)src1Base;
+    (void)src1Stride;
+    (void)dstBase;
+    (void)dstStride;
+    (void)policy;
+#endif
+}
+
+void add(const Size2D &size,
+         const s32 * src0Base, ptrdiff_t src0Stride,
+         const s32 * src1Base, ptrdiff_t src1Stride,
+         s32 *dstBase, ptrdiff_t dstStride,
+         CONVERT_POLICY policy)
+{
+    internal::assertSupportedConfiguration();
+#ifdef CAROTENE_NEON
+        if (policy == CONVERT_POLICY_SATURATE)
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddSaturate<s32, s64>());
+    }
+    else
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddWrap<s32, s64>());
+    }
+#else
+    (void)size;
+    (void)src0Base;
+    (void)src0Stride;
+    (void)src1Base;
+    (void)src1Stride;
+    (void)dstBase;
+    (void)dstStride;
+    (void)policy;
+#endif
+}
+
+void add(const Size2D &size,
+         const u32 * src0Base, ptrdiff_t src0Stride,
+         const u32 * src1Base, ptrdiff_t src1Stride,
+         u32 * dstBase, ptrdiff_t dstStride,
+         CONVERT_POLICY policy)
+{
+    internal::assertSupportedConfiguration();
+#ifdef CAROTENE_NEON
+        if (policy == CONVERT_POLICY_SATURATE)
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddSaturate<u32, u64>());
+    }
+    else
+    {
+        internal::vtransform(size,
+                             src0Base, src0Stride,
+                             src1Base, src1Stride,
+                             dstBase, dstStride,
+                             AddWrap<u32, u64>());
+    }
+#else
+    (void)size;
+    (void)src0Base;
+    (void)src0Stride;
+    (void)src1Base;
+    (void)src1Stride;
+    (void)dstBase;
+    (void)dstStride;
+    (void)policy;
+#endif
+}
+
+void add(const Size2D &size,
+         const f32 * src0Base, ptrdiff_t src0Stride,
+         const f32 * src1Base, ptrdiff_t src1Stride,
+         f32 * dstBase, ptrdiff_t dstStride)
+{
+    internal::assertSupportedConfiguration();
+#ifdef CAROTENE_NEON
+    internal::vtransform(size,
+                         src0Base, src0Stride,
+                         src1Base, src1Stride,
+                         dstBase, dstStride,
+                         AddWrap<f32, f32>());
+#else
+    (void)size;
+    (void)src0Base;
+    (void)src0Stride;
+    (void)src1Base;
+    (void)src1Stride;
+    (void)dstBase;
+    (void)dstStride;
+#endif
+}
+
+} // namespace CAROTENE_NS
+```
+
+## High-Level Overview
+
+This is a C++ implementation file containing the core logic and algorithms for OpenCV functionality.
+
+**Key Characteristics:**
+- Implements algorithms and data processing routines
+- May contain performance-critical code
+- Uses C++ features like templates, classes, and STL
+- Integrates with OpenCV's module system
+
+
+## Detailed Walkthrough
+
+This section provides an in-depth examination of the code structure, logic, and implementation details.
+
+### Classes and Structures
+
+- **AddSaturate**: A class/struct defined in this file
+- **AddWrap**: A class/struct defined in this file
+
+### Functions and Methods
+
+- **CAROTENE_NEON()**: A function/method defined in this file
+- **T()**: A function/method defined in this file
+
+
+## Design and Architecture
+
+This file is part of the larger OpenCV architecture. It contributes to the overall functionality by providing specific implementations and interfaces.
+
+### Dependencies
+
+**C++ Includes:**
+- `vtransform.hpp`
+- `common.hpp`
+
+**Python Imports:**
+- `this`
+
+
+### Architectural Role
+
+This file operates within the OpenCV module system, interfacing with other components through well-defined APIs and data structures.
+
+## Performance and Complexity
+
+### Computational Complexity
+
+The algorithms and data structures in this file have various complexity characteristics depending on the operations performed.
+
+### Memory Considerations
+
+Memory usage patterns depend on the specific functionality implemented, including stack allocations, heap allocations, and resource management strategies.
+
+### Performance Optimization
+
+OpenCV employs various optimization techniques including:
+- SIMD vectorization where applicable
+- Multi-threading support
+- Hardware acceleration (CUDA, OpenCL, etc.)
+- Efficient memory access patterns
+
+## Security and Safety Considerations
+
+### Potential Vulnerabilities
+
+Code that processes external data should be carefully reviewed for:
+- Buffer overflow vulnerabilities
+- Integer overflow/underflow
+- Input validation issues
+- Resource exhaustion attacks
+
+### Safety Measures
+
+OpenCV includes various safety mechanisms:
+- Bounds checking in debug builds
+- Exception handling
+- Resource management (RAII in C++)
+- Input sanitization
+
+## Testing and Usage
+
+### How to Use This File
+
+This file is typically used as part of the larger OpenCV library and is not intended to be used in isolation.
+
+### Testing Approach
+
+Testing should cover:
+- Unit tests for individual functions
+- Integration tests for component interactions
+- Performance benchmarks
+- Edge case validation
+
+## Related Files
+
+This file is related to other files in the same module and may interact with files in other modules.
+

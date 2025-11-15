@@ -1,0 +1,42 @@
+# Index of `doc/py_tutorials/py_imgproc/py_histograms/`
+
+## Overview
+
+This folder is part of the OpenCV repository structure and contains and other repository content.
+
+**Location**: `doc/py_tutorials/py_imgproc/py_histograms`
+
+
+## Subfolders (5)
+
+This folder contains the following subdirectories:
+
+- **[images/](images/index.md)**: Subfolder containing 4 files
+- **[py_2d_histogram/](py_2d_histogram/index.md)**: Subfolder containing 1 files
+- **[py_histogram_backprojection/](py_histogram_backprojection/index.md)**: Subfolder containing 1 files
+- **[py_histogram_begins/](py_histogram_begins/index.md)**: Subfolder containing 1 files
+- **[py_histogram_equalization/](py_histogram_equalization/index.md)**: Subfolder containing 1 files
+
+
+## Files (1)
+
+This folder contains the following files:
+
+| File Name | Type | Size | Documentation | Keywords |
+|-----------|------|------|---------------|----------|
+| [py_table_of_contents_histograms.markdown](../../../../../doc/py_tutorials/py_imgproc/py_histograms/py_table_of_contents_histograms.markdown) | MARKDOWN | 477B | [docs](py_table_of_contents_histograms.markdown_docs.md) | [keywords](py_table_of_contents_histograms.markdown_kw.md) |
+
+
+## Navigation Hints
+
+### How to Explore This Folder
+
+4. **Browse subdirectories** for more specific functionality
+
+
+### Documentation Files
+
+- **[doc.md](doc.md)**: Detailed narrative documentation for this folder
+- **[sub.md](sub.md)**: Keyword index for this folder and all subfolders
+- **index.md** (this file): Quick reference and file listing
+

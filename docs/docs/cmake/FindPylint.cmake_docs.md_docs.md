@@ -1,0 +1,92 @@
+# Documentation for `docs/cmake/FindPylint.cmake_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/cmake/FindPylint.cmake_docs.md`
+- **File Name**: `FindPylint.cmake_docs.md`
+- **File Size**: 1,909 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/cmake/FindPylint.cmake_docs.md](../../docs/cmake/FindPylint.cmake_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/cmake` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `cmake/FindPylint.cmake`
+
+## File Metadata
+
+- **Full Path**: `cmake/FindPylint.cmake`
+- **File Name**: `FindPylint.cmake`
+- **File Size**: 997 bytes
+- **File Type**: .cmake
+- **Link to Source**: [cmake/FindPylint.cmake](../cmake/FindPylint.cmake)
+
+## Purpose and Role
+
+This file is located in the `cmake` directory and serves as part of the OpenCV library infrastructure.
+
+## Configuration File Content
+
+```
+# - Find Pylint
+# Find the Pylint executable and extract the version number
+#
+# OUTPUT Variables
+#
+#   PYLINT_FOUND
+#       True if the pylint package was found
+#   PYLINT_EXECUTABLE
+#       The pylint executable location
+#   PYLINT_VERSION
+#       A string denoting the version of pylint that has been found
+
+find_host_program(PYLINT_EXECUTABLE pylint PATHS /usr/bin)
+
+if(PYLINT_EXECUTABLE AND NOT DEFINED PYLINT_VERSION)
+  execute_process(COMMAND ${PYLINT_EXECUTABLE} --version RESULT_VARIABLE _result OUTPUT_VARIABLE PYLINT_VERSION_RAW)
+  if(NOT _result EQUAL 0)
+    ocv_clear_vars(PYLINT_EXECUTABLE PYLINT_VERSION)
+  elseif(PYLINT_VERSION_RAW MATCHES "pylint([^,\n]*) ([0-9\\.]+[0-9])")
+    set(PYLINT_VERSION "${CMAKE_MATCH_2}")
+  else()
+    set(PYLINT_VERSION "unknown")
+  endif()
+endif()
+
+include(FindPackageHandleStandardArgs)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(Pylint
+    REQUIRED_VARS PYLINT_EXECUTABLE
+    VERSION_VAR PYLINT_VERSION
+)
+
+mark_as_advanced(PYLINT_EXECUTABLE PYLINT_VERSION)
+
+```
+
+## Purpose
+
+This configuration file is used to control build settings, dependencies, or runtime behavior of the OpenCV library.
+
+## Key Settings
+
+Configuration files in OpenCV typically control:
+- Build system configuration (CMake)
+- Compiler flags and options
+- Feature enablement/disablement
+- Path specifications
+- Version information
+- Dependency management
+
+## Usage
+
+This file is processed during the build configuration phase or at runtime to customize OpenCV behavior.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

@@ -1,0 +1,340 @@
+# Documentation for `docs/samples/python/video.py_kw.md`
+
+## File Metadata
+
+- **Full Path**: `docs/samples/python/video.py_kw.md`
+- **File Name**: `video.py_kw.md`
+- **File Size**: 15,361 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/samples/python/video.py_kw.md](../../../docs/samples/python/video.py_kw.md)
+
+## Purpose and Role
+
+This file is located in the `docs/samples/python` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Keyword Map for `samples/python/video.py`
+
+## File Path and Links
+
+- **Source File**: [samples/python/video.py](../../samples/python/video.py)
+- **Documentation**: [samples/python/video.py_docs.md](video.py_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **Also**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### B
+
+- **Book**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### C
+
+- **CV_8UC3**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **Chess**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **Cube**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### E
+
+- **ESC**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### K
+
+- **Keys**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### L
+
+- **LINE_AA**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### N
+
+- **None**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### P
+
+- **Python**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### S
+
+- **SPACE**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **Sample**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **Synth**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### T
+
+- **TestSceneRender**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **True**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### U
+
+- **Usage**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### V
+
+- **Video**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **VideoCapture**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **VideoSynthBase**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### W
+
+- **Win32**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### _
+
+- **__future__**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **__init__**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### A
+
+- **acquire**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **add**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **append**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **array**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### B
+
+- **back**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **backGr**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **bin**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **black_quads**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **book**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **box**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **buf**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### C
+
+- **camera**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **can**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **capture**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **case**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **center**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **chess**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **chunks**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **class**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **classes**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **color**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **common**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **compatibility**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **convenience**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **copy**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **cos**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **create_capture**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **creation**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **cube**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **current**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **cv2**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### D
+
+- **def**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **deformation**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **dict**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **directory**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **disk**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **dist_coef**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **draw_quads**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **drive**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **dst**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **dtype**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### E
+
+- **else**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **empty**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **env**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **error**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **example**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **examples**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **exit**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **eye_pos**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### F
+
+- **fallback**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **falling**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **fgr**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **file**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **filename**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **fillConvexPoly**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **findFile**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **float**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **float32**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **float64**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **for**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **frame**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **frame_size**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **frames**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **from**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **function**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### G
+
+- **generation**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **getNextFrame**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **graf1**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **grid_size**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### H
+
+- **handle**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **how**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### I
+
+- **img**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **img_quads**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **import**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **imread**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **int**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **int32**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **int8**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **integer**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **interface**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **isOpened**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### J
+
+- **jpg**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### L
+
+- **lena**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **letter**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **local**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **lookat**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### M
+
+- **map**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **mimicking**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **modules**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **movie**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **mtx2rvec**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### N
+
+- **name**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **ndindex**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **noise**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **not**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **number**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **numpy**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### O
+
+- **object**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **ofs**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **ones**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### P
+
+- **param_name**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **params**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **pass**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **path**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **pca_test1**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **phi**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **png**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **presets**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **print_function**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **procedural**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **projectPoints**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **provides**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **python**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### Q
+
+- **quads**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### R
+
+- **randn**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **read**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **render**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **reshape**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **resize**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **return**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **rvec**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### S
+
+- **sample**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **samples**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **save**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **sceneBg**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **see**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **self**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **shape**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **shift**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **shot**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **shotdir**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **shows**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **sin**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **size**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **source**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **source0**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **source1**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **sourceN**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **speed**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **split**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **str**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **strip**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **sub**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **super**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **synth**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### T
+
+- **target_pos**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **the**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **tst_scene_render**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **tvec**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### U
+
+- **uint8**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **used**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **usr**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### V
+
+- **value**: Technical term or identifier found in [video.py](video.py_docs.md)
+- **video**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### W
+
+- **white_quads**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+### Z
+
+- **zeros**: Technical term or identifier found in [video.py](video.py_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 178
+- **File**: video.py
+- **Size**: 7,044 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

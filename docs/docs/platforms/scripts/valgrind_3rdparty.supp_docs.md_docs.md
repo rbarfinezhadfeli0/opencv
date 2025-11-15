@@ -1,0 +1,276 @@
+# Documentation for `docs/platforms/scripts/valgrind_3rdparty.supp_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/platforms/scripts/valgrind_3rdparty.supp_docs.md`
+- **File Name**: `valgrind_3rdparty.supp_docs.md`
+- **File Size**: 3,520 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/platforms/scripts/valgrind_3rdparty.supp_docs.md](../../../docs/platforms/scripts/valgrind_3rdparty.supp_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/platforms/scripts` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `platforms/scripts/valgrind_3rdparty.supp`
+
+## File Metadata
+
+- **Full Path**: `platforms/scripts/valgrind_3rdparty.supp`
+- **File Name**: `valgrind_3rdparty.supp`
+- **File Size**: 2,922 bytes
+- **File Type**: .supp
+- **Link to Source**: [platforms/scripts/valgrind_3rdparty.supp](../../platforms/scripts/valgrind_3rdparty.supp)
+
+## Purpose and Role
+
+This file is located in the `platforms/scripts` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+{
+   IPP static init
+   Memcheck:Cond
+   fun:ippicvGetCpuFeatures
+   fun:ippicvStaticInit
+}
+
+{
+   TBB - allocate_via_handler_v3 issue
+   Memcheck:Leak
+   fun:malloc
+   fun:_ZN3tbb8internal23allocate_via_handler_v3Em
+}
+
+{
+   GTest
+   Memcheck:Cond
+   fun:_ZN7testing8internal11CmpHelperLEIddEENS_15AssertionResultEPKcS4_RKT_RKT0_
+}
+
+{
+   GTest-RegisterTests
+   Memcheck:Leak
+   ...
+   fun:RegisterTests
+   ...
+   fun:_ZN7testing14InitGoogleTestEPiPPc
+}
+
+{
+   OpenCL
+   Memcheck:Cond
+   ...
+   obj:**/libOpenCL.so*
+}
+
+{
+   OpenCL-Intel
+   Memcheck:Cond
+   ...
+   obj:**/libigdrcl.so
+}
+
+{
+   OpenCL-Intel
+   Memcheck:Leak
+   ...
+   obj:*/libigdrcl.so*
+}
+
+{
+   OpenCL
+   Memcheck:Param
+   ioctl(generic)
+   ...
+   fun:clGetPlatformIDs
+}
+
+{
+   OpenCL-Init
+   Memcheck:Leak
+   ...
+   fun:clGetPlatformIDs
+}
+
+{
+   GTK-css
+   Memcheck:Leak
+   ...
+   fun:gtk_css_provider*
+}
+
+{
+   gcrypt
+   Memcheck:Leak
+   ...
+   obj:*/libgcrypt*
+}
+
+{
+   p11-kit
+   Memcheck:Leak
+   fun:*alloc
+   obj:*/libp11-kit*
+}
+
+{
+   gobject
+   Memcheck:Leak
+   fun:*alloc
+   ...
+   obj:*/libgobject*
+}
+
+{
+   tasn
+   Memcheck:Leak
+   fun:*alloc
+   obj:*/libtasn*.so*
+}
+
+{
+   dl_init
+   Memcheck:Leak
+   ...
+   fun:_dl_init
+}
+
+{
+   dl_open
+   Memcheck:Leak
+   ...
+   fun:_dl_open
+}
+
+{
+   GDAL
+   Memcheck:Leak
+   fun:*alloc
+   ...
+   obj:/usr/lib/libgdal.so.1.17.1
+}
+
+{
+   FFMPEG-sws_scale
+   Memcheck:Addr16
+   ...
+   fun:sws_scale
+   ...
+   fun:cvWriteFrame_FFMPEG
+}
+
+{
+   GStreamer-orc_program_compile_full
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   ...
+   fun:orc_program_compile_full
+   ...
+   fun:clone
+}
+
+{
+   GStreamer-orc_program_new_from_static_bytecode
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   ...
+   fun:orc_program_new_from_static_bytecode
+   ...
+   fun:clone
+}
+
+{
+   GStreamer-matroska-other
+   Memcheck:Leak
+   ...
+   fun:gst*
+   obj:*gstmatroska*
+   ...
+   obj:*glib*
+   fun:start_thread
+   fun:clone
+}
+
+{
+   GStreamer-matroska-gst_riff_create_video_caps
+   Memcheck:Leak
+   ...
+   fun:gst_riff_create_video_caps
+   obj:*gstmatroska*
+   ...
+   fun:clone
+}
+
+
+{
+   GStreamer-tls
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+}
+
+{
+   GStreamer-registry
+   Memcheck:Leak
+   ...
+   fun:gst_update_registry
+}
+
+{
+   GStreamer-plugin_load
+   Memcheck:Leak
+   ...
+   fun:gst_plugin_load_by_name
+}
+
+{
+   GStreamer-separate-threads
+   Memcheck:Leak
+   ...
+   obj:*/libglib*
+   fun:start_thread
+   fun:clone
+}
+
+{
+   clone-unknown-leak
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:_Znwm
+   obj:*
+   obj:*
+   fun:start_thread
+   fun:clone
+}
+
+{
+   avcodec57-ffv1-16bit-ubuntu18
+   Memcheck:Cond
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libavcodec.so.57.107.100
+   fun:avcodec_default_execute
+   obj:/usr/lib/x86_64-linux-gnu/libavcodec.so.57.107.100
+   fun:avcodec_encode_video2
+   obj:/usr/lib/x86_64-linux-gnu/libavcodec.so.57.107.100
+   fun:avcodec_send_frame
+   ...
+}
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

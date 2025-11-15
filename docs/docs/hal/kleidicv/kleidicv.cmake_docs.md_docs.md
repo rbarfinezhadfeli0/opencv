@@ -1,0 +1,81 @@
+# Documentation for `docs/hal/kleidicv/kleidicv.cmake_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/hal/kleidicv/kleidicv.cmake_docs.md`
+- **File Name**: `kleidicv.cmake_docs.md`
+- **File Size**: 1,766 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/hal/kleidicv/kleidicv.cmake_docs.md](../../../docs/hal/kleidicv/kleidicv.cmake_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/hal/kleidicv` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `hal/kleidicv/kleidicv.cmake`
+
+## File Metadata
+
+- **Full Path**: `hal/kleidicv/kleidicv.cmake`
+- **File Name**: `kleidicv.cmake`
+- **File Size**: 826 bytes
+- **File Type**: .cmake
+- **Link to Source**: [hal/kleidicv/kleidicv.cmake](../../hal/kleidicv/kleidicv.cmake)
+
+## Purpose and Role
+
+This file is located in the `hal/kleidicv` directory and serves as part of the OpenCV library infrastructure.
+
+## Configuration File Content
+
+```
+function(download_kleidicv root_var)
+  set(${root_var} "" PARENT_SCOPE)
+
+  ocv_update(KLEIDICV_SRC_COMMIT "0.5.0")
+  ocv_update(KLEIDICV_SRC_HASH "ba5648f8df678548f337d19d8ac607d6")
+
+  set(THE_ROOT "${OpenCV_BINARY_DIR}/3rdparty/kleidicv")
+  ocv_download(FILENAME "kleidicv-${KLEIDICV_SRC_COMMIT}.tar.gz"
+                HASH ${KLEIDICV_SRC_HASH}
+                URL
+                  "${OPENCV_KLEIDICV_URL}"
+                  "$ENV{OPENCV_KLEIDICV_URL}"
+                  "https://gitlab.arm.com/kleidi/kleidicv/-/archive/${KLEIDICV_SRC_COMMIT}/"
+                DESTINATION_DIR ${THE_ROOT}
+                ID KLEIDICV
+                STATUS res
+                UNPACK RELATIVE_URL)
+  if(res)
+    set(${root_var} "${OpenCV_BINARY_DIR}/3rdparty/kleidicv/kleidicv-${KLEIDICV_SRC_COMMIT}" PARENT_SCOPE)
+  endif()
+endfunction()
+
+```
+
+## Purpose
+
+This configuration file is used to control build settings, dependencies, or runtime behavior of the OpenCV library.
+
+## Key Settings
+
+Configuration files in OpenCV typically control:
+- Build system configuration (CMake)
+- Compiler flags and options
+- Feature enablement/disablement
+- Path specifications
+- Version information
+- Dependency management
+
+## Usage
+
+This file is processed during the build configuration phase or at runtime to customize OpenCV behavior.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

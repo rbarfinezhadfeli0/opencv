@@ -1,0 +1,197 @@
+# Keyword Map for `samples/python/distrans.py`
+
+## File Path and Links
+
+- **Source File**: [samples/python/distrans.py](../../samples/python/distrans.py)
+- **Documentation**: [samples/python/distrans.py_docs.md](distrans.py_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### C
+
+- **Canny**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### D
+
+- **DIST_L2**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **Distance**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **Done**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### E
+
+- **ESC**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### F
+
+- **Failed**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **False**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### I
+
+- **IMREAD_GRAYSCALE**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### K
+
+- **Keys**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### N
+
+- **None**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### P
+
+- **Python**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### T
+
+- **True**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### U
+
+- **Usage**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### _
+
+- **__doc__**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **__future__**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **__main__**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **__name__**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### A
+
+- **argv**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### B
+
+- **bin**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **break**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### C
+
+- **common**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **compatibility**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **createTrackbar**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **cv2**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### D
+
+- **def**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **destroyAllWindows**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **dist**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **distance**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **distanceTransformWithLabels**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **distrans**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **dummy**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### E
+
+- **else**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **env**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **except**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **exit**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### F
+
+- **findFile**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **from**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **fruits**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### G
+
+- **getTrackbarPos**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **global**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### I
+
+- **image**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **img**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **import**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **imread**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **imshow**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **invalidate**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### J
+
+- **jet**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **jpg**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### L
+
+- **labels**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **load**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### M
+
+- **main**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **make_cmap**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **mark**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **mode**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### N
+
+- **namedWindow**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **need_update**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **not**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **numpy**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### O
+
+- **ord**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### P
+
+- **print**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **print_function**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **python**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### S
+
+- **sample**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **samples**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **showing**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **sys**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### T
+
+- **threshold**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **thrs**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **toggle**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **transform**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **try**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### U
+
+- **uint8**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **update**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **usr**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### V
+
+- **vis**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **voronoi**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+### W
+
+- **waitKey**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+- **while**: Technical term or identifier found in [distrans.py](distrans.py_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 78
+- **File**: distrans.py
+- **Size**: 1,621 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

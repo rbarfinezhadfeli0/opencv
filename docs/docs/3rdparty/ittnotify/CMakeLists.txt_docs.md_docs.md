@@ -1,0 +1,131 @@
+# Documentation for `docs/3rdparty/ittnotify/CMakeLists.txt_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/ittnotify/CMakeLists.txt_docs.md`
+- **File Name**: `CMakeLists.txt_docs.md`
+- **File Size**: 3,278 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/ittnotify/CMakeLists.txt_docs.md](../../../docs/3rdparty/ittnotify/CMakeLists.txt_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/ittnotify` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `3rdparty/ittnotify/CMakeLists.txt`
+
+## File Metadata
+
+- **Full Path**: `3rdparty/ittnotify/CMakeLists.txt`
+- **File Name**: `CMakeLists.txt`
+- **File Size**: 2,308 bytes
+- **File Type**: .txt
+- **Link to Source**: [3rdparty/ittnotify/CMakeLists.txt](../../3rdparty/ittnotify/CMakeLists.txt)
+
+## Purpose and Role
+
+This file is located in the `3rdparty/ittnotify` directory and serves as part of the OpenCV library infrastructure.
+
+## Configuration File Content
+
+```
+# ----------------------------------------------------------------------------
+#  CMake file for Intel ITT API. See root CMakeLists.txt
+#
+# ----------------------------------------------------------------------------
+
+if(NOT ITT_LIBRARY)
+  set(ITT_LIBRARY "ittnotify")
+endif()
+project(${ITT_LIBRARY} C)
+
+if(NOT WIN32)
+  include(CheckLibraryExists)
+  if(COMMAND CHECK_LIBRARY_EXISTS)
+    CHECK_LIBRARY_EXISTS(dl dlerror "" HAVE_DL_LIBRARY)
+  endif()
+endif()
+
+ocv_warnings_disable(CMAKE_C_FLAGS -Wimplicit-fallthrough)
+
+ocv_include_directories("${CMAKE_CURRENT_SOURCE_DIR}/include")
+set(ITT_INCLUDE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/include")
+
+set(ITT_PUBLIC_HDRS
+    include/ittnotify.h
+    include/jitprofiling.h
+    include/libittnotify.h
+)
+set(ITT_PRIVATE_HDRS
+    src/ittnotify/disable_warnings.h
+    src/ittnotify/ittnotify_config.h
+    src/ittnotify/ittnotify_static.h
+    src/ittnotify/ittnotify_types.h
+)
+set(ITT_SRCS
+    src/ittnotify/ittnotify_static.c
+    src/ittnotify/jitprofiling.c
+)
+
+add_library(${ITT_LIBRARY} STATIC ${OPENCV_3RDPARTY_EXCLUDE_FROM_ALL} ${ITT_SRCS} ${ITT_PUBLIC_HDRS} ${ITT_PRIVATE_HDRS})
+
+file(STRINGS "src/ittnotify/ittnotify_config.h" API_VERSION_NUM REGEX "#define\[ \t]+API_VERSION_NUM[ \t]+([0-9\.]+)")
+if(API_VERSION_NUM MATCHES "#define\[ \t]+API_VERSION_NUM[ \t]+([0-9\.]*)")
+  set(ITTNOTIFY_VERSION "${CMAKE_MATCH_1}"  CACHE INTERNAL "" FORCE)
+endif()
+
+if(NOT WIN32)
+  if(HAVE_DL_LIBRARY)
+    target_link_libraries(${ITT_LIBRARY} dl)
+  endif()
+endif()
+
+set_target_properties(${ITT_LIBRARY} PROPERTIES
+        OUTPUT_NAME ${ITT_LIBRARY}
+        DEBUG_POSTFIX "${OPENCV_DEBUG_POSTFIX}"
+        COMPILE_PDB_NAME ${ITT_LIBRARY}
+        COMPILE_PDB_NAME_DEBUG "${ITT_LIBRARY}${OPENCV_DEBUG_POSTFIX}"
+        ARCHIVE_OUTPUT_DIRECTORY ${3P_LIBRARY_OUTPUT_PATH}
+    )
+
+ocv_warnings_disable(CMAKE_C_FLAGS -Wundef -Wsign-compare)
+ocv_warnings_disable(CMAKE_C_FLAGS -Wstrict-prototypes) # clang15
+
+if(ENABLE_SOLUTION_FOLDERS)
+  set_target_properties(${ITT_LIBRARY} PROPERTIES FOLDER "3rdparty")
+endif()
+
+if(NOT BUILD_SHARED_LIBS)
+  ocv_install_target(${ITT_LIBRARY} EXPORT OpenCVModules ARCHIVE DESTINATION ${OPENCV_3P_LIB_INSTALL_PATH} COMPONENT dev OPTIONAL)
+endif()
+
+ocv_install_3rdparty_licenses(ittnotify src/ittnotify/BSD-3-Clause.txt src/ittnotify/GPL-2.0-only.txt)
+
+```
+
+## Purpose
+
+This configuration file is used to control build settings, dependencies, or runtime behavior of the OpenCV library.
+
+## Key Settings
+
+Configuration files in OpenCV typically control:
+- Build system configuration (CMake)
+- Compiler flags and options
+- Feature enablement/disablement
+- Path specifications
+- Version information
+- Dependency management
+
+## Usage
+
+This file is processed during the build configuration phase or at runtime to customize OpenCV behavior.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

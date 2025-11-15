@@ -1,0 +1,24 @@
+# Documentation for `doc/py_tutorials/py_imgproc/images/watershed.jpg`
+
+## File Metadata
+
+- **Full Path**: `doc/py_tutorials/py_imgproc/images/watershed.jpg`
+- **File Name**: `watershed.jpg`
+- **File Size**: 5,617 bytes
+- **File Type**: .jpg
+- **Link to Source**: [doc/py_tutorials/py_imgproc/images/watershed.jpg](../../../../doc/py_tutorials/py_imgproc/images/watershed.jpg)
+
+## Purpose and Role
+
+This file is located in the `doc/py_tutorials/py_imgproc/images` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+[Binary or large file: 5617 bytes]
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+

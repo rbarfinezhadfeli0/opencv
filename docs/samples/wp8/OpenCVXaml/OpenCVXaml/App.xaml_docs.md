@@ -1,0 +1,43 @@
+# Documentation for `samples/wp8/OpenCVXaml/OpenCVXaml/App.xaml`
+
+## File Metadata
+
+- **Full Path**: `samples/wp8/OpenCVXaml/OpenCVXaml/App.xaml`
+- **File Name**: `App.xaml`
+- **File Size**: 913 bytes
+- **File Type**: .xaml
+- **Link to Source**: [samples/wp8/OpenCVXaml/OpenCVXaml/App.xaml](../../../../samples/wp8/OpenCVXaml/OpenCVXaml/App.xaml)
+
+## Purpose and Role
+
+This file is located in the `samples/wp8/OpenCVXaml/OpenCVXaml` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+﻿<Application
+    x:Class="OpenCVXaml.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <local:LocalizedStrings xmlns:local="clr-namespace:OpenCVXaml" x:Key="LocalizedStrings"/>
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <shell:PhoneApplicationService
+            Launching="Application_Launching" Closing="Application_Closing"
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+

@@ -1,0 +1,374 @@
+# Documentation for `docs/3rdparty/openexr/IlmImf/ImfChromaticities.cpp_kw.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/openexr/IlmImf/ImfChromaticities.cpp_kw.md`
+- **File Name**: `ImfChromaticities.cpp_kw.md`
+- **File Size**: 22,385 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/openexr/IlmImf/ImfChromaticities.cpp_kw.md](../../../../docs/3rdparty/openexr/IlmImf/ImfChromaticities.cpp_kw.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/openexr/IlmImf` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Keyword Map for `3rdparty/openexr/IlmImf/ImfChromaticities.cpp`
+
+## File Path and Links
+
+- **Source File**: [3rdparty/openexr/IlmImf/ImfChromaticities.cpp](../../../3rdparty/openexr/IlmImf/ImfChromaticities.cpp)
+- **Documentation**: [3rdparty/openexr/IlmImf/ImfChromaticities.cpp_docs.md](ImfChromaticities.cpp_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### A
+
+- **ADVISED**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **AND**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **ANY**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **ARE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **ARISING**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **All**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Assemble**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### B
+
+- **BUSINESS**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **BUT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### C
+
+- **CAUSED**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **CIE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **CONSEQUENTIAL**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **CONTRACT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **CONTRIBUTORS**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **COPYRIGHT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Charles**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Chromaticities**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Color**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Computer**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Copyright**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### D
+
+- **DAMAGE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **DAMAGES**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **DATA**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **DIRECT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **DISCLAIMED**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Digital**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### E
+
+- **EVEN**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **EVENT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **EXEMPLARY**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **EXPRESS**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### F
+
+- **FITNESS**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **FOR**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **For**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### G
+
+- **GOODS**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Generated**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### H
+
+- **HOLDERS**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **HOWEVER**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Hall**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### I
+
+- **IMATH_NAMESPACE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **IMPLIED**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **INCIDENTAL**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **INCLUDING**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **INDIRECT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **INTERRUPTION**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Illumination**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **IlmImf**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Imagery**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **ImfChromaticities**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **ImfNamespace**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Industrial**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Introduction**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### J
+
+- **John**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### L
+
+- **LIABILITY**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **LIABLE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **LIMITED**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **LLC**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **LOSS**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Light**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Ltd**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Lucas**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### M
+
+- **M44f**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **MERCHANTABILITY**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Magic**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### N
+
+- **NEGLIGENCE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **NOT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Neither**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### O
+
+- **OPENEXR_IMF_INTERNAL_NAMESPACE_SOURCE_ENTER**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **OPENEXR_IMF_INTERNAL_NAMESPACE_SOURCE_EXIT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **OTHERWISE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **OUT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **OWNER**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### P
+
+- **PARTICULAR**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **POSSIBILITY**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **PROCUREMENT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **PROFITS**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **PROVIDED**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **PURPOSE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Perceptual**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Poynton**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### R
+
+- **RGB**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **RGBtoXYZ**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Redistribution**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Redistributions**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Response**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Roy**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### S
+
+- **SERVICES**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **SHALL**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **SOFTWARE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **SPECIAL**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **STRICT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **SUBSTITUTE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **SUCH**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Scale**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Sons**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Springer**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### T
+
+- **THE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **THEORY**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **THIS**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **TORT**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Technical**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### U
+
+- **USE**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### V
+
+- **V2f**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Verlag**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Video**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### W
+
+- **WARRANTIES**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **WAY**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **WHETHER**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **Wiley**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### X
+
+- **XYZ**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **XYZtoRGB**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### A
+
+- **above**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **and**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **are**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### B
+
+- **between**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **binary**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **blue**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **bool**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### C
+
+- **chapter**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **chroma**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **chromaticities**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **code**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **color**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **conditions**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **const**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **contributors**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **conversion**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **conversions**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **copyright**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **cpp**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### D
+
+- **derived**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **disclaimer**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **distribution**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **division**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **documentation**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### E
+
+- **empty**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **endorse**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **explanation**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### F
+
+- **factors**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **float**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **following**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **for**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **form**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **forms**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **from**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### G
+
+- **green**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### H
+
+- **how**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### I
+
+- **include**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **inverse**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **its**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### L
+
+- **list**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### M
+
+- **materials**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **matrix**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **may**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **met**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **modification**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **must**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### N
+
+- **name**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **names**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **nor**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **notice**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### O
+
+- **openexr**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **operator**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **other**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### P
+
+- **permission**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **permitted**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **prior**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **products**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **promote**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **provided**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### R
+
+- **rdparty**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **red**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **reproduce**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **reserved**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **retain**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **return**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **rights**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **rows**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### S
+
+- **science**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **see**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **software**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **source**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **specific**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **string**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### T
+
+- **that**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **the**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **this**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **tiples**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **tristimulus**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### U
+
+- **use**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **used**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### V
+
+- **value**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **values**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **video**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+### W
+
+- **white**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **with**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **without**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+- **written**: Technical term or identifier found in [ImfChromaticities.cpp](ImfChromaticities.cpp_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 197
+- **File**: ImfChromaticities.cpp
+- **Size**: 4,896 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

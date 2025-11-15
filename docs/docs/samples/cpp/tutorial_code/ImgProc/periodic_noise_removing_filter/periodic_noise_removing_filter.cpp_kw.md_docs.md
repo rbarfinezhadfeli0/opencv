@@ -1,0 +1,316 @@
+# Documentation for `docs/samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter/periodic_noise_removing_filter.cpp_kw.md`
+
+## File Metadata
+
+- **Full Path**: `docs/samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter/periodic_noise_removing_filter.cpp_kw.md`
+- **File Name**: `periodic_noise_removing_filter.cpp_kw.md`
+- **File Size**: 22,251 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter/periodic_noise_removing_filter.cpp_kw.md](../../../../../../docs/samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter/periodic_noise_removing_filter.cpp_kw.md)
+
+## Purpose and Role
+
+This file is located in the `docs/samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Keyword Map for `samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter/periodic_noise_removing_filter.cpp`
+
+## File Path and Links
+
+- **Source File**: [samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter/periodic_noise_removing_filter.cpp](../../../../../samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter/periodic_noise_removing_filter.cpp)
+- **Documentation**: [samples/cpp/tutorial_code/ImgProc/periodic_noise_removing_filter/periodic_noise_removing_filter.cpp_docs.md](periodic_noise_removing_filter.cpp_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### C
+
+- **CV_32F**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **CV_8U**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **CommandLineParser**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### D
+
+- **DFT**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **DFT_SCALE**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **Debluring**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### E
+
+- **ERROR**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### F
+
+- **Fourier**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **Function**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### I
+
+- **IMREAD_GRAYSCALE**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **Image**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **ImgProc**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### K
+
+- **Karpushin**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### M
+
+- **Mat**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **Mat_**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### N
+
+- **NORM_MINMAX**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### P
+
+- **PSD**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **Point**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **Power**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### R
+
+- **Rect**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### S
+
+- **Scalar**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **String**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### V
+
+- **VladKarpushin**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **Vladislav**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### Y
+
+- **You**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### A
+
+- **addSamplesDataSearchSubDirectory**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **all**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **argc**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **argv**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **author**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### B
+
+- **brief**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### C
+
+- **calcPSD**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **calculates**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **calculation**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **cannot**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **center**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **char**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **check**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **circle**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **clone**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **cols**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **com**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **complexH**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **complexI**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **complexIH**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **compute**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **const**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **convertTo**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **copyTo**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **corrupted**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **cout**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **cpp**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### D
+
+- **density**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **dft**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **doc**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **domain**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### E
+
+- **empty**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **endl**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **even**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### F
+
+- **fft**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **fftshift**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **filter**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **filter2DFreq**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **filtering**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **findFile**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **flag**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **flags**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **float**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### G
+
+- **get**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **github**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### H
+
+- **help**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **highgui**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **how**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **hpp**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **https**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### I
+
+- **idft**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **image**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **images**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **imgIn**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **imgOut**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **imgPSD**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **imgcodecs**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **imglogPSD**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **imgproc**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **imread**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **imshow**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **imwrite**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **include**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **input**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **inputImg**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **inputOutput_H**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **int**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **iostream**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### J
+
+- **jpg**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### K
+
+- **karpushin**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **keys**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### L
+
+- **learn**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **loaded**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **log**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **logPSD**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### M
+
+- **magnitude**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **main**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **means**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **merge**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **message**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **mulSpectrums**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### N
+
+- **name**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **namespace**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **needs**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **ngs**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **noise**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **normalize**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **not**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### O
+
+- **only**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **opencv2**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **order**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **outputImg**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### P
+
+- **parser**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **period_input**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **periodic**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **periodic_noise_removing_filter**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **planes**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **planesH**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **pow**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **print**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **process**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### R
+
+- **radius**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **remove**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **result**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **return**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **roi**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **rows**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### S
+
+- **samples**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **size**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **spectrum**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **split**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **sqrt**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **start**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **std**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **stop**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **strInFileName**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **string**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **synthesizeFilterH**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### T
+
+- **the**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **this**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **tmp**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **tutorial_code**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **tutorials**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **two**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### U
+
+- **usage**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **using**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### V
+
+- **void**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### W
+
+- **waitKey**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **whether**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **will**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+- **with**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+### Z
+
+- **zeros**: Technical term or identifier found in [periodic_noise_removing_filter.cpp](periodic_noise_removing_filter.cpp_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 157
+- **File**: periodic_noise_removing_filter.cpp
+- **Size**: 4,889 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

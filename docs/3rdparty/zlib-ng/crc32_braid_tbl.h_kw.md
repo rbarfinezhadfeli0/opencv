@@ -1,0 +1,99 @@
+# Keyword Map for `3rdparty/zlib-ng/crc32_braid_tbl.h`
+
+## File Path and Links
+
+- **Source File**: [3rdparty/zlib-ng/crc32_braid_tbl.h](../../3rdparty/zlib-ng/crc32_braid_tbl.h)
+- **Documentation**: [3rdparty/zlib-ng/crc32_braid_tbl.h_docs.md](crc32_braid_tbl.h_docs.md)
+
+## Keywords Extracted from This File
+
+This file contains the following keywords, identifiers, and technical terms:
+
+
+### C
+
+- **CRC**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+- **CRC32_BRAID_TBL_H_**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### G
+
+- **Generated**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### A
+
+- **automatically**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### B
+
+- **braided**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### C
+
+- **calculation**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+- **const**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+- **crc32_braid_tbl**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+- **crc_big_table**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+- **crc_braid_big_table**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+- **crc_braid_table**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+- **crc_table**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### D
+
+- **define**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### E
+
+- **else**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+- **endif**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### F
+
+- **for**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### I
+
+- **ifdef**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+- **ifndef**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### M
+
+- **makecrct**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### R
+
+- **rdparty**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### S
+
+- **static**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### T
+
+- **tables**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### U
+
+- **uint32_t**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+### Z
+
+- **z_word_t**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+- **zlib**: Technical term or identifier found in [crc32_braid_tbl.h](crc32_braid_tbl.h_docs.md)
+
+
+## Keyword Statistics
+
+- **Total Keywords**: 25
+- **File**: crc32_braid_tbl.h
+- **Size**: 591,911 bytes
+
+## Keyword Categories
+
+Keywords in this file may include:
+- Function and method names
+- Class and type names
+- Variable and constant names
+- Technical terminology
+- API identifiers
+- Configuration parameters
+

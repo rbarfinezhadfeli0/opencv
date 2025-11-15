@@ -1,0 +1,121 @@
+# Documentation for `docs/3rdparty/libwebp/CMakeLists.txt_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/libwebp/CMakeLists.txt_docs.md`
+- **File Name**: `CMakeLists.txt_docs.md`
+- **File Size**: 3,122 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/libwebp/CMakeLists.txt_docs.md](../../../docs/3rdparty/libwebp/CMakeLists.txt_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/libwebp` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `3rdparty/libwebp/CMakeLists.txt`
+
+## File Metadata
+
+- **Full Path**: `3rdparty/libwebp/CMakeLists.txt`
+- **File Name**: `CMakeLists.txt`
+- **File Size**: 2,162 bytes
+- **File Type**: .txt
+- **Link to Source**: [3rdparty/libwebp/CMakeLists.txt](../../3rdparty/libwebp/CMakeLists.txt)
+
+## Purpose and Role
+
+This file is located in the `3rdparty/libwebp` directory and serves as part of the OpenCV library infrastructure.
+
+## Configuration File Content
+
+```
+# ----------------------------------------------------------------------------
+#  CMake file for libwebp. See root CMakeLists.txt
+#
+# ----------------------------------------------------------------------------
+project(${WEBP_LIBRARY})
+
+ocv_include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+if(ANDROID)
+  ocv_include_directories(${CPUFEATURES_INCLUDE_DIRS})
+endif()
+
+file(GLOB lib_srcs sharpyuv/*.c src/dec/*.c src/demux/*.c src/dsp/*.c src/enc/*.c src/mux/*.c src/utils/*.c src/webp/*.c)
+file(GLOB lib_hdrs sharpyuv/*.h src/dec/*.h src/demux/*.h src/dsp/*.h src/enc/*.h src/mux/*.h src/utils/*.h src/webp/*.h)
+
+# FIXIT
+if(ANDROID AND ARMEABI_V7A AND NOT NEON)
+  foreach(file ${lib_srcs})
+    if("${file}" MATCHES "_neon.c")
+      set_source_files_properties("${file}" COMPILE_FLAGS "-mfpu=neon")
+    endif()
+  endforeach()
+endif()
+
+
+# ----------------------------------------------------------------------------------
+#         Define the library target:
+# ----------------------------------------------------------------------------------
+
+if(NOT OPENCV_DISABLE_THREAD_SUPPORT)
+  add_definitions(-DWEBP_USE_THREAD)
+endif()
+
+add_library(${WEBP_LIBRARY} STATIC ${OPENCV_3RDPARTY_EXCLUDE_FROM_ALL} ${lib_srcs} ${lib_hdrs})
+if(ANDROID)
+  target_link_libraries(${WEBP_LIBRARY} ${CPUFEATURES_LIBRARIES})
+endif()
+
+ocv_warnings_disable(CMAKE_C_FLAGS -Wunused-variable -Wunused-function -Wshadow -Wmaybe-uninitialized
+    -Wmissing-prototypes  # clang
+    -Wmissing-declarations # gcc
+    -Wimplicit-fallthrough
+    -Wunused-but-set-variable # clang15
+)
+ocv_warnings_disable(CMAKE_C_FLAGS /wd4244 /wd4267) # vs2005
+
+set_target_properties(${WEBP_LIBRARY}
+  PROPERTIES OUTPUT_NAME ${WEBP_LIBRARY}
+  DEBUG_POSTFIX "${OPENCV_DEBUG_POSTFIX}"
+  COMPILE_PDB_NAME ${WEBP_LIBRARY}
+  COMPILE_PDB_NAME_DEBUG "${WEBP_LIBRARY}${OPENCV_DEBUG_POSTFIX}"
+  ARCHIVE_OUTPUT_DIRECTORY ${3P_LIBRARY_OUTPUT_PATH}
+  )
+
+if(ENABLE_SOLUTION_FOLDERS)
+  set_target_properties(${WEBP_LIBRARY} PROPERTIES FOLDER "3rdparty")
+endif()
+
+if(NOT BUILD_SHARED_LIBS)
+  ocv_install_target(${WEBP_LIBRARY} EXPORT OpenCVModules ARCHIVE DESTINATION ${OPENCV_3P_LIB_INSTALL_PATH} COMPONENT dev OPTIONAL)
+endif()
+
+
+```
+
+## Purpose
+
+This configuration file is used to control build settings, dependencies, or runtime behavior of the OpenCV library.
+
+## Key Settings
+
+Configuration files in OpenCV typically control:
+- Build system configuration (CMake)
+- Compiler flags and options
+- Feature enablement/disablement
+- Path specifications
+- Version information
+- Dependency management
+
+## Usage
+
+This file is processed during the build configuration phase or at runtime to customize OpenCV behavior.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

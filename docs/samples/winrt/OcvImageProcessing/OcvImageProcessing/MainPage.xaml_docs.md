@@ -1,0 +1,47 @@
+# Documentation for `samples/winrt/OcvImageProcessing/OcvImageProcessing/MainPage.xaml`
+
+## File Metadata
+
+- **Full Path**: `samples/winrt/OcvImageProcessing/OcvImageProcessing/MainPage.xaml`
+- **File Name**: `MainPage.xaml`
+- **File Size**: 1,219 bytes
+- **File Type**: .xaml
+- **Link to Source**: [samples/winrt/OcvImageProcessing/OcvImageProcessing/MainPage.xaml](../../../../samples/winrt/OcvImageProcessing/OcvImageProcessing/MainPage.xaml)
+
+## Purpose and Role
+
+This file is located in the `samples/winrt/OcvImageProcessing/OcvImageProcessing` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+﻿<Page
+    x:Class="OcvImageProcessing.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OcvImageProcessing"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="PreviewWidget" HorizontalAlignment="Left" Height="512" Margin="10,10,0,0" VerticalAlignment="Top" Width="512"/>
+        <Button Content="Apply" HorizontalAlignment="Left" Margin="527,71,0,0" VerticalAlignment="Top" Width="293" Height="63" Click="Button_Click"/>
+        <ComboBox x:Name="FilterTypeWidget" HorizontalAlignment="Left" Margin="527,10,0,0" VerticalAlignment="Top" Width="293" Height="56" SelectedIndex="0">
+            <ComboBoxItem Content="Preview"/>
+            <ComboBoxItem Content="GrayScale"/>
+            <ComboBoxItem Content="Canny"/>
+            <ComboBoxItem Content="Blur"/>
+            <ComboBoxItem Content="Features"/>
+            <ComboBoxItem Content="Sepia"/>
+        </ComboBox>
+
+    </Grid>
+</Page>
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+

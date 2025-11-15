@@ -1,0 +1,535 @@
+# Documentation for `docs/3rdparty/libpng/arm/filter_neon_intrinsics.c_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/libpng/arm/filter_neon_intrinsics.c_docs.md`
+- **File Name**: `filter_neon_intrinsics.c_docs.md`
+- **File Size**: 14,926 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/libpng/arm/filter_neon_intrinsics.c_docs.md](../../../../docs/3rdparty/libpng/arm/filter_neon_intrinsics.c_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/libpng/arm` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `3rdparty/libpng/arm/filter_neon_intrinsics.c`
+
+## File Metadata
+
+- **Full Path**: `3rdparty/libpng/arm/filter_neon_intrinsics.c`
+- **File Name**: `filter_neon_intrinsics.c`
+- **File Size**: 11,836 bytes
+- **File Type**: .c
+- **Link to Source**: [3rdparty/libpng/arm/filter_neon_intrinsics.c](../../../3rdparty/libpng/arm/filter_neon_intrinsics.c)
+
+## Purpose and Role
+
+This file is located in the `3rdparty/libpng/arm` directory and serves as part of the OpenCV library infrastructure.
+
+## Original Source Code
+
+The following is the complete source code of this file:
+
+```
+/* filter_neon_intrinsics.c - NEON optimised filter functions
+ *
+ * Copyright (c) 2018 Cosmin Truta
+ * Copyright (c) 2014,2016 Glenn Randers-Pehrson
+ * Written by James Yu <james.yu at linaro.org>, October 2013.
+ * Based on filter_neon.S, written by Mans Rullgard, 2011.
+ *
+ * This code is released under the libpng license.
+ * For conditions of distribution and use, see the disclaimer
+ * and license in png.h
+ */
+
+#include "../pngpriv.h"
+
+#ifdef PNG_READ_SUPPORTED
+
+/* This code requires -mfpu=neon on the command line: */
+#if PNG_ARM_NEON_IMPLEMENTATION == 1 /* intrinsics code from pngpriv.h */
+
+#if defined(_MSC_VER) && !defined(__clang__) && defined(_M_ARM64)
+#  include <arm64_neon.h>
+#else
+#  include <arm_neon.h>
+#endif
+
+/* libpng row pointers are not necessarily aligned to any particular boundary,
+ * however this code will only work with appropriate alignment.  arm/arm_init.c
+ * checks for this (and will not compile unless it is done). This code uses
+ * variants of png_aligncast to avoid compiler warnings.
+ */
+#define png_ptr(type,pointer) png_aligncast(type *,pointer)
+#define png_ptrc(type,pointer) png_aligncastconst(const type *,pointer)
+
+/* The following relies on a variable 'temp_pointer' being declared with type
+ * 'type'.  This is written this way just to hide the GCC strict aliasing
+ * warning; note that the code is safe because there never is an alias between
+ * the input and output pointers.
+ *
+ * When compiling with MSVC ARM64, the png_ldr macro can't be passed directly
+ * to vst4_lane_u32, because of an internal compiler error inside MSVC.
+ * To avoid this compiler bug, we use a temporary variable (vdest_val) to store
+ * the result of png_ldr.
+ */
+#define png_ldr(type,pointer)\
+   (temp_pointer = png_ptr(type,pointer), *temp_pointer)
+
+#if PNG_ARM_NEON_OPT > 0
+
+void
+png_read_filter_row_up_neon(png_row_infop row_info, png_bytep row,
+   png_const_bytep prev_row)
+{
+   png_bytep rp = row;
+   png_bytep rp_stop = row + row_info->rowbytes;
+   png_const_bytep pp = prev_row;
+
+   png_debug(1, "in png_read_filter_row_up_neon");
+
+   for (; rp < rp_stop; rp += 16, pp += 16)
+   {
+      uint8x16_t qrp, qpp;
+
+      qrp = vld1q_u8(rp);
+      qpp = vld1q_u8(pp);
+      qrp = vaddq_u8(qrp, qpp);
+      vst1q_u8(rp, qrp);
+   }
+}
+
+void
+png_read_filter_row_sub3_neon(png_row_infop row_info, png_bytep row,
+   png_const_bytep prev_row)
+{
+   png_bytep rp = row;
+   png_bytep rp_stop = row + row_info->rowbytes;
+
+   uint8x16_t vtmp = vld1q_u8(rp);
+   uint8x8x2_t *vrpt = png_ptr(uint8x8x2_t, &vtmp);
+   uint8x8x2_t vrp = *vrpt;
+
+   uint8x8x4_t vdest;
+   vdest.val[3] = vdup_n_u8(0);
+
+   png_debug(1, "in png_read_filter_row_sub3_neon");
+
+   for (; rp < rp_stop;)
+   {
+      uint8x8_t vtmp1, vtmp2;
+      uint32x2_t *temp_pointer;
+
+      vtmp1 = vext_u8(vrp.val[0], vrp.val[1], 3);
+      vdest.val[0] = vadd_u8(vdest.val[3], vrp.val[0]);
+      vtmp2 = vext_u8(vrp.val[0], vrp.val[1], 6);
+      vdest.val[1] = vadd_u8(vdest.val[0], vtmp1);
+
+      vtmp1 = vext_u8(vrp.val[1], vrp.val[1], 1);
+      vdest.val[2] = vadd_u8(vdest.val[1], vtmp2);
+      vdest.val[3] = vadd_u8(vdest.val[2], vtmp1);
+
+      vtmp = vld1q_u8(rp + 12);
+      vrpt = png_ptr(uint8x8x2_t, &vtmp);
+      vrp = *vrpt;
+
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[0]), 0);
+      rp += 3;
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[1]), 0);
+      rp += 3;
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[2]), 0);
+      rp += 3;
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[3]), 0);
+      rp += 3;
+   }
+
+   PNG_UNUSED(prev_row)
+}
+
+void
+png_read_filter_row_sub4_neon(png_row_infop row_info, png_bytep row,
+   png_const_bytep prev_row)
+{
+   png_bytep rp = row;
+   png_bytep rp_stop = row + row_info->rowbytes;
+
+   uint8x8x4_t vdest;
+   vdest.val[3] = vdup_n_u8(0);
+
+   png_debug(1, "in png_read_filter_row_sub4_neon");
+
+   for (; rp < rp_stop; rp += 16)
+   {
+      uint32x2x4_t vtmp = vld4_u32(png_ptr(uint32_t,rp));
+      uint8x8x4_t *vrpt = png_ptr(uint8x8x4_t,&vtmp);
+      uint8x8x4_t vrp = *vrpt;
+      uint32x2x4_t *temp_pointer;
+      uint32x2x4_t vdest_val;
+
+      vdest.val[0] = vadd_u8(vdest.val[3], vrp.val[0]);
+      vdest.val[1] = vadd_u8(vdest.val[0], vrp.val[1]);
+      vdest.val[2] = vadd_u8(vdest.val[1], vrp.val[2]);
+      vdest.val[3] = vadd_u8(vdest.val[2], vrp.val[3]);
+
+      vdest_val = png_ldr(uint32x2x4_t, &vdest);
+      vst4_lane_u32(png_ptr(uint32_t,rp), vdest_val, 0);
+   }
+
+   PNG_UNUSED(prev_row)
+}
+
+void
+png_read_filter_row_avg3_neon(png_row_infop row_info, png_bytep row,
+   png_const_bytep prev_row)
+{
+   png_bytep rp = row;
+   png_const_bytep pp = prev_row;
+   png_bytep rp_stop = row + row_info->rowbytes;
+
+   uint8x16_t vtmp;
+   uint8x8x2_t *vrpt;
+   uint8x8x2_t vrp;
+   uint8x8x4_t vdest;
+   vdest.val[3] = vdup_n_u8(0);
+
+   vtmp = vld1q_u8(rp);
+   vrpt = png_ptr(uint8x8x2_t,&vtmp);
+   vrp = *vrpt;
+
+   png_debug(1, "in png_read_filter_row_avg3_neon");
+
+   for (; rp < rp_stop; pp += 12)
+   {
+      uint8x8_t vtmp1, vtmp2, vtmp3;
+
+      uint8x8x2_t *vppt;
+      uint8x8x2_t vpp;
+
+      uint32x2_t *temp_pointer;
+
+      vtmp = vld1q_u8(pp);
+      vppt = png_ptr(uint8x8x2_t,&vtmp);
+      vpp = *vppt;
+
+      vtmp1 = vext_u8(vrp.val[0], vrp.val[1], 3);
+      vdest.val[0] = vhadd_u8(vdest.val[3], vpp.val[0]);
+      vdest.val[0] = vadd_u8(vdest.val[0], vrp.val[0]);
+
+      vtmp2 = vext_u8(vpp.val[0], vpp.val[1], 3);
+      vtmp3 = vext_u8(vrp.val[0], vrp.val[1], 6);
+      vdest.val[1] = vhadd_u8(vdest.val[0], vtmp2);
+      vdest.val[1] = vadd_u8(vdest.val[1], vtmp1);
+
+      vtmp2 = vext_u8(vpp.val[0], vpp.val[1], 6);
+      vtmp1 = vext_u8(vrp.val[1], vrp.val[1], 1);
+
+      vtmp = vld1q_u8(rp + 12);
+      vrpt = png_ptr(uint8x8x2_t,&vtmp);
+      vrp = *vrpt;
+
+      vdest.val[2] = vhadd_u8(vdest.val[1], vtmp2);
+      vdest.val[2] = vadd_u8(vdest.val[2], vtmp3);
+
+      vtmp2 = vext_u8(vpp.val[1], vpp.val[1], 1);
+
+      vdest.val[3] = vhadd_u8(vdest.val[2], vtmp2);
+      vdest.val[3] = vadd_u8(vdest.val[3], vtmp1);
+
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[0]), 0);
+      rp += 3;
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[1]), 0);
+      rp += 3;
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[2]), 0);
+      rp += 3;
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[3]), 0);
+      rp += 3;
+   }
+}
+
+void
+png_read_filter_row_avg4_neon(png_row_infop row_info, png_bytep row,
+   png_const_bytep prev_row)
+{
+   png_bytep rp = row;
+   png_bytep rp_stop = row + row_info->rowbytes;
+   png_const_bytep pp = prev_row;
+
+   uint8x8x4_t vdest;
+   vdest.val[3] = vdup_n_u8(0);
+
+   png_debug(1, "in png_read_filter_row_avg4_neon");
+
+   for (; rp < rp_stop; rp += 16, pp += 16)
+   {
+      uint32x2x4_t vtmp;
+      uint8x8x4_t *vrpt, *vppt;
+      uint8x8x4_t vrp, vpp;
+      uint32x2x4_t *temp_pointer;
+      uint32x2x4_t vdest_val;
+
+      vtmp = vld4_u32(png_ptr(uint32_t,rp));
+      vrpt = png_ptr(uint8x8x4_t,&vtmp);
+      vrp = *vrpt;
+      vtmp = vld4_u32(png_ptrc(uint32_t,pp));
+      vppt = png_ptr(uint8x8x4_t,&vtmp);
+      vpp = *vppt;
+
+      vdest.val[0] = vhadd_u8(vdest.val[3], vpp.val[0]);
+      vdest.val[0] = vadd_u8(vdest.val[0], vrp.val[0]);
+      vdest.val[1] = vhadd_u8(vdest.val[0], vpp.val[1]);
+      vdest.val[1] = vadd_u8(vdest.val[1], vrp.val[1]);
+      vdest.val[2] = vhadd_u8(vdest.val[1], vpp.val[2]);
+      vdest.val[2] = vadd_u8(vdest.val[2], vrp.val[2]);
+      vdest.val[3] = vhadd_u8(vdest.val[2], vpp.val[3]);
+      vdest.val[3] = vadd_u8(vdest.val[3], vrp.val[3]);
+
+      vdest_val = png_ldr(uint32x2x4_t, &vdest);
+      vst4_lane_u32(png_ptr(uint32_t,rp), vdest_val, 0);
+   }
+}
+
+static uint8x8_t
+paeth(uint8x8_t a, uint8x8_t b, uint8x8_t c)
+{
+   uint8x8_t d, e;
+   uint16x8_t p1, pa, pb, pc;
+
+   p1 = vaddl_u8(a, b); /* a + b */
+   pc = vaddl_u8(c, c); /* c * 2 */
+   pa = vabdl_u8(b, c); /* pa */
+   pb = vabdl_u8(a, c); /* pb */
+   pc = vabdq_u16(p1, pc); /* pc */
+
+   p1 = vcleq_u16(pa, pb); /* pa <= pb */
+   pa = vcleq_u16(pa, pc); /* pa <= pc */
+   pb = vcleq_u16(pb, pc); /* pb <= pc */
+
+   p1 = vandq_u16(p1, pa); /* pa <= pb && pa <= pc */
+
+   d = vmovn_u16(pb);
+   e = vmovn_u16(p1);
+
+   d = vbsl_u8(d, b, c);
+   e = vbsl_u8(e, a, d);
+
+   return e;
+}
+
+void
+png_read_filter_row_paeth3_neon(png_row_infop row_info, png_bytep row,
+   png_const_bytep prev_row)
+{
+   png_bytep rp = row;
+   png_const_bytep pp = prev_row;
+   png_bytep rp_stop = row + row_info->rowbytes;
+
+   uint8x16_t vtmp;
+   uint8x8x2_t *vrpt;
+   uint8x8x2_t vrp;
+   uint8x8_t vlast = vdup_n_u8(0);
+   uint8x8x4_t vdest;
+   vdest.val[3] = vdup_n_u8(0);
+
+   vtmp = vld1q_u8(rp);
+   vrpt = png_ptr(uint8x8x2_t,&vtmp);
+   vrp = *vrpt;
+
+   png_debug(1, "in png_read_filter_row_paeth3_neon");
+
+   for (; rp < rp_stop; pp += 12)
+   {
+      uint8x8x2_t *vppt;
+      uint8x8x2_t vpp;
+      uint8x8_t vtmp1, vtmp2, vtmp3;
+      uint32x2_t *temp_pointer;
+
+      vtmp = vld1q_u8(pp);
+      vppt = png_ptr(uint8x8x2_t,&vtmp);
+      vpp = *vppt;
+
+      vdest.val[0] = paeth(vdest.val[3], vpp.val[0], vlast);
+      vdest.val[0] = vadd_u8(vdest.val[0], vrp.val[0]);
+
+      vtmp1 = vext_u8(vrp.val[0], vrp.val[1], 3);
+      vtmp2 = vext_u8(vpp.val[0], vpp.val[1], 3);
+      vdest.val[1] = paeth(vdest.val[0], vtmp2, vpp.val[0]);
+      vdest.val[1] = vadd_u8(vdest.val[1], vtmp1);
+
+      vtmp1 = vext_u8(vrp.val[0], vrp.val[1], 6);
+      vtmp3 = vext_u8(vpp.val[0], vpp.val[1], 6);
+      vdest.val[2] = paeth(vdest.val[1], vtmp3, vtmp2);
+      vdest.val[2] = vadd_u8(vdest.val[2], vtmp1);
+
+      vtmp1 = vext_u8(vrp.val[1], vrp.val[1], 1);
+      vtmp2 = vext_u8(vpp.val[1], vpp.val[1], 1);
+
+      vtmp = vld1q_u8(rp + 12);
+      vrpt = png_ptr(uint8x8x2_t,&vtmp);
+      vrp = *vrpt;
+
+      vdest.val[3] = paeth(vdest.val[2], vtmp2, vtmp3);
+      vdest.val[3] = vadd_u8(vdest.val[3], vtmp1);
+
+      vlast = vtmp2;
+
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[0]), 0);
+      rp += 3;
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[1]), 0);
+      rp += 3;
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[2]), 0);
+      rp += 3;
+      vst1_lane_u32(png_ptr(uint32_t,rp), png_ldr(uint32x2_t,&vdest.val[3]), 0);
+      rp += 3;
+   }
+}
+
+void
+png_read_filter_row_paeth4_neon(png_row_infop row_info, png_bytep row,
+   png_const_bytep prev_row)
+{
+   png_bytep rp = row;
+   png_bytep rp_stop = row + row_info->rowbytes;
+   png_const_bytep pp = prev_row;
+
+   uint8x8_t vlast = vdup_n_u8(0);
+   uint8x8x4_t vdest;
+   vdest.val[3] = vdup_n_u8(0);
+
+   png_debug(1, "in png_read_filter_row_paeth4_neon");
+
+   for (; rp < rp_stop; rp += 16, pp += 16)
+   {
+      uint32x2x4_t vtmp;
+      uint8x8x4_t *vrpt, *vppt;
+      uint8x8x4_t vrp, vpp;
+      uint32x2x4_t *temp_pointer;
+      uint32x2x4_t vdest_val;
+
+      vtmp = vld4_u32(png_ptr(uint32_t,rp));
+      vrpt = png_ptr(uint8x8x4_t,&vtmp);
+      vrp = *vrpt;
+      vtmp = vld4_u32(png_ptrc(uint32_t,pp));
+      vppt = png_ptr(uint8x8x4_t,&vtmp);
+      vpp = *vppt;
+
+      vdest.val[0] = paeth(vdest.val[3], vpp.val[0], vlast);
+      vdest.val[0] = vadd_u8(vdest.val[0], vrp.val[0]);
+      vdest.val[1] = paeth(vdest.val[0], vpp.val[1], vpp.val[0]);
+      vdest.val[1] = vadd_u8(vdest.val[1], vrp.val[1]);
+      vdest.val[2] = paeth(vdest.val[1], vpp.val[2], vpp.val[1]);
+      vdest.val[2] = vadd_u8(vdest.val[2], vrp.val[2]);
+      vdest.val[3] = paeth(vdest.val[2], vpp.val[3], vpp.val[2]);
+      vdest.val[3] = vadd_u8(vdest.val[3], vrp.val[3]);
+
+      vlast = vpp.val[3];
+
+      vdest_val = png_ldr(uint32x2x4_t, &vdest);
+      vst4_lane_u32(png_ptr(uint32_t,rp), vdest_val, 0);
+   }
+}
+
+#endif /* PNG_ARM_NEON_OPT > 0 */
+#endif /* PNG_ARM_NEON_IMPLEMENTATION == 1 (intrinsics) */
+#endif /* READ */
+```
+
+## High-Level Overview
+
+This is a C++ implementation file containing the core logic and algorithms for OpenCV functionality.
+
+**Key Characteristics:**
+- Implements algorithms and data processing routines
+- May contain performance-critical code
+- Uses C++ features like templates, classes, and STL
+- Integrates with OpenCV's module system
+
+
+## Detailed Walkthrough
+
+This section provides an in-depth examination of the code structure, logic, and implementation details.
+
+### Functions and Methods
+
+- **PNG_READ_SUPPORTED()**: A function/method defined in this file
+
+
+## Design and Architecture
+
+This file is part of the larger OpenCV architecture. It contributes to the overall functionality by providing specific implementations and interfaces.
+
+### Dependencies
+
+**C++ Includes:**
+- `../pngpriv.h`
+
+**Python Imports:**
+- `pngpriv.h`
+
+
+### Architectural Role
+
+This file operates within the OpenCV module system, interfacing with other components through well-defined APIs and data structures.
+
+## Performance and Complexity
+
+### Computational Complexity
+
+The algorithms and data structures in this file have various complexity characteristics depending on the operations performed.
+
+### Memory Considerations
+
+Memory usage patterns depend on the specific functionality implemented, including stack allocations, heap allocations, and resource management strategies.
+
+### Performance Optimization
+
+OpenCV employs various optimization techniques including:
+- SIMD vectorization where applicable
+- Multi-threading support
+- Hardware acceleration (CUDA, OpenCL, etc.)
+- Efficient memory access patterns
+
+## Security and Safety Considerations
+
+### Potential Vulnerabilities
+
+Code that processes external data should be carefully reviewed for:
+- Buffer overflow vulnerabilities
+- Integer overflow/underflow
+- Input validation issues
+- Resource exhaustion attacks
+
+### Safety Measures
+
+OpenCV includes various safety mechanisms:
+- Bounds checking in debug builds
+- Exception handling
+- Resource management (RAII in C++)
+- Input sanitization
+
+## Testing and Usage
+
+### How to Use This File
+
+This file is typically used as part of the larger OpenCV library and is not intended to be used in isolation.
+
+### Testing Approach
+
+Testing should cover:
+- Unit tests for individual functions
+- Integration tests for component interactions
+- Performance benchmarks
+- Edge case validation
+
+## Related Files
+
+This file is related to other files in the same module and may interact with files in other modules.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

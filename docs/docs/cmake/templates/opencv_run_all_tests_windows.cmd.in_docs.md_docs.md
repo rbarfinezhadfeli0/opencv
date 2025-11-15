@@ -1,0 +1,120 @@
+# Documentation for `docs/cmake/templates/opencv_run_all_tests_windows.cmd.in_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/cmake/templates/opencv_run_all_tests_windows.cmd.in_docs.md`
+- **File Name**: `opencv_run_all_tests_windows.cmd.in_docs.md`
+- **File Size**: 2,403 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/cmake/templates/opencv_run_all_tests_windows.cmd.in_docs.md](../../../docs/cmake/templates/opencv_run_all_tests_windows.cmd.in_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/cmake/templates` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `cmake/templates/opencv_run_all_tests_windows.cmd.in`
+
+## File Metadata
+
+- **Full Path**: `cmake/templates/opencv_run_all_tests_windows.cmd.in`
+- **File Name**: `opencv_run_all_tests_windows.cmd.in`
+- **File Size**: 1,752 bytes
+- **File Type**: .in
+- **Link to Source**: [cmake/templates/opencv_run_all_tests_windows.cmd.in](../../cmake/templates/opencv_run_all_tests_windows.cmd.in)
+
+## Purpose and Role
+
+This file is located in the `cmake/templates` directory and serves as part of the OpenCV library infrastructure.
+
+## File Content
+
+```
+@echo OFF
+setlocal ENABLEDELAYEDEXPANSION
+
+rem Process command line
+
+rem This script is designed to allow situations when the tests are installed in
+rem a different directory from the library.
+
+set OPENCV_DIR=%~1
+
+if "%OPENCV_DIR%" == "" (
+	echo>&2 This script runs the OpenCV tests on Windows.
+	echo>&2
+    echo>&2 usage: %0 ^<OpenCV install directory^>
+	exit /B 1
+)
+
+if NOT EXIST "%OPENCV_DIR%" (
+    echo>&2 error: "%OPENCV_DIR%" doesn't exist
+)
+
+rem Set up paths
+
+set PATH=%OPENCV_DIR%\@OPENCV_BIN_INSTALL_PATH@;%PATH%
+set OPENCV_TEST_PATH=%~dp0
+set OPENCV_TEST_DATA_PATH=%OPENCV_TEST_PATH%\..\testdata
+
+rem Run tests
+
+set SUMMARY_STATUS=0
+set FAILED_TESTS=
+set PASSED_TESTS=
+
+for %%t IN ("%OPENCV_TEST_PATH%\opencv_test_*.exe" "%OPENCV_TEST_PATH%\opencv_perf_*.exe") DO (
+    set test_name=%%~nt
+    set report=!test_name!.xml
+
+    set cmd="%%t" --perf_min_samples=1 --perf_force_samples=1 "--gtest_output=xml:!report!"
+
+    echo [!test_name!] RUN : !cmd!
+    !cmd!
+    set ret=!errorlevel!
+    echo [!test_name!] RETURN_CODE : !ret!
+
+    if !ret! EQU 0 (
+        echo [!test_name!] OK
+        set PASSED_TESTS=!PASSED_TESTS! !test_name!
+    ) ELSE (
+        echo [!test_name!] FAILED
+        set SUMMARY_STATUS=1
+        set FAILED_TESTS=!FAILED_TESTS! !test_name!
+    )
+
+    echo.
+)
+
+rem Remove temporary test files
+
+del /F /Q "%TMP%\ocv*.tmp*"
+
+rem Report final status
+
+echo ===============================================================
+echo PASSED TESTS : %PASSED_TESTS%
+echo FAILED TESTS : %FAILED_TESTS%
+if %SUMMARY_STATUS% EQU 0 (
+    echo STATUS : OK
+    echo STATUS : All OpenCV tests finished successfully
+) ELSE (
+    echo STATUS : FAIL
+    echo STATUS : OpenCV tests finished with status %SUMMARY_STATUS%
+)
+
+exit /B %SUMMARY_STATUS%
+
+```
+
+## General Information
+
+This file is part of the OpenCV repository infrastructure.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+

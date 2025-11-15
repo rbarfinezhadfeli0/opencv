@@ -1,0 +1,240 @@
+# Documentation for `docs/3rdparty/libwebp/sharpyuv/sharpyuv_csp.c_docs.md`
+
+## File Metadata
+
+- **Full Path**: `docs/3rdparty/libwebp/sharpyuv/sharpyuv_csp.c_docs.md`
+- **File Name**: `sharpyuv_csp.c_docs.md`
+- **File Size**: 6,828 bytes
+- **File Type**: .md
+- **Link to Source**: [docs/3rdparty/libwebp/sharpyuv/sharpyuv_csp.c_docs.md](../../../../docs/3rdparty/libwebp/sharpyuv/sharpyuv_csp.c_docs.md)
+
+## Purpose and Role
+
+This file is located in the `docs/3rdparty/libwebp/sharpyuv` directory and serves as part of the OpenCV library infrastructure.
+
+## Documentation Content
+
+# Documentation for `3rdparty/libwebp/sharpyuv/sharpyuv_csp.c`
+
+## File Metadata
+
+- **Full Path**: `3rdparty/libwebp/sharpyuv/sharpyuv_csp.c`
+- **File Name**: `sharpyuv_csp.c`
+- **File Size**: 3,841 bytes
+- **File Type**: .c
+- **Link to Source**: [3rdparty/libwebp/sharpyuv/sharpyuv_csp.c](../../../3rdparty/libwebp/sharpyuv/sharpyuv_csp.c)
+
+## Purpose and Role
+
+This file is located in the `3rdparty/libwebp/sharpyuv` directory and serves as part of the OpenCV library infrastructure.
+
+## Original Source Code
+
+The following is the complete source code of this file:
+
+```
+// Copyright 2022 Google Inc. All Rights Reserved.
+//
+// Use of this source code is governed by a BSD-style license
+// that can be found in the COPYING file in the root of the source
+// tree. An additional intellectual property rights grant can be found
+// in the file PATENTS. All contributing project authors may
+// be found in the AUTHORS file in the root of the source tree.
+// -----------------------------------------------------------------------------
+//
+// Colorspace utilities.
+
+#include "sharpyuv/sharpyuv_csp.h"
+
+#include <assert.h>
+#include <math.h>
+#include <stddef.h>
+
+static int ToFixed16(float f) { return (int)floor(f * (1 << 16) + 0.5f); }
+
+void SharpYuvComputeConversionMatrix(const SharpYuvColorSpace* yuv_color_space,
+                                     SharpYuvConversionMatrix* matrix) {
+  const float kr = yuv_color_space->kr;
+  const float kb = yuv_color_space->kb;
+  const float kg = 1.0f - kr - kb;
+  const float cr = 0.5f / (1.0f - kb);
+  const float cb = 0.5f / (1.0f - kr);
+
+  const int shift = yuv_color_space->bit_depth - 8;
+
+  const float denom = (float)((1 << yuv_color_space->bit_depth) - 1);
+  float scale_y = 1.0f;
+  float add_y = 0.0f;
+  float scale_u = cr;
+  float scale_v = cb;
+  float add_uv = (float)(128 << shift);
+  assert(yuv_color_space->bit_depth >= 8);
+
+  if (yuv_color_space->range == kSharpYuvRangeLimited) {
+    scale_y *= (219 << shift) / denom;
+    scale_u *= (224 << shift) / denom;
+    scale_v *= (224 << shift) / denom;
+    add_y = (float)(16 << shift);
+  }
+
+  matrix->rgb_to_y[0] = ToFixed16(kr * scale_y);
+  matrix->rgb_to_y[1] = ToFixed16(kg * scale_y);
+  matrix->rgb_to_y[2] = ToFixed16(kb * scale_y);
+  matrix->rgb_to_y[3] = ToFixed16(add_y);
+
+  matrix->rgb_to_u[0] = ToFixed16(-kr * scale_u);
+  matrix->rgb_to_u[1] = ToFixed16(-kg * scale_u);
+  matrix->rgb_to_u[2] = ToFixed16((1 - kb) * scale_u);
+  matrix->rgb_to_u[3] = ToFixed16(add_uv);
+
+  matrix->rgb_to_v[0] = ToFixed16((1 - kr) * scale_v);
+  matrix->rgb_to_v[1] = ToFixed16(-kg * scale_v);
+  matrix->rgb_to_v[2] = ToFixed16(-kb * scale_v);
+  matrix->rgb_to_v[3] = ToFixed16(add_uv);
+}
+
+// Matrices are in YUV_FIX fixed point precision.
+// WebP's matrix, similar but not identical to kRec601LimitedMatrix.
+static const SharpYuvConversionMatrix kWebpMatrix = {
+  {16839, 33059, 6420, 16 << 16},
+  {-9719, -19081, 28800, 128 << 16},
+  {28800, -24116, -4684, 128 << 16},
+};
+// Kr=0.2990f Kb=0.1140f bits=8 range=kSharpYuvRangeLimited
+static const SharpYuvConversionMatrix kRec601LimitedMatrix = {
+  {16829, 33039, 6416, 16 << 16},
+  {-9714, -19071, 28784, 128 << 16},
+  {28784, -24103, -4681, 128 << 16},
+};
+// Kr=0.2990f Kb=0.1140f bits=8 range=kSharpYuvRangeFull
+static const SharpYuvConversionMatrix kRec601FullMatrix = {
+  {19595, 38470, 7471, 0},
+  {-11058, -21710, 32768, 128 << 16},
+  {32768, -27439, -5329, 128 << 16},
+};
+// Kr=0.2126f Kb=0.0722f bits=8 range=kSharpYuvRangeLimited
+static const SharpYuvConversionMatrix kRec709LimitedMatrix = {
+  {11966, 40254, 4064, 16 << 16},
+  {-6596, -22189, 28784, 128 << 16},
+  {28784, -26145, -2639, 128 << 16},
+};
+// Kr=0.2126f Kb=0.0722f bits=8 range=kSharpYuvRangeFull
+static const SharpYuvConversionMatrix kRec709FullMatrix = {
+  {13933, 46871, 4732, 0},
+  {-7509, -25259, 32768, 128 << 16},
+  {32768, -29763, -3005, 128 << 16},
+};
+
+const SharpYuvConversionMatrix* SharpYuvGetConversionMatrix(
+    SharpYuvMatrixType matrix_type) {
+  switch (matrix_type) {
+    case kSharpYuvMatrixWebp:
+      return &kWebpMatrix;
+    case kSharpYuvMatrixRec601Limited:
+      return &kRec601LimitedMatrix;
+    case kSharpYuvMatrixRec601Full:
+      return &kRec601FullMatrix;
+    case kSharpYuvMatrixRec709Limited:
+      return &kRec709LimitedMatrix;
+    case kSharpYuvMatrixRec709Full:
+      return &kRec709FullMatrix;
+    case kSharpYuvMatrixNum:
+      return NULL;
+  }
+  return NULL;
+}
+```
+
+## High-Level Overview
+
+This is a C++ implementation file containing the core logic and algorithms for OpenCV functionality.
+
+**Key Characteristics:**
+- Implements algorithms and data processing routines
+- May contain performance-critical code
+- Uses C++ features like templates, classes, and STL
+- Integrates with OpenCV's module system
+
+
+## Detailed Walkthrough
+
+This section provides an in-depth examination of the code structure, logic, and implementation details.
+
+
+## Design and Architecture
+
+This file is part of the larger OpenCV architecture. It contributes to the overall functionality by providing specific implementations and interfaces.
+
+### Dependencies
+
+**C++ Includes:**
+- `stddef.h`
+- `sharpyuv/sharpyuv_csp.h`
+- `math.h`
+- `assert.h`
+
+
+### Architectural Role
+
+This file operates within the OpenCV module system, interfacing with other components through well-defined APIs and data structures.
+
+## Performance and Complexity
+
+### Computational Complexity
+
+The algorithms and data structures in this file have various complexity characteristics depending on the operations performed.
+
+### Memory Considerations
+
+Memory usage patterns depend on the specific functionality implemented, including stack allocations, heap allocations, and resource management strategies.
+
+### Performance Optimization
+
+OpenCV employs various optimization techniques including:
+- SIMD vectorization where applicable
+- Multi-threading support
+- Hardware acceleration (CUDA, OpenCL, etc.)
+- Efficient memory access patterns
+
+## Security and Safety Considerations
+
+### Potential Vulnerabilities
+
+Code that processes external data should be carefully reviewed for:
+- Buffer overflow vulnerabilities
+- Integer overflow/underflow
+- Input validation issues
+- Resource exhaustion attacks
+
+### Safety Measures
+
+OpenCV includes various safety mechanisms:
+- Bounds checking in debug builds
+- Exception handling
+- Resource management (RAII in C++)
+- Input sanitization
+
+## Testing and Usage
+
+### How to Use This File
+
+This file is typically used as part of the larger OpenCV library and is not intended to be used in isolation.
+
+### Testing Approach
+
+Testing should cover:
+- Unit tests for individual functions
+- Integration tests for component interactions
+- Performance benchmarks
+- Edge case validation
+
+## Related Files
+
+This file is related to other files in the same module and may interact with files in other modules.
+
+
+
+## Documentation Purpose
+
+This file provides documentation, guides, or README information for users and developers of OpenCV.
+
